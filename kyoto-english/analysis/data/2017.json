@@ -1,0 +1,171 @@
+{
+  "year": 2017,
+  "booklet_pages": 9,
+  "exam_format": {
+    "num_problems": 4,
+    "points": 150,
+    "time_note": "試験時間の記載なし。表紙に「150点満点」「問題冊子は表紙のほかに6ページ、解答冊子は表紙のほかに12ページ」「問題は全部で4題」とある。各大問の配点は問題文の右肩に印字。PDF 9ページ(表紙1、白紙2、問題6)。"
+  },
+  "parts": [
+    {
+      "problem": "I",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "「砂漠化」は定義も測定基準も定まらず、被害推定は誇張されてきた。それでもこの概念は最初の地球規模の環境問題として後の環境政策の型を作り、植民地期以来の「乾燥地は無価値な荒廃地」という思い込みが、かえって環境と先住民を損なう政策を生んできた。",
+      "passage": {"words": 540, "genre": "評論・論説", "field": "環境", "abstractness": "A2", "source": "", "glossary": 0, "omitted": false},
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "指示内容",
+          "target_words": 2,
+          "limit": "「具体的に日本語で」。字数指定なし",
+          "syntax_features": ["代名詞・指示語の特定"],
+          "vocab_items": [
+            {"word": "semiarid", "level": "V2", "clue": "semi- + arid。arid lands は冒頭で deserts と並置されている"}
+          ],
+          "polysemy_items": ["varying degrees of = 程度の差はあれ"],
+          "context_dependent": true,
+          "note": "下線部(a)は such estimates の2語。指す内容は2文前の「世界の乾燥地・半乾燥地の最大70%が砂漠化に苦しんでいる」という主張。直前の Yet 以下(定義がない等)ではなく、その前の数値まで戻る必要がある。"
+        },
+        {
+          "label": "(2)",
+          "type": "下線部和訳",
+          "target_words": 36,
+          "limit": "\"As such\" の指す内容が具体的にわかるように訳す",
+          "syntax_features": ["長い主語・修飾の入れ子", "挿入", "共通関係(A and B の並列把握)", "代名詞・指示語の特定", "as/that/of の用法識別"],
+          "vocab_items": [
+            {"word": "conceptualize", "level": "V2", "clue": "concept + -ize に分解できる。前文の Desertification as a concept と対応"}
+          ],
+          "polysemy_items": ["frame = (問題として)枠づける・位置づける", "shape = 形づくる・方向づける", "As such = そのようなものとして", "tackle = 取り組む"],
+          "context_dependent": true,
+          "note": "下線部(b)。主語は the way that ... was A, B, and C as a policy problem までで、述語動詞 shaped の発見が第一関門(過去分詞3つの後に来る)。shaped と目的語 our reactions の間に in numerous ways が割り込む。As such は前文の「地球規模で起きていると認識された最初の主要な環境問題」を補って訳す条件つき。"
+        },
+        {
+          "label": "(3)",
+          "type": "下線部和訳",
+          "target_words": 44,
+          "limit": "",
+          "syntax_features": ["同格", "挿入", "無生物主語", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "共通関係(A and B の並列把握)", "長い主語・修飾の入れ子"],
+          "vocab_items": [
+            {"word": "marginalize", "level": "V2", "clue": "margin + -ize。先住民が政策によって不利な立場に追いやられたという文脈"},
+            {"word": "drylands", "level": "V2", "clue": "dry + land の複合語。本文で arid lands の言い換えとして繰り返される"}
+          ],
+          "polysemy_items": ["lead to = 〜を招く(has led と to の分離)", "systematically = 組織的に"],
+          "context_dependent": false,
+          "note": "下線部(c)。The assumption that ...(同格)が主語、has led ..., to の間に since the colonial period が挿入。that have ... damaged A and marginalized B の並列、最後に many of whom の非制限用法。無生物主語を「〜と思い込んできたために」と副詞的に訳すかどうかで日本語の質が分かれる。"
+        }
+      ],
+      "max_vocab_level": "V2",
+      "difficulty": "標準",
+      "difficulty_reason": "語彙は環境分野の標準語と接辞で分解できる語が中心。(2) の述語動詞の発見と As such の補い、(3) の無生物主語の処理が丁寧にできれば得点できる。",
+      "key_idea": "(2) は SV を正しく切る(shaped が述語)ことと、指示語の中身を訳文に織り込むこと。(3) は同格・挿入・非制限関係詞を訳し落とさず、日本語として読める語順にすること。",
+      "note": "設問3問すべて記述(指示内容1、和訳2)。和訳に「指示語の内容を明示して訳せ」という条件が付いている。語注なし。"
+    },
+    {
+      "problem": "II",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "「今ここを生きよ」と古来繰り返し説かれるのは、それが人間には難しいからである。人は想像力と記憶によって現在から離れていく。その背景には、現在を十分に生きることへの恐れ、すなわち人生そのものに失望する恐れと、死すべき運命を意識させられる恐れがある、と筆者は推測する。",
+      "passage": {"words": 575, "genre": "評論・論説", "field": "哲学", "abstractness": "A2", "source": "", "glossary": 0, "omitted": false},
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "空所補充(選択)",
+          "target_words": null,
+          "limit": "空所4つ(ア〜エ)に対し選択肢6語(less, likewise, more, otherwise, therefore, worse)。同じ語は1回のみ。文頭の語も小文字で示されている",
+          "syntax_features": ["仮定法", "否定(部分否定・二重否定・準否定)", "比較(no more than 等の慣用含む)"],
+          "vocab_items": [],
+          "polysemy_items": ["otherwise = さもなければ", "or, worse, = さらに悪いことに(挿入)", "be no more = もはや存在しない(死ぬ)"],
+          "context_dependent": true,
+          "note": "論理の接続語(ア・イ)と慣用表現(ウ・エ)の混合。エは no more で「この世にいなくなる」という慣用を知っているかを問う。"
+        },
+        {
+          "label": "(2)",
+          "type": "下線部和訳",
+          "target_words": 42,
+          "limit": "",
+          "syntax_features": ["挿入", "分詞構文", "長い主語・修飾の入れ子", "共通関係(A and B の並列把握)"],
+          "vocab_items": [
+            {"word": "the Hereafter", "level": "V2", "clue": "here + after、大文字。「夕食の準備」から始まる範囲の反対の端で、life in the ~ とあることから「来世」と推測"},
+            {"word": "immersion", "level": "V2", "clue": "直前段落の fully engaging in the here and now の言い換え。後半にも fully immersed in が出る"}
+          ],
+          "polysemy_items": ["thorough = 徹底した", "range from A to B", "fall somewhere in between = その中間のどこかに位置する"],
+          "context_dependent": true,
+          "note": "下線部(a)。Another, more thorough way of ... の Another は前の2文(Some people ... / Others ...)を受ける。is by seeing A as B、ranging from A to B の分詞構文、with + 名詞 + falling の付帯状況と、修飾が3段に重なる。"
+        },
+        {
+          "label": "(3)",
+          "type": "内容説明",
+          "target_words": 8,
+          "limit": "日本語130〜160字(句読点を含む)。\"this fear\" の内容を明らかにしつつ、下線部の問いに筆者が与えている答えをまとめる",
+          "syntax_features": ["代名詞・指示語の特定", "比喩表現の訳出", "無生物主語"],
+          "vocab_items": [
+            {"word": "fraught (with)", "level": "V2", "clue": "直後の文以降が「現在に没入すると時の流れと変化を痛感する」と具体的に説明している"},
+            {"word": "intimations", "level": "V2", "clue": "同じ段落の awareness / knowledge of our mortal existence が言い換え"},
+            {"word": "preemptive (strike)", "level": "V2", "clue": "pre- と、失望する前に先回りして別のことを想像するという文脈"},
+            {"word": "cognizant", "level": "V2", "clue": "直前の aware / awareness / knowledge の繰り返しから「知っている」と分かる"}
+          ],
+          "polysemy_items": ["mortality = 死すべき運命", "ultimate = (名詞)究極のもの", "fleeting = つかの間の", "highly charged = 感情の高ぶった"],
+          "context_dependent": true,
+          "note": "下線部(b)は8語の疑問文で、答えは後続2段落全体(One reason ... / Another possible reason ...)。this fear は直前文の「現在を十分に生きることには人を深くおびえさせる何かがある」。要素は(i) this fear の中身、(ii) 理由1: 今ここの人生が物足りない・つらいと分かって失望することへの恐れ、(iii) 理由2: 現在に没入すると万物が終わること=自分の死を意識させられること。"
+        }
+      ],
+      "max_vocab_level": "V2",
+      "difficulty": "やや難",
+      "difficulty_reason": "後半2段落に単語帳外の語(fraught, intimations, preemptive, cognizant)が集中し、文脈から意味を決めたうえで130〜160字に要約する必要がある。(2) の和訳も修飾の重なりと the Hereafter の推測が要る。",
+      "key_idea": "(3) は「恐れの内容+理由2つ」の3要素を落とさないこと。難語は訳さずに、言い換えになっている平易な箇所(bittersweet awareness that everything ends 等)を根拠にまとめる。",
+      "note": "選択式の空所補充、和訳、字数制限つき要約的説明の3形式が1題に入る。語注なし。イタリックの短い命令文3つ(格言)が本文中に独立行で置かれている。"
+    },
+    {
+      "problem": "III",
+      "part": "",
+      "format": "和文英訳",
+      "points": 25,
+      "theme": "「生兵法は大怪我のもと」を引き、誰もが簡単に発信できる時代こそ、聞きかじりの知識をひけらかさず、確かな知識を身につけることの大切さを見直すべきだと説く。",
+      "ja_translation": {
+        "ja_chars": 177,
+        "ja_style": "論説調",
+        "paraphrase_level": "J2",
+        "key_expressions": [
+          {"ja": "生兵法は大怪我のもとというが", "approach": "ことわざ。A little learning (knowledge) is a dangerous thing を知っていれば使う。知らなければ「中途半端な知識は大きな失敗につながると言われる」と意味を説明する"},
+          {"ja": "個人が簡単に発信できる時代", "approach": "「発信」の目的語を補う。an age when anyone can easily share / express their opinions (online) など"},
+          {"ja": "聞きかじった知識", "approach": "「人から少し聞いただけの知識」「表面的な知識」に読み替え。what you have only heard from others / superficial knowledge"},
+          {"ja": "さも自分で考えたかのように披露する", "approach": "as if + 仮定法(as if you had thought of it yourself)。「披露する」は show off / talk about"},
+          {"ja": "後で必ず痛い目にあう", "approach": "「あとで必ず困ったことになる・後悔する」。you will surely get into trouble / regret it later"},
+          {"ja": "専門家とて油断は禁物", "approach": "「とて=でさえ」「油断は禁物=気を抜いてはいけない」。Even experts must be careful / should not be overconfident と主語・述語を立て直す"},
+          {"ja": "専門外では素人であることを忘れがちだ", "approach": "主語(専門家)を補い tend to forget that they are amateurs outside their own fields"},
+          {"ja": "重要性を見直す", "approach": "「改めて認識する」。reconsider / recognize again the importance of ...。review では意味がずれる"}
+        ]
+      },
+      "questions": [{"label": "", "type": "和文英訳", "note": "下線なし。5行の文章全体(4文)を英訳する。"}],
+      "difficulty": "難",
+      "difficulty_reason": "ことわざ、「聞きかじった」「さも」「痛い目にあう」「とて」「油断は禁物」と、直訳できない慣用的・文語的表現がほぼ全文にある。第3文は主語がなく体言止めに近い切れ方で、文の組み直しが必要。",
+      "key_idea": "日本語の慣用表現を一度やさしい日本語に言い直してから英語にする(和文和訳)。ことわざは意味の説明で十分。第3文は「専門家でさえ〜、なぜなら彼らは〜を忘れがちだからだ」と主語と論理関係を補う。",
+      "note": "時事的な題材(個人の情報発信)と、古風な日本語表現を組み合わせている。"
+    },
+    {
+      "problem": "IV",
+      "part": "",
+      "format": "条件英作文",
+      "points": 25,
+      "theme": "「文学には国境があるが音楽には国境がない」という Anne の主張と、それに異を唱える Ken の会話。Anne の説明と Ken の反論をそれぞれ補う。",
+      "passage": {"words": 75, "genre": "その他", "field": "芸術", "abstractness": "A2", "source": "", "glossary": 0, "omitted": false},
+      "composition": {
+        "word_limit": "語数指定なし(「解答欄におさまるように」。問題冊子上は(1)が1行分、(2)が約1.5行分の下線)",
+        "task": "会話の空所補充",
+        "prompt_summary": "(1)「音楽に国境はない」とはどういう意味かと問われた Anne の説明。直後に「これが音楽に国境がないことを示している」と続くので、根拠となる具体例・事実を書く。(2) 「問題はそう単純ではない」に続く Ken の反論。直後に「だから結局音楽にも国境があると思う」と続くので、その理由となる具体例・事実を書く。"
+      },
+      "questions": [
+        {"label": "(1)", "type": "条件英作文", "note": "主張の意味を具体例で説明する。直後の this demonstrates ... の this が指せる内容(事実・事例)にする必要がある。"},
+        {"label": "(2)", "type": "条件英作文", "note": "(1) と反対の立場の根拠を書く。直後の That's why ... につながる理由であること。(1) と (2) で賛否両方の論拠を自分で用意させる。"}
+      ],
+      "difficulty": "標準",
+      "difficulty_reason": "空所の前後が固定されており、内容は自由だが「this が指せる事例」「That's why につながる理由」という機能上の制約を満たす必要がある。同じ論点の賛否両方を書かせる点が新しい。",
+      "key_idea": "空所直後の文(this demonstrates / That's why)から逆算して、主張そのものではなく「根拠となる具体例」を書く。(1) と (2) が噛み合う(同じ土俵で対立する)内容にすると説得力が出る。",
+      "note": "2016年度と同じ会話文の空所補充型だが、2016年度が説明+意見だったのに対し、こちらは1つの命題に対する賛成の論拠と反対の論拠を書かせる。"
+    }
+  ],
+  "overall_note": "大問4題・150点(I 50 / II 50 / III 25 / IV 25、いずれも冊子に印字)で、2016年度と同じ構成。読解2題は合計約1115語、設問は下線部和訳3(うち1つは指示語の内容を明示する条件つき)・指示内容1・字数制限つき内容説明1(130〜160字)・選択式空所補充1。和文英訳はことわざと慣用表現の多い約177字で、この4年間の担当範囲では最も和文和訳の負荷が高い。IV は会話文の空所補充で、賛否両方の論拠を書かせる。"
+}

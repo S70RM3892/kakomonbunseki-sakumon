@@ -1,0 +1,198 @@
+{
+  "year": 2024,
+  "booklet_pages": 16,
+  "exam_format": {
+    "num_problems": 3,
+    "points": 150,
+    "time_note": "試験時間は冊子に記載なし。表紙に「150点満点」「問題は全部で3題ある(1〜6ページ)」。PDF は16ページだが、問題が印刷されているのは表紙と本文6ページのみで、残り9ページは白紙(下書き用)。"
+  },
+  "parts": [
+    {
+      "problem": "I",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "creativity という語は20世紀半ば以降に普及した新しい語であり、古い概念の単なる言い換えではなく、矛盾する意味合いを同時に抱え込める曖昧さこそが戦後アメリカで支持された理由だと論じる。",
+      "passage": {
+        "words": 600,
+        "genre": "評論・論説",
+        "field": "言語",
+        "abstractness": "A2",
+        "source": "",
+        "glossary": 0,
+        "omitted": false
+      },
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "下線部和訳",
+          "target_words": 68,
+          "limit": "creativeness と creativity は訳さず英語のまま表記する指定",
+          "syntax_features": ["分詞構文", "代名詞・指示語の特定", "比喩表現の訳出", "共通関係(A and B の並列把握)", "否定(部分否定・二重否定・準否定)"],
+          "vocab_items": [],
+          "polysemy_items": [
+            "as far as words go = 単語としては(〜に関する限り)",
+            "infant = 生まれたての新参者(比喩)",
+            "go back = さかのぼる",
+            "occurrence = (語の)使用例・出現",
+            "approximately zero = ほぼ皆無",
+            "anything of the sort = その種のもの"
+          ],
+          "context_dependent": true,
+          "note": "3文。Its / it が creativity という「語」を指すことを前文から確定する。making it an infant は「その結果〜ということになる」の分詞構文。rarely and in an inconsistent kind of way は副詞と前置詞句の並列。6項目の名詞列挙+ or anything of the sort を dealing 以下が修飾。"
+        },
+        {
+          "label": "(2)",
+          "type": "空所補充(選択)",
+          "target_words": null,
+          "limit": "空所4つに対し名詞の選択肢5つ(cleverness / fantasy / genius / imagination / inventiveness)。同じ語は一度のみ",
+          "syntax_features": [],
+          "vocab_items": [
+            {"word": "utilitarian", "level": "V2", "clue": "utility からの類推と、直後の「芸術っぽさ(artsy vibe)を欠く」という対比"},
+            {"word": "grandiose", "level": "V2", "clue": "grand からの類推と、並置された exclusive、直前の「記念碑的業績」"},
+            {"word": "pedestrian", "level": "V2", "clue": "直後の「囲いから抜け出す豚にも当てはまる」という例示。grandiose との対比"}
+          ],
+          "polysemy_items": ["pedestrian = 平凡な(「歩行者」ではない)", "hit closer to the mark = より的を射ている"],
+          "context_dependent": true,
+          "note": "各空所は「語 X は creativity と比べて何が足りない/過剰か」を述べる文の主語。ア: Ingenuity と or で並ぶ実用寄りの語。イ: 排他的・大仰。ウ: 平凡すぎる。エ: creativity と最もよく交換可能で、頭の中だけで完結しうる語。直後の Like fantasy により fantasy は除外される(余りの選択肢)。"
+        },
+        {
+          "label": "(3)",
+          "type": "下線部和訳",
+          "target_words": 62,
+          "limit": "creativity は訳さず英語のまま表記する指定",
+          "syntax_features": ["比較(no more than 等の慣用含む)", "共通関係(A and B の並列把握)", "挿入", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "代名詞・指示語の特定", "比喩表現の訳出", "長い主語・修飾の入れ子"],
+          "vocab_items": [
+            {"word": "constellation", "level": "V2", "clue": "「星座」から「(意味や含意の)集まり・布置」へ。直前文の4組の対の列挙を This で受けている"},
+            {"word": "artsy", "level": "V2", "clue": "art + 接尾辞。technological との対比。本文前半に artsy vibe が既出"},
+            {"word": "pedestrian", "level": "V2", "clue": "exceptional との対。空所ウの文でも同じ語義で使用"}
+          ],
+          "polysemy_items": [
+            "manage to do = どうにか〜する",
+            "at stake = 危機に瀕して",
+            "appeal = 魅力",
+            "those very things = まさにそれらのもの"
+          ],
+          "context_dependent": true,
+          "note": "2文。Just as A, B(soなし)。exist as simultaneously X and Y の4組の対を崩さず訳す。第2文は S(This ... connotations), 挿入(more than any one definition or theory), is what explains ...。in which の先行詞は postwar America、those very things は前文の対立項の各組。pedestrian の語義は下線部内の対と空所(2)の文脈から決める。"
+        }
+      ],
+      "max_vocab_level": "V2",
+      "difficulty": "やや難",
+      "difficulty_reason": "下線部はいずれも60語超で要素が多く、(3) は constellation / pedestrian / at stake の処理と挿入句の位置づけが必要。(2) は類義の抽象名詞の語感の差を本文の形容だけで判別させる。",
+      "key_idea": "「語」と「概念」を区別する本文の論点を踏まえ、it が語を指すことを訳に反映する。(3) は対の並列を保ったまま、S is what explains の骨格と more than の挿入を落とさない。",
+      "note": "出典の記載なし。語注なし。"
+    },
+    {
+      "problem": "II",
+      "part": "",
+      "format": "英文読解",
+      "points": 75,
+      "theme": "マーケティングのセグメンテーションとターゲティングを説明したうえで、セグメントは作り手の構築物にすぎず、人は効率のために他人を単純な「箱」に入れて判断してしまうと指摘する。",
+      "passage": {
+        "words": 490,
+        "genre": "評論・論説",
+        "field": "社会",
+        "abstractness": "A2",
+        "source": "",
+        "glossary": 0,
+        "omitted": false
+      },
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "下線部和訳",
+          "target_words": 51,
+          "limit": "",
+          "syntax_features": ["関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "挿入", "長い主語・修飾の入れ子", "比較(no more than 等の慣用含む)"],
+          "vocab_items": [
+            {"word": "propensity", "level": "V2", "clue": "前文の「最も〜しそうな(most likely adopt)」の言い換え。the highest ~ to move の形"}
+          ],
+          "polysemy_items": [
+            "move = 行動を起こす",
+            "target(動詞)= 標的にする",
+            "pursue = (顧客層を)追う・狙う",
+            "adopt a behavior = 行動をとる(本文の behavioral adoption を受ける)"
+          ],
+          "context_dependent": true,
+          "note": "2文。a segment を to pursue(形容詞用法)と that we believe will ...(連鎖関係詞節)が二重に修飾し、括弧の挿入が間に入る。ダッシュ以下は desired behavior の具体例の動詞列挙。segment は直前で定義済みの用語。"
+        },
+        {
+          "label": "(2)",
+          "type": "下線部和訳",
+          "target_words": 35,
+          "limit": "",
+          "syntax_features": ["関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "代名詞・指示語の特定", "共通関係(A and B の並列把握)", "長い主語・修飾の入れ子"],
+          "vocab_items": [
+            {"word": "construct", "level": "V2", "clue": "名詞用法「構築物・構成概念」。直前の「実在しない(not real)」と that marketers create"},
+            {"word": "homogeneous-like", "level": "V2", "clue": "第1段落で heterogeneous と対にして「皆が違うというより似ている」と説明済み"}
+          ],
+          "polysemy_items": ["rough substitute = 大まかな代用物(本人そのものの代わりに使う目安)", "identify = 特定する・見きわめる"],
+          "context_dependent": true,
+          "note": "1文。They = Segments。a construct に that 節と where 節が続く二重限定。a rough substitute that helps us (identify ... and predict ...) の並列。who they are の they は people。"
+        },
+        {
+          "label": "(3)",
+          "type": "英語での説明",
+          "target_words": 8,
+          "limit": "80語以上100語以内の英語。本文にはない具体例を挙げること。解答欄の下線1本に1語、記号は語数に数えない、短縮形は1語",
+          "syntax_features": [],
+          "vocab_items": [],
+          "polysemy_items": ["neat little boxes = きれいに整った小さな箱(単純な分類の比喩)"],
+          "context_dependent": true,
+          "note": "下線部(c)「現実の人間はきちんとした箱には収まらない」の理由を、本文外の具体例つきで英語で説明する。読解に埋め込まれた自由英作文で、この年度は独立した自由英作文の大問がない。本文中の例(ミニバンに乗る友人)は使えない。task は「理由説明」に相当。"
+        },
+        {
+          "label": "(4)",
+          "type": "下線部和訳",
+          "target_words": 39,
+          "limit": "",
+          "syntax_features": ["省略", "挿入", "代名詞・指示語の特定", "比喩表現の訳出"],
+          "vocab_items": [
+            {"word": "cognitive fluidity", "level": "V2", "clue": "fluid からの類推と、前段の「答えをかなり素早く引き出す」という記述"}
+          ],
+          "polysemy_items": [
+            "Sounds about right = だいたい合っていそうだ(主語 That の省略)",
+            "here's the thing = 肝心なのはここだ",
+            "data point = (1件の)データ・情報",
+            "map out = 詳細に描き出す",
+            "I might add = 付け加えて言えば"
+          ],
+          "context_dependent": true,
+          "note": "4文の口語体。This is what we do の This は「1つの情報から人の全体像を作り上げること」。with great cognitive fluidity は what we do にかかる追加情報で、I might add が挿入的に付く。文体(読者への語りかけ)を訳文で再現できるかも差になる。"
+        }
+      ],
+      "max_vocab_level": "V2",
+      "difficulty": "やや難",
+      "difficulty_reason": "和訳3題のうち(1)は連鎖関係詞と挿入、(4)は口語表現の連続で直訳が効かない。加えて80〜100語の英語説明が同じ大問に入り、配点・作業量とも最大。",
+      "key_idea": "(1)(2) は修飾関係(何が segment / construct にかかるか)を正確に取る。(3) は「人は複雑で一つの属性では予測できない」という本文の主張を、自前の具体例で論証する。(4) は口語の決まり文句を自然な日本語に落とす。",
+      "note": "出典の記載なし。語注なし。本文中に天体物理学者の発言の引用がある。"
+    },
+    {
+      "problem": "III",
+      "part": "",
+      "format": "和文英訳",
+      "points": 25,
+      "theme": "過去の自分の無知を恥じることは成長の証であり、知らない世界があると知り続けることが学びである、という省察。",
+      "ja_translation": {
+        "ja_chars": 165,
+        "ja_style": "随筆調",
+        "paraphrase_level": "J2",
+        "key_expressions": [
+          {"ja": "かつての自分の無知と愚かさを恥じる", "approach": "名詞のまま並べるより how ignorant and foolish we used to be のように節に開く。主語(we / I)を自分で決める"},
+          {"ja": "未熟な自分に気づいた分だけ成長した", "approach": "「分だけ」は比例。to the extent that / as much as / the more ..., the more ... などで関係を明示。「未熟な自分」は how immature one was と節にする"},
+          {"ja": "逆説的だが", "approach": "Paradoxically, / It may sound paradoxical, but の文修飾副詞または前置き節"},
+          {"ja": "自分の無知を悟ったときにこそ", "approach": "「こそ」の強調を it is only when ... that / precisely when で出す"},
+          {"ja": "今日の私は昨日の私よりも賢くなっている", "approach": "「今日の私/昨日の私」を名詞句にせず I am wiser today than I was yesterday と時の副詞で処理"},
+          {"ja": "まだまだ知らない世界があることを知る,きっとこれが学ぶということであり,その営みには終わりがない", "approach": "提示→「これ」で受ける和文の語順を組み替える(Realizing that ... is what learning is 等)。「世界」は a lot we do not know と読み替え可。「営み」は process / learning。「きっと〜のだろう」は probably / I believe"}
+        ]
+      },
+      "questions": [{"label": "", "type": "和文英訳", "note": "3文全体を英訳(下線なし)。"}],
+      "difficulty": "標準",
+      "difficulty_reason": "語彙は平易だが、主語の補い、「〜した分だけ」の比例関係、「こそ」の強調、第3文の提示構文の組み替えが必要。",
+      "key_idea": "日本語の名詞句(かつての自分・未熟な自分・今日の私)を節や副詞に開き、文末の推量(だろう・と言えるのだ)を過不足なく訳し分ける。",
+      "note": ""
+    }
+  ],
+  "overall_note": "大問3題構成(I 50点・II 75点・III 25点、計150点)。独立した自由英作文の大問がなく、II の設問(3)に80〜100語の英語説明(本文外の具体例を要求)が組み込まれている。I には名詞の空所補充(選択式)があり、和訳には「特定の語は英語のまま表記」という指定が付く。読解の英文は2題で約1,090語、語注はなく、出典の記載もない。"
+}

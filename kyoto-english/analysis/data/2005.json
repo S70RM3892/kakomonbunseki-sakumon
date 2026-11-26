@@ -1,0 +1,196 @@
+{
+  "year": 2005,
+  "booklet_pages": 5,
+  "exam_format": {
+    "num_problems": 3,
+    "points": 150,
+    "time_note": "表紙に「150点満点」「問題は全部で3題(1〜5ページ)」と記載。試験時間の記載はなし。booklet_pages は表紙を除く問題ページ数(PDF は表紙込み6ページ)。"
+  },
+  "parts": [
+    {
+      "problem": "I",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "数や数学は科学から遠く見える事柄の理解にも役立つ。板チョコを割る回数の規則、確率計算に思いがけず現れる円周率(ビュフォンの針)を例に示す。",
+      "passage": {"words": 470, "genre": "科学解説", "field": "数学", "abstractness": "A2", "source": "", "glossary": 0, "omitted": false},
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "下線部和訳",
+          "target_words": 16,
+          "limit": "",
+          "syntax_features": ["as/that/of の用法識別", "代名詞・指示語の特定"],
+          "vocab_items": [],
+          "polysemy_items": ["be of a ... kind = 〜な種類のものである(of + 名詞の叙述用法)"],
+          "context_dependent": true,
+          "note": "下線なし。「Kelvin の講演から引用した文が1つある。それを和訳せよ」という探索型。引用符で特定は容易。it は漠然と「対象となる事柄」。meager は unsatisfactory との並列から推測可(V1 扱い)。"
+        },
+        {
+          "label": "(2)",
+          "type": "下線部和訳",
+          "target_words": 22,
+          "limit": "",
+          "syntax_features": ["共通関係(A and B の並列把握)", "名詞構文"],
+          "vocab_items": [
+            {"word": "unlooked for", "level": "V2", "clue": "un- + look for。the + 過去分詞で名詞化され、unimagined と並列されることから「予期せぬもの」と決める"},
+            {"word": "formulae", "level": "V2", "clue": "formula の複数形。mathematical の修飾と後段の formulae, and rules の列挙から「公式」"}
+          ],
+          "polysemy_items": ["make chance a matter of ... = 偶然を〜の問題にする(chance = 偶然)", "subject A to B = A を B に従わせる・かける", "the schools = 学校(で教わる類の)"],
+          "context_dependent": true,
+          "note": "下線なし。「Dupin の言葉を引用した文が2つ」を特定して和訳。the + 形容詞(分詞)の名詞化2つを to の前で切れるかが山。"
+        },
+        {
+          "label": "(3)",
+          "type": "下線部和訳",
+          "target_words": 29,
+          "limit": "",
+          "syntax_features": ["関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "比較(no more than 等の慣用含む)", "省略"],
+          "vocab_items": [{"word": "snap", "level": "V2", "clue": "板チョコを割って分けるという場面設定と how many snaps の問いから「(ポキッと)割ること・割る回数」と決める"}],
+          "polysemy_items": ["irrespective of = 〜に関係なく"],
+          "context_dependent": true,
+          "note": "下線なし。設問文に英語の問いを引用し、その「より一般的」な答えになっている1文を探させる。More generally が目印。関係代名詞の省略と文末の of、one less than。"
+        },
+        {
+          "label": "(4)",
+          "type": "下線部和訳",
+          "target_words": 68,
+          "limit": "",
+          "syntax_features": ["長い主語・修飾の入れ子", "同格", "省略"],
+          "vocab_items": [{"word": "intersect", "level": "V2", "clue": "inter- + sect。Figure 1(針が線にかかる図)と「線の1本と」という目的語から「交わる」"}],
+          "polysemy_items": ["ruled with lines = 線(罫線)が引かれた", "of length equal to ... = 〜に等しい長さの"],
+          "context_dependent": true,
+          "note": "下線なし。「Buffon's Needle の問いを構成している文が3つ」を特定して和訳。Suppose で始まる設定文から疑問文まで。過去分詞の後置修飾が二重(ruled ... spaced ...)。probability that の同格、in such a way that。図が理解を助ける。"
+        },
+        {
+          "label": "(5)",
+          "type": "下線部和訳",
+          "target_words": 10,
+          "limit": "",
+          "syntax_features": [],
+          "vocab_items": [],
+          "polysemy_items": ["turn out to be = 〜であると判明する"],
+          "context_dependent": true,
+          "note": "下線なし。「問いに対する答えとなっている文が1つ」を特定して和訳。短く平易で、位置の特定が主眼。"
+        }
+      ],
+      "max_vocab_level": "V2",
+      "difficulty": "標準",
+      "difficulty_reason": "該当文の特定は目印が明確で容易。和訳も短文中心だが、Dupin の2文(the + 分詞の名詞化、subject A to B)と Buffon の設定文(後置修飾の入れ子)は正確さが要る。",
+      "key_idea": "指定された範囲を過不足なく特定したうえで、数学的な設定文を図と照らして正確に日本語化する。(2) の the unlooked for and unimagined の処理が最大の差。",
+      "note": "英文の出典記載なし。本文中に Figure 1(平行線と針の図)あり。下線を一切引かず、設問文で条件を与えて「該当する文を探して和訳」させる形式(全5問)。CODEBOOK の設問型に完全に合うものがなく、`下線部和訳` に分類して note に探索型と明記した。"
+    },
+    {
+      "problem": "II",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "東南アジアのホタルの一斉明滅(同期)の謎。体内時計と他個体の光による時計のリセットという2つの手がかりから、指揮者なしの自己組織化として説明される。",
+      "passage": {"words": 540, "genre": "科学解説", "field": "生物", "abstractness": "A1", "source": "", "glossary": 0, "omitted": false},
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "下線部和訳",
+          "target_words": 16,
+          "limit": "",
+          "syntax_features": ["共通関係(A and B の並列把握)", "比喩表現の訳出"],
+          "vocab_items": [{"word": "orchestrate", "level": "V2", "clue": "orchestra の派生。直前の in harmony や後段の conductor の比喩から「(一斉に)調和させる・足並みをそろえる」"}],
+          "polysemy_items": [],
+          "context_dependent": true,
+          "note": "下線は語句(2語)のみ。その「内容を具体的に表す文が1つ」を探して和訳する探索型。直後の疑問文。so precisely と on such a vast scale の並列。"
+        },
+        {
+          "label": "(2)",
+          "type": "下線部和訳",
+          "target_words": 50,
+          "limit": "",
+          "syntax_features": ["比喩表現の訳出", "否定(部分否定・二重否定・準否定)", "省略"],
+          "vocab_items": [],
+          "polysemy_items": ["come up with = 思いつく", "fall into place = (パズルのピースが)はまる・つじつまが合う", "miss = 見落とす"],
+          "context_dependent": false,
+          "note": "4文連続の通常の下線部和訳。so ... that、not only ... (but) の but 省略+ダッシュ。in harmony と in rhythm を訳し分ける。"
+        },
+        {
+          "label": "(3)",
+          "type": "下線部和訳",
+          "target_words": 46,
+          "limit": "",
+          "syntax_features": ["分詞構文", "省略", "共通関係(A and B の並列把握)"],
+          "vocab_items": [],
+          "polysemy_items": ["advance = (時期・リズムを)早める", "set a clock ahead = 時計を進める", "be about to = まさに〜しようとしている"],
+          "context_dependent": true,
+          "note": "セミコロンで2分された1文。as if setting(主語+be の省略)、depending on whether A, whether B, and so on の並列。stimulus が人工光であることは前文から。"
+        },
+        {
+          "label": "(4)",
+          "type": "下線部和訳",
+          "target_words": 19,
+          "limit": "",
+          "syntax_features": ["関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "代名詞・指示語の特定"],
+          "vocab_items": [],
+          "polysemy_items": ["timing adjusts = タイミングが(自動的に)調整される(自動詞用法)"],
+          "context_dependent": true,
+          "note": "下線は名詞句のみ。その「内容を音楽器具に言及して説明している文が1つ」を最終段落から探して和訳。メトロノームに触れる文が該当(オーケストラに触れる文は器具ではないので外す判断が要る)。コロンの前後を1文と数えるかで範囲に迷いが出うる。"
+        }
+      ],
+      "max_vocab_level": "V2",
+      "difficulty": "標準",
+      "difficulty_reason": "英文は具体的で読みやすく語彙も平易。探索型2問は判断が要るが、和訳自体は標準的。",
+      "key_idea": "探索型 (1)(4) で条件(「具体的に」「音楽器具に言及して」)に合う1文を選び切ること。(3) の as if + 分詞と whether の並列の正確な処理。",
+      "note": "英文の出典記載なし(本文中に人名・誌名への言及はある)。通常の下線部和訳2問と、下線語句の内容を表す文を探して訳す探索型2問の混合。"
+    },
+    {
+      "problem": "III",
+      "part": "(1)",
+      "format": "和文英訳",
+      "points": null,
+      "problem_points": 50,
+      "theme": "女性が学問の世界で活躍できなかった原因(男性中心社会・年功序列)と、復職・昇進の体制づくりの必要性。",
+      "ja_translation": {
+        "ja_chars": 170,
+        "ja_style": "論説調",
+        "paraphrase_level": "J2",
+        "key_expressions": [
+          {"ja": "十分活躍できなかったのは…に原因があったことは疑う余地はありません", "approach": "「〜のは…ことは」と主題が二重になったねじれ文。There is no doubt that the reason (why) women have not been able to ... is that ... と骨組みを立て直す"},
+          {"ja": "学問の世界で十分活躍できなかった", "approach": "「活躍」は play an active part (role) in the academic world / succeed fully in academia"},
+          {"ja": "男性中心で作られてきた社会", "approach": "a society built by and for men / a male-dominated society と分詞・複合形容詞で処理"},
+          {"ja": "年功序列の社会", "approach": "seniority system が出なければ a society where people are promoted according to their age and length of service と説明的に言い換える"},
+          {"ja": "昇進の面で著しく不利", "approach": "「〜の面で」は in terms of / when it comes to promotion。put women at a great disadvantage と無生物主語(taking leave)でまとめる"},
+          {"ja": "復職後業績を上げれば速やかに昇進できる体制を作り上げて", "approach": "「復職」return to work、「業績を上げる」achieve good results、「体制」a system in which (where) ... can be promoted quickly"}
+        ]
+      },
+      "questions": [{"label": "(1)", "type": "和文英訳", "note": "全文英訳(下線なし)。出典表記あり: 井村裕夫『時計台の朝』。( )内=出典は英訳不要との指示。"}],
+      "difficulty": "やや難",
+      "difficulty_reason": "硬い漢語(年功序列、復職、業績、体制)が続き、第1文は主題の重複を解いて組み立て直す必要がある。",
+      "key_idea": "漢語を説明的な英語に開く力と、第1文の因果の骨組み(理由は〜にある)を崩さず立てること。",
+      "note": "配点は III 全体で 50 点と記載。(1)(2) の内訳は記載なし。"
+    },
+    {
+      "problem": "III",
+      "part": "(2)",
+      "format": "和文英訳",
+      "points": null,
+      "problem_points": 50,
+      "theme": "歯の健康は治療だけでなく予防と健康管理が大切で、歯磨き・食事・精神的安定が必要だという呼びかけ。",
+      "ja_translation": {
+        "ja_chars": 180,
+        "ja_style": "説明文",
+        "paraphrase_level": "J2",
+        "key_expressions": [
+          {"ja": "歯の健康は治療だけでは守れません", "approach": "主語を人に替える。We cannot keep our teeth healthy only by having them treated / treatment alone cannot ..."},
+          {"ja": "その場限りの治療から,さらに前進して", "approach": "「その場限り」は「問題が起きたときだけ治療を受ける」と読み替え、go a step further than merely getting treatment whenever a problem arises / instead of ..."},
+          {"ja": "健康を管理していくように心がけましょう", "approach": "呼びかけは Let's try to / we should try to。「管理」は take care of (look after) our health"},
+          {"ja": "歯磨きの励行にとどまらず", "approach": "「励行」は make it a rule (habit) to brush ... after every meal。「にとどまらず」は not only ... but also / in addition to"},
+          {"ja": "野菜を含めバランスのとれた食事をとること", "approach": "have (eat) a well-balanced diet including vegetables"},
+          {"ja": "過度のストレスに陥って病気に負けることのないよう精神的な安定を保つ", "approach": "目的の so that ... not / in order not to。「病気に負ける」は become ill / give in to illness、「精神的な安定を保つ」は stay mentally stable / keep peace of mind"}
+        ]
+      },
+      "questions": [{"label": "(2)", "type": "和文英訳", "note": "全文英訳(下線なし)。出典表記なし。"}],
+      "difficulty": "標準",
+      "difficulty_reason": "内容は平易だが、最終文が長く(約90字)並列と目的節を整理する必要がある。「その場限り」「励行」は言い換え必須。",
+      "key_idea": "長い最終文を not only A but also B and C の骨組みに整理し、漢語(励行、管理、安定)を動詞中心の平易な表現に開く。",
+      "note": "配点は III 全体で 50 点と記載。(1)(2) の内訳は記載なし。"
+    }
+  ],
+  "overall_note": "大問3題・各50点(I 読解、II 読解、III 和文英訳)。前年の II-A/B 分割がなくなり、長文2題になった。最大の特徴は読解の設問形式で、I は下線を一切引かず「条件に合う文を探して和訳」させる探索型5問、II も4問中2問が探索型。理系的な題材(数学・生物)で英文は具体的で読みやすく、語注・英文の出典記載はない。和文英訳は論説調と健康啓発の説明文で、漢語を開く力が要る。"
+}

@@ -1,0 +1,173 @@
+{
+  "year": 2011,
+  "booklet_pages": 6,
+  "exam_format": {
+    "num_problems": 3,
+    "points": 150,
+    "time_note": "表紙に「150点満点」「問題は全部で3題(1〜5ページ)」「配点は学生募集要項に記載のとおり」とある。試験時間の記載はなし。総合人間学部・医学部(医学科)志願者のみ、別に聞き取りテスト(大問IV、6ページ)がある。PDF は 10 ページで、うち 2・3・10 ページ目は白紙(表紙 1+本文 6+白紙 3)"
+  },
+  "parts": [
+    {
+      "problem": "I",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "history には「過去の出来事」と「それについて現在語られること」の二義がある。目撃者による同時代の記録は偏りや嘘を含みうるが、歴史家に不可欠で、書き手がその場にいたという事実が読む者を引きつける。",
+      "passage": {"words": 570, "genre": "評論・論説", "field": "歴史", "abstractness": "A2", "source": "", "glossary": 0, "omitted": false},
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "下線部和訳",
+          "target_words": 28,
+          "limit": "",
+          "syntax_features": ["仮定法", "省略", "挿入", "共通関係(A and B の並列把握)"],
+          "vocab_items": [],
+          "polysemy_items": ["contemporary = (その出来事と)同時代の・当時の(「現代の」ではない)", "have a hard time = 苦労する", "if not impossible = 不可能とは言わないまでも", "Even so = たとえそうでも", "first-hand = 直接の・当事者による"],
+          "context_dependent": true,
+          "note": "2 文。Even so の so は直前の「懐疑をもって扱うべき」という内容。contemporary records は段落冒頭の contemporary accounts ... written by witnesses を受け、「現代の」と訳すと誤り。Without ... would の仮定法、a very hard if not impossible time は熟語の形容詞位置に if not が割り込む"
+        },
+        {
+          "label": "(2)",
+          "type": "下線部和訳",
+          "target_words": 48,
+          "limit": "",
+          "syntax_features": ["否定(部分否定・二重否定・準否定)", "共通関係(A and B の並列把握)", "同格", "無生物主語", "代名詞・指示語の特定", "it の形式主語・目的語"],
+          "vocab_items": [{"word": "novelised", "level": "V2", "clue": "novel + -ise。historical accounts と並べられ、手紙・日記の「生の記録」と対比されている"}],
+          "polysemy_items": ["gripped = 心をつかまれる", "absorbed = 引き込まれる", "accounts = 記述・説明", "make a big difference = 大きな違いを生む"],
+          "context_dependent": true,
+          "note": "3 文。impossible not to be [gripped, absorbed and often moved] by ... の二重否定と 3 つの過去分詞の並列。第 2 文の It は前文の「手紙等を読んで心を動かされること」、them は the events。The consciousness that ... の同格と無生物主語"
+        },
+        {
+          "label": "(3)",
+          "type": "下線部和訳",
+          "target_words": 58,
+          "limit": "",
+          "syntax_features": ["代名詞・指示語の特定", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "it の形式主語・目的語", "分詞構文", "比喩表現の訳出"],
+          "vocab_items": [{"word": "a pack of lies", "level": "V2", "clue": "直前の引用文に同じ句があり、lies about events that never happened と続くことから「嘘のかたまり」"}],
+          "polysemy_items": ["meant = 〜のことを指して言った", "the same applies to = 同じことが〜にも当てはまる", "resources = 史料", "the authors' version of the truth = 書き手なりの真実", "where they claimed to have been = いたと主張する場所"],
+          "context_dependent": true,
+          "note": "3 文(ダッシュ含む)。He は下線部直前で引用される人物、the same はその皮肉な歴史観の内容で、下線部だけでは訳せない。their resources の their は historians。where 節+完了不定詞。version of the truth の訳出"
+        }
+      ],
+      "max_vocab_level": "V2",
+      "difficulty": "標準",
+      "difficulty_reason": "構文は二重否定・仮定法・同格など標準的。contemporary の語義と、(3) の指示内容を直前の引用から補えるかが分かれ目",
+      "key_idea": "contemporary を「同時代の」と訳せるか。(3) で He / the same / their の指示を直前の引用と結びつけ、version of the truth を自然な日本語にできるか。",
+      "note": "出典の記載なし。イギリス式綴り(scepticism, dramatise, organised)。本文中に 2 人の著述家の歴史観の引用がある(下線部外)"
+    },
+    {
+      "problem": "II",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "物理学者が、物理は「難しい・役に立たない・退屈」という世間の反感を取り上げる。実用面ばかり強調され面白い面が伝わっていないことが問題で、科学の進み方を理解することは誰にとっても重要だと述べる。",
+      "passage": {"words": 545, "genre": "エッセイ・随筆", "field": "科学論", "abstractness": "A1", "source": "", "glossary": 0, "omitted": false},
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "下線部和訳",
+          "target_words": 74,
+          "limit": "",
+          "syntax_features": ["挿入", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "省略", "否定(部分否定・二重否定・準否定)", "長い主語・修飾の入れ子", "比喩表現の訳出"],
+          "vocab_items": [{"word": "algebra", "level": "V2", "clue": "直前の the fields of physical science and mathematics の具体例として引かれており、数学の一分野と分かる"}],
+          "polysemy_items": ["apparently = どうやら〜らしい", "your friend = (皮肉で)隣り合わせたその相手", "reserved for = 〜だけに向けられた", "random encounters = 偶然の出会い", "barely = ほとんど〜ない", "inflict A on B = B に A(苦痛)を与える"],
+          "context_dependent": true,
+          "note": "3 文。You は読者に呼びかけた一般的な「物理学者であるあなた」、your friend は第 1 段落の機内の隣人で、設定を踏まえて訳す。contempt, reserved ... は過去分詞の後置修飾。第 3 文は引用文が主語で、in a way that \"...\" never would (be said) の省略を補う"
+        },
+        {
+          "label": "(2)",
+          "type": "下線部和訳",
+          "target_words": 48,
+          "limit": "",
+          "syntax_features": ["挿入", "否定(部分否定・二重否定・準否定)", "共通関係(A and B の並列把握)", "比喩表現の訳出"],
+          "vocab_items": [{"word": "electromagnetism", "level": "V2", "clue": "electro- + magnet + -ism。mechanics と並ぶ物理の基礎科目として列挙"}],
+          "polysemy_items": ["as we see it = 私たちの見るところ", "put forward = 前面に押し出す", "at the expense of = 〜を犠牲にして", "mechanics = 力学", "get past A to B = A を越えて B までたどり着く", "technical focuses = 技術系の専攻", "stuff = 内容・事柄"],
+          "context_dependent": false,
+          "note": "2 文。The problem, as we see it, is that ... の挿入。don't get past [mechanics and electromagnetism] to [the really fun stuff] の前置詞 2 つの関係を取り、「〜止まりで〜まで進まない」と訳す。斜体 fun の強調"
+        },
+        {
+          "label": "(3)",
+          "type": "下線部和訳",
+          "target_words": 29,
+          "limit": "",
+          "syntax_features": ["分詞構文", "挿入", "比較(no more than 等の慣用含む)", "代名詞・指示語の特定"],
+          "vocab_items": [],
+          "polysemy_items": ["well below average = 平均をはるかに下回る", "have a problem with = 〜に問題を抱える", "those = 高校生"],
+          "context_dependent": false,
+          "note": "1 文。with + 名詞 + 現在分詞の付帯状況、compared to those in ... の those。平易"
+        }
+      ],
+      "max_vocab_level": "V2",
+      "difficulty": "標準",
+      "difficulty_reason": "口語的で軽い文体。構文は易しいが、皮肉・ユーモアを含む表現と句動詞(put forward, get past)を硬すぎない日本語にする必要がある。(3) は易",
+      "key_idea": "(1) の never would の省略補完と皮肉のニュアンス、(2) の at the expense of / get past ... to ... の処理。口語体の英文を自然な日本語にする調整力。",
+      "note": "出典の記載なし。アメリカ式綴り・口語(folks, stuff)。下線部外に pulleys, inductive science などの語がある"
+    },
+    {
+      "problem": "III",
+      "part": "(1)",
+      "format": "和文英訳",
+      "points": null,
+      "theme": "海外旅行にトラブルはつきもの。欠航で滞在を延ばすことも珍しくない。大事なのは冷静に状況を判断し、知識・情報・語学力を使って目の前の問題を解決しようとする態度だ。",
+      "ja_translation": {
+        "ja_chars": 160,
+        "ja_style": "論説調",
+        "paraphrase_level": "J1",
+        "key_expressions": [
+          {"ja": "楽しいはずの海外旅行にもトラブルはつきものだ", "approach": "「はず」は be supposed to be fun。「つきもの」は always involves some trouble / you can't avoid trouble と読み替える"},
+          {"ja": "飛行機が欠航し、海外での滞在を延ばさなければならないことはさほど珍しいことではない", "approach": "It is not so unusual to have to extend your stay because your flight is canceled。形式主語で組み、因果を because / due to で明示"},
+          {"ja": "いかなる場合でも重要なのは", "approach": "What matters in any situation is ... / Whatever happens, the important thing is to ..."},
+          {"ja": "当該地域についての知識や情報", "approach": "「当該地域」は the area you are in / the place you are visiting と平易に言い換える"},
+          {"ja": "外国語運用能力を駆使しながら", "approach": "making full use of your ability to use foreign languages / your language skills。「駆使」は make full use of"},
+          {"ja": "解決しようとする態度である", "approach": "名詞「態度」で終えず、to stay calm and try to solve ... と不定詞で受けると自然。attitude を使うなら an attitude of trying to"}
+        ]
+      },
+      "questions": [{"label": "(1)", "type": "和文英訳", "note": "3 文。全文英訳"}],
+      "difficulty": "標準",
+      "difficulty_reason": "硬い漢語(当該地域、運用能力、駆使)を平易な英語にする必要があるが、文の骨格は明確",
+      "key_idea": "第 3 文の「重要なのは〜し、〜を駆使しながら、〜しようとする態度である」を What is important is to A and (to) B, using C の形に整理すること。",
+      "note": "配点 50 点は大問III 全体((1)(2) 合計)に対する記載。パート別の内訳は記載なし"
+    },
+    {
+      "problem": "III",
+      "part": "(2)",
+      "format": "和文英訳",
+      "points": null,
+      "theme": "何かが好きだと言うと「いちばんのお気に入りは?」と聞かれる。真剣に答えようとすると悩ましい。愛好家なら候補は多く、一つを選ぶには残りを捨てねばならないからだ。",
+      "ja_translation": {
+        "ja_chars": 180,
+        "ja_style": "随筆調",
+        "paraphrase_level": "J2",
+        "key_expressions": [
+          {"ja": "音楽でも映画でも何でもいいが、何かが好きだと打ち明けると", "approach": "挿入句は whether it is music, movies, or anything else と譲歩節にして位置を調整。「打ち明ける」は tell / say で十分(confess は強すぎる)。主語 you を補う"},
+          {"ja": "たいていはすぐさま、ではいちばんのお気に入りは何か、ときかれることになる", "approach": "you are usually asked right away what your favorite is。間接疑問の語順。「では」は訳出しないか then"},
+          {"ja": "かなり悩ましいものになりうる", "approach": "「悩ましい」は can be quite hard / difficult to answer と読み替える"},
+          {"ja": "いやしくも映画なり音楽なりの愛好家である以上", "approach": "if you are really a lover of movies or music / as long as you call yourself a ... fan。「いやしくも〜以上」は「本当に〜であるなら当然」の意"},
+          {"ja": "お気に入りの候補など相当数あるはずであり", "approach": "you must have quite a few favorites (to choose from)。「はず」は must"},
+          {"ja": "その中から一つをとるには、残りのすべてを捨てねばならない", "approach": "to choose one of them, you have to give up all the others。「とる」「捨てる」は choose / give up"}
+        ]
+      },
+      "questions": [{"label": "(2)", "type": "和文英訳", "note": "3 文。全文英訳"}],
+      "difficulty": "やや難",
+      "difficulty_reason": "主語がすべて省略され、挿入句・直接話法的な問い・「いやしくも〜以上」「悩ましい」など文語的・口語的表現の読み替えが 1 文ごとに必要",
+      "key_idea": "全文の主語を you(一般論)で統一して補うこと。「いやしくも〜である以上」の含意と、挿入句の位置の処理。",
+      "note": "配点はパート別の記載なし(大問III 全体で 50 点)"
+    },
+    {
+      "problem": "IV",
+      "part": "",
+      "format": "その他",
+      "points": 50,
+      "theme": "聞き取りテスト(総合人間学部・医学部医学科志願者のみ)。Section 2 の設問から、乳児にクラシック音楽を聞かせる効果(モーツァルト効果)への批判的な論説が題材と分かる。",
+      "questions": [
+        {"label": "Section 1", "type": "その他", "note": "問題冊子には見出しのみで設問文の印刷なし。内容不明"},
+        {"label": "Section 2 (1)〜(5)", "type": "その他", "note": "英語の質問文 5 問が印刷されている(Why / What / For what / how で始まる内容理解の質問)。解答言語の指定は冊子からは読み取れない"}
+      ],
+      "difficulty": "",
+      "difficulty_reason": "音声・スクリプトが冊子にないため判定不能",
+      "key_idea": "",
+      "note": "配点は「総合人間学部 50 点、医学部(医学科)30 点」と記載(points には総合人間学部の値を入れた)。CODEBOOK の型に該当がないため format・type とも「その他」とした。読解・英作文の傾向分析の対象外"
+    }
+  ],
+  "overall_note": "読解 2 題とも下線部和訳 3 か所に戻り、語注はない。英文は約 570 語と約 545 語。I は歴史記述と史料を論じる評論で、contemporary の語義と直前の引用を踏まえた指示内容の把握が要る。II は物理学者による口語的でユーモラスな文章で、構文より句動詞・皮肉の訳出が中心、(3) は 29 語と短く易しい。和文英訳は (1) 論説調で漢語の平易化、(2) は主語のない随筆調で「いやしくも〜以上」などの読み替えが必要。PDF 10 ページのうち 3 ページは白紙だが、ページ番号(表紙+1〜6)は連続しており問題の欠落はない。"
+}

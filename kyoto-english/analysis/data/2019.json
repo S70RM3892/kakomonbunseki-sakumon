@@ -1,0 +1,163 @@
+{
+  "year": 2019,
+  "booklet_pages": 16,
+  "exam_format": {
+    "num_problems": 3,
+    "points": 150,
+    "time_note": "試験時間の記載なし。表紙に「150点満点」「問題冊子は表紙のほかに6ページ、解答冊子は表紙のほかに8ページ」「問題は全部で3題」とある。各大問の配点は問題文の右肩に印字。PDF 16ページのうち問題は6ページ分(PDF 4〜9ページ)で、残りは表紙と白紙。"
+  },
+  "parts": [
+    {
+      "problem": "I",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "仮想現実(VR)は包括的な錯覚を作る手段であると同時に、人間の認知・知覚を研究する装置でもある。視覚は頭や目の動きを通じて現実を絶えず探り試す行為であり、神経系は仮説を検証する科学者集団のように働く。筆者は、VR が人間の神経系を超えるという見方には与しない。",
+      "passage": {"words": 570, "genre": "評論・論説", "field": "技術・AI", "abstractness": "A2", "source": "", "glossary": 0, "omitted": false},
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "内容説明",
+          "target_words": 20,
+          "limit": "「どのようなことを意味しているか、日本語で説明」。字数指定なし",
+          "syntax_features": ["代名詞・指示語の特定", "比喩表現の訳出", "仮定法", "省略"],
+          "vocab_items": [],
+          "polysemy_items": ["when it comes to = 〜に関して言えば", "prefer verbs to nouns = 名詞より動詞を使いたがる(静的な「もの」ではなく動的な「行為」としてとらえる、の意)", "probe = 探る"],
+          "context_dependent": true,
+          "note": "下線部(a)。That is why の That は前段落(VR ではあらゆる要素が人体の動きに密接に連動して機能しなければならない)を受け、「動詞を好む」の意味は下線部の後(視覚は神経系が頭と目の動きを通して行う継続的な実験であり、身体と脳は絶えず現実を探り試している)で説明される。下線部の前後両方を使って、「動詞/名詞」という言語の話を知覚のあり方の話に言い直す必要がある。前段落に were the virtual world real(if 省略の倒置)がある。"
+        },
+        {
+          "label": "(2)",
+          "type": "内容説明",
+          "target_words": 10,
+          "limit": "「本文に即して日本語で説明」。字数指定なし",
+          "syntax_features": ["比喩表現の訳出", "代名詞・指示語の特定", "挿入"],
+          "vocab_items": [],
+          "polysemy_items": ["language = (比喩)ことばのように働く伝達手段", "bounce back and forth = 行き来する"],
+          "context_dependent": true,
+          "note": "下線部(b)は段落末の比喩的なまとめ文。直前の文(人を注意して見ると、相手と自分の間を無数の微細な頭の動きのメッセージが行き来している)と、段落前半(頭をわずかに動かすだけで見え方が変わり、それを手がかりに対象を探っている)を根拠に、secret / visual motion / language の各語に対応する中身を説明する。"
+        },
+        {
+          "label": "(3)",
+          "type": "下線部和訳",
+          "target_words": 68,
+          "limit": "",
+          "syntax_features": ["比喩表現の訳出", "分詞構文", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "無生物主語", "代名詞・指示語の特定"],
+          "vocab_items": [],
+          "polysemy_items": ["cue = 手がかり", "community = (引用符つき)科学者集団にたとえられた神経系", "what's out in the world = 外界に何があるか", "convince A to do = A を説得して〜させる", "feel real = 現実のように感じられる"],
+          "context_dependent": true,
+          "note": "下線部(c)は3文。神経系を科学者共同体にたとえる比喩が3文を貫き、第2文の引用符つき \"community\" は神経系を指す。testing out ... の分詞構文、the world on which to base expectations(前置詞+関係詞+to 不定詞)が構文上の要所。another hypothesis(別の仮説=仮想世界こそ現実だという仮説)を文脈に合わせて訳す。"
+        },
+        {
+          "label": "(4)",
+          "type": "空所補充(選択)",
+          "target_words": null,
+          "limit": "空所4つ(ア〜エ)に対し動詞6語(behave, benefit, forget, make, predict, surpass)。選んだ語を「必要であれば適切な形に変えて」解答欄に書く。同じ語は1回のみ",
+          "syntax_features": [],
+          "vocab_items": [],
+          "polysemy_items": ["make sense = 意味をなす", "benefit from = 〜の恩恵を受ける", "surpass = 超える", "tuned in = 調整されている"],
+          "context_dependent": true,
+          "note": "選択+語形変化の記述。番号ではなく語を書かせる。主語の単複・時制・進行形(we are ( ) what we know)に合わせた活用が必要で、選択と文法の2段階で失点しうる。"
+        }
+      ],
+      "max_vocab_level": "V1",
+      "difficulty": "やや難",
+      "difficulty_reason": "語彙は平易だが、説明問題2問がどちらも比喩的・抽象的な一文の意味を前後から再構成させるもので、解答の方向を定めにくい。(3) も比喩を保ったまま3文を訳す必要がある。",
+      "key_idea": "(1)(2) は下線部を直訳せず、「知覚=身体運動を伴う継続的な探索」という本文の中心的主張に結びつけて言い直すこと。(3) は比喩(神経系=科学者集団、仮想世界=別の仮説)の対応を崩さずに訳すこと。",
+      "note": "語注なし。4問中、説明2・和訳1・語形変化つき空所補充1。和訳は1問のみで、説明問題の比重が大きい。is がイタリックで強調されている箇所がある(what a human being is)。"
+    },
+    {
+      "problem": "II",
+      "part": "",
+      "format": "英文読解",
+      "points": 75,
+      "theme": "デジタルカメラの登場は写真の死とまで言われたが、撮影・複製・削除が容易になったことで、写真の価値や保存・廃棄に伴う感情的意味が変わり、焦点は写真そのものから撮る行為へ移った。カメラ付き携帯の登場時にはさまざまな用途が予想されたが、記憶・関係維持・自己表現という写真の社会的機能は技術が変わっても続いている。",
+      "passage": {"words": 560, "genre": "評論・論説", "field": "社会", "abstractness": "A2", "source": "", "glossary": 1, "omitted": false},
+      "composition": {
+        "word_limit": "100語程度の英語",
+        "task": "理由説明",
+        "prompt_summary": "設問(4)。本文の three social uses(記憶をとらえる・関係を維持する・自己を表現する)のうち、自分がカメラ付き携帯を使うならどれを重視するかを1つ選び、具体例を挙げて理由を述べる。"
+      },
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "下線部和訳",
+          "target_words": 30,
+          "limit": "",
+          "syntax_features": ["代名詞・指示語の特定", "無生物主語", "比較(no more than 等の慣用含む)", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)"],
+          "vocab_items": [],
+          "polysemy_items": ["go as far as doing = 〜しさえする", "declare O C = O を C だと宣言する", "shift = 変化・移行"],
+          "context_dependent": true,
+          "note": "下線部(a)は2文。it は前文のデジタルカメラ(の発売)、this shift はフィルムからデジタルへの移行を指す。In the decade that followed は「その後の10年間」。短く平易で、指示語と go as far as の処理を見る。"
+        },
+        {
+          "label": "(2)",
+          "type": "内容説明",
+          "target_words": 17,
+          "limit": "「具体的にどのようなことを指しているか、本文に即して日本語で説明」。字数指定なし",
+          "syntax_features": ["代名詞・指示語の特定", "共通関係(A and B の並列把握)", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "省略"],
+          "vocab_items": [],
+          "polysemy_items": ["attribute A to B = A を B に付与する・見いだす", "labour of love = 愛情を込めてする作業", "development = (写真の)現像", "majority of = 大部分の"],
+          "context_dependent": true,
+          "note": "下線部(b)は文の後半。this は直前の「追加費用なしに何枚でも撮って後で選別できるようになったこと」。both to keeping and getting rid of は to を共有。具体的内容は直後の2文(昔は大切な人の写真はピンぼけや現像ミスがあっても取っておいた/今は大量の画像を整理・分類・削除することが愛情を込めた作業になった)の対比でまとめる。"
+        },
+        {
+          "label": "(3)",
+          "type": "下線部和訳",
+          "target_words": 85,
+          "limit": "",
+          "syntax_features": ["共通関係(A and B の並列把握)", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "省略", "長い主語・修飾の入れ子", "代名詞・指示語の特定"],
+          "vocab_items": [
+            {"word": "hobbyist", "level": "V2", "clue": "hobby + -ist。直後の「作品や収集品を人に見せる」から趣味人と分かる"}
+          ],
+          "polysemy_items": ["Yet others = さらに別の人々は(前の Some ... Others ... を受ける)", "allow for = 〜を可能にする", "in practice = 実際には", "favourites = 気に入っている意見", "can't wait for A to do = A が〜するのが待ちきれない"],
+          "context_dependent": true,
+          "note": "下線部(c)は3文・85語で、担当4年度の和訳対象で最長。第1文は for travelers to keep ... or (for) hobbyists to show ... の並列(意味上の主語+不定詞が2組)。第2文は commenters who wrote (that) they couldn't wait for the device to be available ..., so they can ... と節が連なる。第3文は which didn't happen ... の非制限用法で、先行詞は「前面カメラによるビデオ通話」という内容。構文は難しくないが、長さと口語的な内容を自然な日本語にする持久力が要る。"
+        },
+        {
+          "label": "(4)",
+          "type": "自由英作文",
+          "target_words": 3,
+          "limit": "100語程度の英語。1つを選び、具体例を挙げて理由を述べる",
+          "syntax_features": [],
+          "vocab_items": [],
+          "polysemy_items": [],
+          "context_dependent": true,
+          "note": "下線部(d) three social uses の中身(記憶をとらえる・関係を維持する・自己を表現する)を本文から正しく読み取ることが前提。選択→理由→具体例という構成が設問で指定されている。読解問題の中に自由英作文を組み込んだ設問。"
+        }
+      ],
+      "max_vocab_level": "V2",
+      "difficulty": "標準",
+      "difficulty_reason": "英文は具体的で読みやすく、語彙も平易。(3) の分量と、読解の最後に100語の英作文を書く時間配分が負荷になる。",
+      "key_idea": "和訳は指示語(it, this shift)と並列を明示して手早く処理する。(2) は「昔/今」の対比で書く。(4) は選択・理由・具体例の3点を100語程度に収める型を持っているかどうか。",
+      "note": "配点75点で、読解と自由英作文(100語程度)を1題に統合している。語注は reconfiguration の1語(英語による言い換え)。favourites, labour とイギリス式綴り。composition キーは読解パートへの拡張として設問(4)の内容を記録したもの。"
+    },
+    {
+      "problem": "III",
+      "part": "",
+      "format": "和文英訳",
+      "points": 25,
+      "theme": "「マイノリティ」は数の少なさだけで決まる概念ではなく、歴史的・文化的条件によって社会的弱者となっている集団を指す。数が少なくなくてもマイノリティになりうる(例: 管理職の大半が男性の社会における女性)。",
+      "ja_translation": {
+        "ja_chars": 225,
+        "ja_style": "論説調",
+        "paraphrase_level": "J1",
+        "key_expressions": [
+          {"ja": "全体のなかの少数者をまず思い浮かべるかもしれない", "approach": "主語は you。the first thing that comes to mind may be ... / you may first think of a small number of people in a larger group"},
+          {"ja": "数だけの問題に還元する", "approach": "reduce A to B が使えれば直訳可。使えなければ「数だけの問題と考える」regard ... merely as a matter of numbers と読み替える"},
+          {"ja": "間違いのもとである", "approach": "「誤りにつながる」「誤解を招く」。leads to mistakes / is misleading / it is a mistake to ..."},
+          {"ja": "属性によって定義づけられる集団", "approach": "attribute / characteristic と defined by。a group defined by attributes such as race or religion"},
+          {"ja": "社会的弱者になっている", "approach": "「社会的に不利な立場に置かれている」と読み替え。socially disadvantaged / in a socially weak position"},
+          {"ja": "数としては少なくない集団でも", "approach": "even a group which is not small in number。二重否定をそのまま出すか large にするかの判断"},
+          {"ja": "組織の管理職のほとんどが男性である社会", "approach": "a society where most of the managers (people in managerial positions) in organizations are men。関係副詞 where で処理"}
+        ]
+      },
+      "questions": [{"label": "", "type": "和文英訳", "note": "下線なし。7行の文章全体(5文)を英訳する。"}],
+      "difficulty": "標準",
+      "difficulty_reason": "論理は明快で文の切り直しはほぼ不要。ただし「還元する」「属性」「社会的弱者」「管理職」と抽象的・社会科学的な語が続き、語彙力か言い換え力のどちらかが必要。分量も約225字と多い。",
+      "key_idea": "抽象名詞を知っていれば直訳、知らなければ動詞・形容詞で説明的に言い換える。第3文は主語(集団)と条件節(〜場合)の配置を決めてから書くと崩れない。",
+      "note": "慣用句や和語的表現はほとんどなく、評論文の一節のような硬い説明文。2017年度(ことわざ・慣用表現中心)とは難しさの種類が異なる。"
+    }
+  ],
+  "overall_note": "大問が3題に減り(表紙に「問題は全部で3題」)、配点は I 50 / II 75 / III 25(冊子に印字)。前年度まで独立していた条件英作文の大問がなくなり、II の最後に本文の内容を踏まえた100語程度の自由英作文が組み込まれた。読解2題は合計約1130語、設問は下線部和訳3・内容説明3・語形変化つき空所補充1・自由英作文1。説明問題はいずれも字数指定がなく、I では比喩的な一文の意味を前後から説明させる。和文英訳は約225字の論説調で、抽象語の処理が中心。"
+}

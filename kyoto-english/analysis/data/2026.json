@@ -1,0 +1,195 @@
+{
+  "year": 2026,
+  "booklet_pages": 16,
+  "exam_format": {
+    "num_problems": 4,
+    "points": 150,
+    "time_note": "試験時間は冊子に記載なし。表紙に「150点満点」「問題は全部で4題ある(1〜7ページ)」。PDF は16ページだが、問題が印刷されているのは表紙と本文7ページのみで、残り8ページは白紙(下書き用)。"
+  },
+  "parts": [
+    {
+      "problem": "I",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "停滞していた大気生物学が21世紀に入り、大規模な共同研究と DNA 解析技術の導入によって発展し、土壌や大気中に膨大な種の微生物がいることが明らかになった経緯。",
+      "passage": {
+        "words": 620,
+        "genre": "科学解説",
+        "field": "生物",
+        "abstractness": "A1",
+        "source": "",
+        "glossary": 3,
+        "omitted": false
+      },
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "下線部和訳",
+          "target_words": 51,
+          "limit": "",
+          "syntax_features": ["強調構文", "比較(no more than 等の慣用含む)", "比喩表現の訳出", "共通関係(A and B の並列把握)"],
+          "vocab_items": [],
+          "polysemy_items": [
+            "did indeed = 実際に確かに(強調の do)",
+            "For one thing = 一つには",
+            "grow up = (学問分野が)成熟する(前段の coming of age を受ける比喩)",
+            "launch an expedition = 調査遠征に乗り出す",
+            "stretches of the sky = 空の広がり・範囲",
+            "get refocused = 焦点が定め直される"
+          ],
+          "context_dependent": true,
+          "note": "3文。did indeed は直前の引用(研究の焦点を今こそ定め直すべきだ)が実現したことを受ける。syntax_features の「強調構文」は強調の助動詞 do を指す(It is ... that ではない)。learned how to collaborate in bigger teams to merge ... の不定詞(目的)、from across wider stretches の比較級。"
+        },
+        {
+          "label": "(2)",
+          "type": "下線部和訳",
+          "target_words": 51,
+          "limit": "",
+          "syntax_features": ["as/that/of の用法識別", "省略", "無生物主語", "長い主語・修飾の入れ子", "代名詞・指示語の特定", "否定(部分否定・二重否定・準否定)"],
+          "vocab_items": [],
+          "polysemy_items": [
+            "that spoon of soil = あの(先に述べた)スプーン1杯の土(指示形容詞の that)",
+            "most new to science = その大半は科学にとって未知",
+            "nothing but = 〜だけ",
+            "dishes full of food = 養分を入れた培養皿",
+            "leave O unseen = O を見えないままにする",
+            "testify to = 〜を証明する",
+            "census(下線部外)を受けた species の数え上げ"
+          ],
+          "context_dependent": true,
+          "note": "3文。第1文の that は接続詞(revealed that)と指示形容詞(that spoon)の2種。most (of which were) new to science の省略。第2文は動名詞句 Looking for ... food が主語で had left O C。dishes / food は前段落の「養分を与えて皿で育てる」同定法を踏まえないと「食べ物でいっぱいの皿」と誤る。Now their genes could ... は無生物主語。"
+        },
+        {
+          "label": "(3)",
+          "type": "内容説明",
+          "target_words": 8,
+          "limit": "「パラグラフの内容に即して日本語で具体的に」。字数・行数の指定は冊子になし",
+          "syntax_features": ["比喩表現の訳出", "挿入"],
+          "vocab_items": [],
+          "polysemy_items": ["zoo = 多種多様な生物がひしめく場所(比喩)", "it turned out = 判明した(挿入)"],
+          "context_dependent": true,
+          "note": "下線部(c)(空気は動物園だった、の比喩)の意味を最終段落の内容で説明する。材料: 2000年、米国の都市で大量の空気を装置に通し、捕らえた細胞から DNA を取り出すと、300を超える異なる遺伝子配列が見つかり、それぞれが別種の細菌に由来する可能性があった。比喩の解釈(大気中に多様な生物が存在)と具体的数値・手順の両方を盛り込む。"
+        }
+      ],
+      "max_vocab_level": "V1",
+      "difficulty": "標準",
+      "difficulty_reason": "英文は具体的な出来事の叙述で読みやすく、専門語には注がある。(2) の that の識別・省略・前段を踏まえた dishes / food の訳語、(1) の強調の do と比喩の訳し方で差がつく。",
+      "key_idea": "下線部の前にある記述(引用の NOW、養分で培養する旧来の方法、スプーン1杯の土)を訳に反映させる。(3) は比喩の言い換えと段落内の具体的事実の両方を書く。",
+      "note": "出典の記載なし(本文中に学術誌名と2名の研究者名への言及はあるが、問題文の出典表示ではない)。語注3(aerobiology, spore, stratosphere)。"
+    },
+    {
+      "problem": "II",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "メソポタミア文明の影響は現代に残っており、粘土板の楔形文字が数千年残ったという事実は、知識の記録媒体が文化の保存を左右することを教える。現代でもセラミック板に記録を残す計画が進む。",
+      "passage": {
+        "words": 520,
+        "genre": "評論・論説",
+        "field": "歴史",
+        "abstractness": "A2",
+        "source": "",
+        "glossary": 5,
+        "omitted": false
+      },
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "下線部和訳",
+          "target_words": 39,
+          "limit": "",
+          "syntax_features": ["比較(no more than 等の慣用含む)", "代名詞・指示語の特定", "比喩表現の訳出"],
+          "vocab_items": [],
+          "polysemy_items": [
+            "if only = 〜しさえすれば(願望の仮定法ではない)",
+            "Just as A, so B = AであるのとちょうどおなじようにB",
+            "traces = 痕跡(前文の種・穀粒の比喩を受ける)",
+            "signs = しるし・兆し",
+            "read / decode = 読み解く"
+          ],
+          "context_dependent": true,
+          "note": "2文。the traces は前文までの「現代の制度や信念の元になった種」が残した跡。if only + 直説法(can)は条件「〜でありさえすれば」。Just as ..., so ... の相関(syntax_features では比較の慣用に分類)。messages to be decoded の受動不定詞。"
+        },
+        {
+          "label": "(2)",
+          "type": "内容説明",
+          "target_words": 11,
+          "limit": "「パラグラフの内容に即して日本語で具体的に」。字数・行数の指定は冊子になし",
+          "syntax_features": ["代名詞・指示語の特定", "仮定法", "名詞構文"],
+          "vocab_items": [
+            {"word": "fallacy", "level": "V2", "clue": "仮定法 would be と、直後に続く反例(古代の王自身が千数百年前の碑文を発掘していた)から「誤った考え」と決まる"}
+          ],
+          "polysemy_items": ["to do so = (前文の)そのように想定すること", "modern thinking = 現代人の発想"],
+          "context_dependent": true,
+          "note": "下線部(b)の意味を段落内容で説明。(i) to do so = 王たちは碑文が今日まで残ったことに驚くはずだと想定すること、(ii) それが誤りである理由 = 王たちは自分の言葉が長い年月に耐えると知っており、紀元前6世紀の王は1,600年以上前の碑文を発掘し、楔形文字はその間ずっと標準だったので、自分の碑文も同程度以上残ると見込んでいたはず。現代の感覚の投影である点まで書く。"
+        },
+        {
+          "label": "(3)",
+          "type": "下線部和訳",
+          "target_words": 65,
+          "limit": "returning to them の内容を補足しつつ和訳",
+          "syntax_features": ["代名詞・指示語の特定", "同格", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "as/that/of の用法識別", "共通関係(A and B の並列把握)", "無生物主語"],
+          "vocab_items": [],
+          "polysemy_items": [
+            "come full circle = 一巡して元に戻る",
+            "matter(動詞)= 重要である",
+            "of all = (最上級を強めて)あらゆるものの中で",
+            "the information age = 情報時代(の成果)",
+            "ensure the survival of = 〜を確実に存続させる"
+          ],
+          "context_dependent": true,
+          "note": "2文。from writing ... to returning ... の from A to B(ともに動名詞)。them は clay tablets で、「戻る」の中身(現代の重要な書物をセラミック製の板に記録して保存する計画)を前の記述から補う。第2文は lessons of all に関係詞 that 節が付き、コロンの後の that 節が lesson の内容(同格)。the way we record knowledge が主語で matters and can have ... が並列。"
+        }
+      ],
+      "max_vocab_level": "V2",
+      "difficulty": "標準",
+      "difficulty_reason": "専門語は注で処理済み。if only / Just as ..., so / come full circle / matter の語法と、2種の that の識別が要点。(2) は to do so の中身と誤りである理由を段落全体から組み立てる必要があり、設問中で最も差がつく。",
+      "key_idea": "(2) は「何を想定することが」「なぜ誤りか」の2段で書く。(3) は them の指示内容を訳文に織り込み、コロン以下の that 節を「教訓」の中身として訳す。",
+      "note": "出典の記載なし。語注5(kernel, cylinder accounts, inscription, excavate, cuneiform)。英文は英国式綴り(civilisation, unrecognisable)。fallacy を V2 としたが、単語帳によっては収録があり V1 との境界。"
+    },
+    {
+      "problem": "III",
+      "part": "",
+      "format": "和文英訳",
+      "points": 25,
+      "theme": "進路の選択は事前に十分検討したいが、結果は経験してみないとわからない。岐路では未知の世界が待つと覚悟を決めることも必要だ、という省察。",
+      "ja_translation": {
+        "ja_chars": 165,
+        "ja_style": "随筆調",
+        "paraphrase_level": "J2",
+        "key_expressions": [
+          {"ja": "進むべき道を決めるには", "approach": "「道」は進路・人生の方向。which path to take / what course to follow in life。「〜には」は When deciding ..."},
+          {"ja": "最も満足のいく選択をしたいものだ", "approach": "「〜したいものだ」は一般論の願望。we naturally want to / it is desirable to。主語は一般の we / you を補う"},
+          {"ja": "当人に実りをもたらしてくれるかどうか", "approach": "「実りをもたらす」は be rewarding / fruitful / bring good results。「当人」は you / the person と前文の主語に合わせる"},
+          {"ja": "ある程度の時間をかけて実際に経験するほかない", "approach": "「〜ほかない」は have no choice but to / the only way is to。「ある程度の時間をかけて」は over a certain period of time / spend some time ~ing"},
+          {"ja": "ここに避けがたい試練がある", "approach": "「ここに」は場所ではなく前文の内容。This is where ... lies / Herein lies / This is an unavoidable challenge"},
+          {"ja": "その選択の先には想像もつかない世界が待つに違いないと腹をくくる", "approach": "「腹をくくる」は覚悟を決める。make up one's mind and accept that / be prepared for the fact that / resolve to。「選択の先に待つ」は lie ahead / await you beyond the choice。「岐路に立つ」は at a crossroads / face an important decision"}
+        ]
+      },
+      "questions": [{"label": "", "type": "和文英訳", "note": "4文全体を英訳(下線なし)。"}],
+      "difficulty": "やや難",
+      "difficulty_reason": "「〜ものだ」「〜ほかない」「ここに〜がある」「腹をくくる」と、各文に直訳できない文末表現・慣用句が入る。最終文は「〜に違いないと腹をくくることも必要」と埋め込みが深い。",
+      "key_idea": "慣用句を意味(覚悟を決めて受け入れる)に戻し、最終文の階層(必要だ ← 腹をくくる ← 世界が待つに違いない)を英語の節構造に組み直す。全体を通して一般論の主語を統一する。",
+      "note": ""
+    },
+    {
+      "problem": "IV",
+      "part": "",
+      "format": "自由英作文",
+      "points": 25,
+      "theme": "世界をより住みやすい場所にするためにできること。",
+      "composition": {
+        "word_limit": "80語以上100語以内",
+        "task": "意見論述",
+        "prompt_summary": "世界をより住みよい場所にするためにできることを1つ挙げて説明するパラグラフを英語で書く。主な主張を要約する文で始め、それを支える論点を続け、結びの文で終える。"
+      },
+      "questions": [{"label": "", "type": "自由英作文", "note": "指示文は英語(3文)。条件は2つ(語数/語数の数え方)。解答欄の下線1本に1語、記号は語数に数えない、短縮形は1語。「one thing」と1点に絞ること、paragraph の構成(主張の要約文→支持する論点→結びの文)が指示文中で指定されている。"}],
+      "difficulty": "標準",
+      "difficulty_reason": "主題を自分で1つ決める自由度があり書きやすいが、主題が広いぶん焦点がぼやけやすい。指示文が英語で、構成の指定を読み落とせない。",
+      "key_idea": "具体的で論じやすい1点に絞り、冒頭文で主張を要約、支持点を2つ程度、最終文で締める。could be done に合わせて提案の形で書く。",
+      "note": "task は「意見論述」としたが、提案(何をすべきか)とその理由説明の型。"
+    }
+  ],
+  "overall_note": "大問4題構成(I 50点・II 50点・III 25点・IV 25点、計150点)で前年度と同じ枠組み。読解の設問は和訳4題+内容説明2題で、内容説明はいずれも短い下線部(比喩・指示語を含む文)の意味を「パラグラフの内容に即して具体的に」説明させる形。和訳に「指示内容を補足しつつ」という条件が付いた(II(3))。IV の指示文が日本語から英語に変わり、二択ではなく自分で主題を決める形になった。英文は2題で約1,140語、語注は計8語で前年までより多い。"
+}

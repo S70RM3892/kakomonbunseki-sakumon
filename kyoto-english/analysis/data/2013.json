@@ -1,0 +1,180 @@
+{
+  "year": 2013,
+  "booklet_pages": 5,
+  "exam_format": {
+    "num_problems": 3,
+    "points": 150,
+    "time_note": "表紙に「150点満点」「問題は全部で3題(1〜5ページ)」と記載。試験時間の記載なし。聞き取りテストの記載は前年度と違って表紙にない。booklet_pages は表紙を除くページ数"
+  },
+  "parts": [
+    {
+      "problem": "I",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "道徳性の起源をめぐる生得説・経験説に対する第三の立場(合理主義)と、子どもは発達段階に達すると道徳を自分で構築するというピアジェの考え。",
+      "passage": {"words": 470, "genre": "評論・論説", "field": "心理", "abstractness": "A2", "source": "", "glossary": 0, "omitted": false},
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "下線部和訳",
+          "target_words": 47,
+          "limit": "",
+          "syntax_features": ["同格", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "名詞構文", "代名詞・指示語の特定", "共通関係(A and B の並列把握)"],
+          "vocab_items": [],
+          "polysemy_items": ["assume = 〜を前提とする", "morals = 道徳観", "as grown-ups = 大人になってからの(as の用法)"],
+          "context_dependent": true,
+          "note": "2文。主語 It は直前の rationalism。第1文は varies と cannot be の並列(thus の因果)。第2文は the idea that の同格節の中で whatever morals we have が主語、must have been learned が述語、experience of adults telling us ... が動名詞の意味上の主語つき名詞構文。"
+        },
+        {
+          "label": "(2)",
+          "type": "下線部和訳",
+          "target_words": 31,
+          "limit": "",
+          "syntax_features": ["倒置", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "as/that/of の用法識別"],
+          "vocab_items": [],
+          "polysemy_items": ["go through = (段階を)経る", "stages = (発達の)段階"],
+          "context_dependent": false,
+          "note": "2文。第2文は brought の目的語(this interest in ...)が with him の後ろに置かれた語順。as は時の接続詞。構文は平易で、transformed themselves(変態)など動物学の文脈に合う訳語選択が要点。"
+        },
+        {
+          "label": "(3)",
+          "type": "下線部和訳",
+          "target_words": 35,
+          "limit": "",
+          "syntax_features": ["it の形式主語・目的語", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "共通関係(A and B の並列把握)", "代名詞・指示語の特定"],
+          "vocab_items": [],
+          "polysemy_items": ["find it pointless for A to do = A が〜しても無駄だと分かる", "grasp = 理解する"],
+          "context_dependent": true,
+          "note": "1文。found it pointless for adults to explain の形式目的語、until 節が pointless(〜するまでは無駄)にかかること、an age and cognitive stage にかかる関係副詞 when 節。文末の it は「水の量が同じであること」。直前の実験の内容を踏まえて訳す。"
+        },
+        {
+          "label": "(4)",
+          "type": "下線部和訳",
+          "target_words": 45,
+          "limit": "",
+          "syntax_features": ["比較(no more than 等の慣用含む)", "否定(部分否定・二重否定・準否定)", "代名詞・指示語の特定", "比喩表現の訳出"],
+          "vocab_items": [],
+          "polysemy_items": ["take turns = 順番にやる", "digest = (概念を)消化する・理解する", "conservation = (量の)保存"],
+          "context_dependent": true,
+          "note": "2文。第2文は No matter how often の譲歩と、not ... any more than ... (〜が理解できないのと同様に…もできない)。do it の it が「順番交代(と水の移し替え)」を指すこと、volume conservation が前段の実験の「量は変わらない」という内容であることを文脈から決める。"
+        }
+      ],
+      "max_vocab_level": "V1",
+      "difficulty": "標準",
+      "difficulty_reason": "語彙は標準的で、構文も同格・形式目的語・not any more than という定番。文脈(実験の内容)を訳語に反映できるかで差がつく程度。",
+      "key_idea": "指示語(It, it, do it)の内容を前後から確定し、whatever 節主語や not ... any more than を型どおりに処理する。conservation は「保護」ではなく実験に即して「保存」と訳す。",
+      "note": "出典の記載なし。設問は下線部和訳4か所のみ。本文中の nativist / empiricist は直前の If 節で定義されており、下線部外。"
+    },
+    {
+      "problem": "II",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "丸いドアノブを回す動作の力学と、滑って回せないという日常の不満から生まれる改良(ゴムバンド、卵形のノブ、レバー式ハンドル)。",
+      "passage": {"words": 460, "genre": "科学解説", "field": "技術", "abstractness": "A2", "source": "", "glossary": 0, "omitted": false},
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "下線部和訳",
+          "target_words": 29,
+          "limit": "",
+          "syntax_features": ["長い主語・修飾の入れ子", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "共通関係(A and B の並列把握)", "as/that/of の用法識別", "代名詞・指示語の特定"],
+          "vocab_items": [],
+          "polysemy_items": ["mechanics = 力学・仕組み", "exert = (力を)及ぼす", "involve = 〜が関わっている"],
+          "context_dependent": false,
+          "note": "1文。主語は The mechanics から doorknob まで(of が同格と所有で2回)。forces にかかる that 節の中で exerts の後ろに on the knob と through it to the door が並列。it = the knob。「ノブに、そしてノブを通じてドアに」という経路を崩さず訳す。"
+        },
+        {
+          "label": "(2)",
+          "type": "下線部和訳",
+          "target_words": 40,
+          "limit": "",
+          "syntax_features": ["強調構文", "挿入", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "名詞構文"],
+          "vocab_items": [],
+          "polysemy_items": ["be born of = 〜から生まれる", "domestic = 家庭内の", "if not = 〜とまでは言わないまでも", "at hand = 当面の・目の前の", "serve the purpose = 目的にかなう"],
+          "context_dependent": false,
+          "note": "2文。第1文は It is of ... that の強調構文で、be born of の of 句が前に出ている。if not absolute failures は挿入。形式主語構文と誤読しやすい。第2文は attempts ... begin with improving ... with the aid of devices that ... と前置詞句が連なる。"
+        },
+        {
+          "label": "(3)",
+          "type": "下線部和訳",
+          "target_words": 38,
+          "limit": "",
+          "syntax_features": ["比較(no more than 等の慣用含む)", "無生物主語", "比喩表現の訳出", "共通関係(A and B の並列把握)"],
+          "vocab_items": [{"word": "architecturally integral", "level": "V2", "clue": "elegant と並列され、直前の「ゴムバンド・テープで巻く」という後付けの解決策と対比される。「建築(ドア)と一体になった」と決める"}],
+          "polysemy_items": ["cry out for = 〜を強く必要とする", "means = 手段", "integral = 一体となった", "aesthetically pleasing = 見た目のよい"],
+          "context_dependent": true,
+          "note": "2文。第1文の even less ... は前文のゴムバンドとの比較(さらに見栄えの悪い)。第2文は無生物主語 solutions + cry out for の擬人的表現と、more elegant and architecturally integral が means にかかる並列。"
+        },
+        {
+          "label": "(4)",
+          "type": "下線部和訳",
+          "target_words": 42,
+          "limit": "",
+          "syntax_features": ["比較(no more than 等の慣用含む)", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "分詞構文", "無生物主語", "代名詞・指示語の特定"],
+          "vocab_items": [],
+          "polysemy_items": ["effectively = 事実上", "work = 操作する・働かせる", "lever = てこ", "shape = 〜の形にする(動詞)"],
+          "context_dependent": true,
+          "note": "1文。This modification は直前の「ノブの形を変える」。非制限 which 節の中に not so much by A but rather by B、文末に分詞構文 effectively working it as ...。opposite sides / opposing directions の訳し分け。直前の oblate / prolate(語注なし、単語帳外)は下線部の like an egg が言い換えになっている。"
+        }
+      ],
+      "max_vocab_level": "V2",
+      "difficulty": "やや難",
+      "difficulty_reason": "身近な題材だが力のかかり方を正確に追う必要があり、(2)の強調構文と挿入、(3)の擬人的表現と integral、(4)の not so much ... but rather と分詞構文で直訳が通用しない。",
+      "key_idea": "物理的な状況(どこにどの向きの力がかかるか)を頭に描いたうえで、前置詞句の並列と強調構文を正しく取る。基本語の意外な語義(mechanics, domestic, integral, effectively, work)を文脈で決める。",
+      "note": "出典の記載なし。設問は下線部和訳4か所のみ。本文に oblate / prolate という専門語が語注なしで現れるが、解答には直接関わらない(下線部内に言い換えあり)。"
+    },
+    {
+      "problem": "III",
+      "part": "(1)",
+      "format": "和文英訳",
+      "points": null,
+      "theme": "睡眠不足が見過ごせない問題になっている原因(社会の夜型化、照明の発達)と、始業時間が変わらないために集中力が低下すること。",
+      "ja_translation": {
+        "ja_chars": 162,
+        "ja_style": "論説調",
+        "paraphrase_level": "J1",
+        "key_expressions": [
+          {"ja": "見過ごせない問題となっている", "approach": "a problem (that) we cannot ignore / overlook。現在完了 has become で変化を表す"},
+          {"ja": "社会全体が〜を想定して動いている", "approach": "「〜という前提で機能している」に読み替える(society as a whole operates on the assumption that ...)。「動く」を move と直訳しない"},
+          {"ja": "照明器具の発達", "approach": "the development of lighting / better lighting。無生物主語にして may be disrupting に続ける"},
+          {"ja": "体内時計を狂わせている", "approach": "disrupt / upset our body clocks(biological clocks)。「狂わせる」を make crazy としない"},
+          {"ja": "始まる時間は変わっていない", "approach": "still start at the same time as before / have not changed their starting times"},
+          {"ja": "睡眠不足が生まれやすくなり、〜を引き起こす", "approach": "主語を人に変える(people are more likely to suffer from a lack of sleep, which makes it hard to concentrate during the day)"}
+        ]
+      },
+      "questions": [{"label": "(1)", "type": "和文英訳", "note": "5文。全文が英訳対象(下線なし)。"}],
+      "difficulty": "標準",
+      "difficulty_reason": "論理は直線的で語彙も時事的な標準語。「想定して動いている」「体内時計を狂わせる」の処理と、最後の文の主語の立て方で差がつく。",
+      "key_idea": "抽象的な無生物主語の日本語(社会が動く、睡眠不足が生まれる)を、英語として自然な主語・動詞に置き換える。",
+      "note": "配点は大問III全体で50点((1)(2)の内訳は記載なし)。"
+    },
+    {
+      "problem": "III",
+      "part": "(2)",
+      "format": "和文英訳",
+      "points": null,
+      "theme": "南半球の旅で見た見慣れない星座の名前(航海用具や熱帯の動物)から、昔の船乗りが大切にしたものや驚いたものがうかがえる。",
+      "ja_translation": {
+        "ja_chars": 151,
+        "ja_style": "随筆調",
+        "paraphrase_level": "J2",
+        "key_expressions": [
+          {"ja": "見慣れない星々が奇妙な形を夜空に描いているのを目にした", "approach": "知覚動詞 saw + O + doing(unfamiliar stars forming strange shapes in the night sky)。「描く」を draw と直訳しない"},
+          {"ja": "〜の名前が付けられたものがある", "approach": "Some of these constellations are named after ...。「星座」constellation は必要語彙"},
+          {"ja": "航海に必要な器具", "approach": "instruments (tools) used for navigation / needed for sailing"},
+          {"ja": "名前の由来について、私には正確な知識がない", "approach": "I do not know exactly how they got their names / the origins of their names"},
+          {"ja": "何を大切にし、何に驚いていたのか", "approach": "間接疑問2つの並列(what they valued and what amazed them)。時制は過去"},
+          {"ja": "その一端がうかがわれる", "approach": "主語がない自発表現。the names を主語にして give us a glimpse of / tell us something about、または we can get some idea of に組み直す"}
+        ]
+      },
+      "questions": [{"label": "(2)", "type": "和文英訳", "note": "3文。全文が英訳対象(下線なし)。"}],
+      "difficulty": "やや難",
+      "difficulty_reason": "「星座」「航海」「由来」の語彙に加え、最後の文は「知識がないが」と「うかがわれる」の主語が異なり、文の切り直しと「一端がうかがわれる」の読み替えが必須。",
+      "key_idea": "最終文を「私は詳しく知らない。しかしその名前から〜が少し分かる」と2つに割り、「うかがわれる」に主語を与える。",
+      "note": "配点は大問III全体で50点((1)(2)の内訳は記載なし)。"
+    }
+  ],
+  "overall_note": "読解2題+和文英訳1題(各50点、計150点)で、読解の設問は2題とも下線部和訳4か所ずつ、計8か所のみという最も単純な形式。大問I は心理学の学説紹介(標準)、大問II はドアノブを題材にした技術・設計の解説で、身近な物の力学を正確に追わせる(やや難)。難所は単語帳外の語ではなく、強調構文・挿入・not any more than / not so much A but B などの定番構文と、基本語の文脈上の語義決定にある。和文英訳は論説調と随筆調の2題で全文訳。"
+}

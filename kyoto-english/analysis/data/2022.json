@@ -1,0 +1,171 @@
+{
+  "year": 2022,
+  "booklet_pages": 16,
+  "exam_format": {
+    "num_problems": 4,
+    "points": 150,
+    "time_note": "試験時間の記載なし。表紙に「150点満点」「問題冊子は表紙のほかに5ページ、解答冊子は表紙のほかに8ページ」。PDF 16ページのうち問題は冊子1〜5ページ、残りは空白ページ"
+  },
+  "parts": [
+    {
+      "problem": "I",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "人間の影響が地球全体に及んだ人新世の現状を数値で示し、もはや後戻りはできず、制御の問題への答えは「自然の制御の制御」というさらなる制御になると論じる。",
+      "passage": {"words": 390, "genre": "評論・論説", "field": "環境", "abstractness": "A2", "source": "", "glossary": 1, "omitted": false},
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "内容説明",
+          "target_words": 210,
+          "limit": "本文中に列挙された具体的な特徴から4つを選んで解答に含める",
+          "syntax_features": ["倒置", "省略", "比較(no more than 等の慣用含む)"],
+          "vocab_items": [
+            {"word": "legume (crops)", "level": "V2", "clue": "fertilizer plants と並んで窒素を固定するもの、という文脈から「マメ科作物」"},
+            {"word": "biomass", "level": "V2", "clue": "直後に people outweigh wild mammals と重さの比較が続く"}
+          ],
+          "polysemy_items": ["fix = (窒素を)固定する", "driver = 要因", "outweigh = 重量で上回る"],
+          "context_dependent": true,
+          "note": "下線部(a) the Anthropocene(2語)の説明。定義は直前の So pervasive is man's impact, it is said that …(倒置・that 省略)から取り、第1段落の列挙(陸地改変・河川・窒素固定・CO2・生物量・絶滅など)から4つ選ぶ。target_words は根拠となる第1段落の概算"
+        },
+        {
+          "label": "(2)",
+          "type": "下線部和訳",
+          "target_words": 41,
+          "limit": "",
+          "syntax_features": ["倒置", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "分詞構文", "比喩表現の訳出"],
+          "vocab_items": [
+            {"word": "blandly", "level": "V2", "clue": "引用符つきの穏当な呼び名 \"global change\" と、破局的な中身(小惑星衝突に匹敵)との落差"}
+          ],
+          "polysemy_items": ["Such is A that … = Aは非常なものなので", "a handful of = 少数の", "reign = (恐竜の)支配・時代", "label = 呼ぶ"],
+          "context_dependent": false,
+          "note": "下線部(b)。Such is … that の倒置、the most recent being … の独立分詞構文"
+        },
+        {
+          "label": "(3)",
+          "type": "下線部和訳",
+          "target_words": 69,
+          "limit": "",
+          "syntax_features": ["挿入", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "比較(no more than 等の慣用含む)", "否定(部分否定・二重否定・準否定)", "比喩表現の訳出", "as/that/of の用法識別"],
+          "vocab_items": [
+            {"word": "spiral back on itself", "level": "V2", "clue": "直後のダッシュ以下(the control of the control of nature)が言い換え"}
+          ],
+          "polysemy_items": ["Only now = ただし今や(only が接続詞的)", "be to 不定詞(If there is to be = 〜があるとすれば)", "the human = 人間", "have got to = 〜しなければならない"],
+          "context_dependent": true,
+          "note": "下線部(c)。the problem of control は自然を制御してきたことが生んだ問題で、前段落までの文脈が必要。a planet remade の後置分詞、not so much A as B、斜体 control of の強調"
+        }
+      ],
+      "max_vocab_level": "V2",
+      "difficulty": "やや難",
+      "difficulty_reason": "英文は短いが、下線部に倒置・挿入・比喩・基本語の意外な用法が集中し、(3) は逆説的な内容を日本語にしにくい",
+      "key_idea": "(2) の Such … that 倒置と blandly、(3) の Only now の読みと「自然の制御の制御」の入れ子を意味の通る日本語にすること。(1) は定義+4項目の条件充足。",
+      "note": "出典記載なし(本文中に学術誌からの引用が1か所)。語注は Friday-like の1つで、英語による説明。stark-staring, eutrophication, no-analog など難語があるが解答には必須でない"
+    },
+    {
+      "problem": "II",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "図書館員である筆者が、紙の時代の保存戦略と対比しつつ、デジタル情報の不安定さ、大手技術企業への記憶の外注、情報過多、オンラインの知識の悪用と破棄の危険を論じる。",
+      "passage": {"words": 580, "genre": "評論・論説", "field": "技術・AI", "abstractness": "A2", "source": "", "glossary": 0, "omitted": false},
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "下線部和訳",
+          "target_words": 35,
+          "limit": "",
+          "syntax_features": ["名詞構文", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "代名詞・指示語の特定", "無生物主語"],
+          "vocab_items": [],
+          "polysemy_items": ["adoption = 採用・利用", "consideration = 考慮事項"],
+          "context_dependent": true,
+          "note": "下線部(a)。This instability は前文のデジタル情報の不安定さ。those = companies、for whom の非制限用法"
+        },
+        {
+          "label": "(2)前半",
+          "type": "下線部和訳",
+          "target_words": 10,
+          "limit": "",
+          "syntax_features": ["比喩表現の訳出", "省略"],
+          "vocab_items": [],
+          "polysemy_items": ["be drowning in = 〜に溺れている", "be starved of = 〜に飢えている"],
+          "context_dependent": false,
+          "note": "下線部(b) は引用文1文。設問(2)は「和訳したうえで説明」の複合で、これはその和訳部分"
+        },
+        {
+          "label": "(2)後半",
+          "type": "内容説明",
+          "target_words": 10,
+          "limit": "",
+          "syntax_features": [],
+          "vocab_items": [],
+          "polysemy_items": [],
+          "context_dependent": true,
+          "note": "下線部(b) が具体的にどのようなことを指すかを本文に即して説明。同段落後半(利用可能なデジタル情報が膨大すぎて把握できず、有効に検索して知識を得るのが難しい)を使う。information と knowledge の区別を保つ"
+        },
+        {
+          "label": "(3)",
+          "type": "下線部和訳",
+          "target_words": 62,
+          "limit": "",
+          "syntax_features": ["同格", "省略", "共通関係(A and B の並列把握)", "長い主語・修飾の入れ子", "代名詞・指示語の特定"],
+          "vocab_items": [
+            {"word": "to the detriment of", "level": "V2", "clue": "desirable short-term outcome … but … ultimately の逆接から「〜の損失になる」"}
+          ],
+          "polysemy_items": ["Having it destroyed = それを破棄させること(have O p.p. の動名詞主語)", "gain = 利益", "against society = 社会の不利益になるように"],
+          "context_dependent": true,
+          "note": "下線部(c)。the problem that の同格、the knowledge (that) we create の関係詞省略。第2文の it は the knowledge、this は破棄させること"
+        }
+      ],
+      "max_vocab_level": "V2",
+      "difficulty": "標準",
+      "difficulty_reason": "語彙は V1 中心で論旨も明快。差は名詞構文・関係詞・動名詞主語の処理と日本語の自然さでつく",
+      "key_idea": "(1) の名詞構文と for whom、(3) の Having it destroyed の構造把握と detriment。(2) は比喩の訳と具体化の両方を書く。",
+      "note": "出典記載なし(筆者が図書館員であることは本文から分かる)。(2) は和訳と内容説明の複合設問のため2行に分けて記録した。field は「技術・AI」としたが、主題は情報社会と図書館"
+    },
+    {
+      "problem": "III",
+      "part": "",
+      "format": "和文英訳",
+      "points": 25,
+      "theme": "旅の楽しみとしての車窓の眺め。ありふれた風景の中の見知らぬ人々にもそれぞれの暮らしがあると思うと、自分の悩みが遠く感じられ心が軽くなるという随筆。",
+      "ja_translation": {
+        "ja_chars": 190,
+        "ja_style": "随筆調",
+        "paraphrase_level": "J2",
+        "key_expressions": [
+          {"ja": "数ある旅の楽しみのなかで", "approach": "Of the many pleasures of travel / Among the many things I enjoy when traveling"},
+          {"ja": "〜というのもまた捨てがたい", "approach": "「見逃せない魅力の一つだ」と読み替え、is also one I cannot ignore / is also hard to give up"},
+          {"ja": "ただただ目の保養になる", "approach": "「見ているだけで楽しい」it is simply a pleasure to look at / a feast for the eyes"},
+          {"ja": "ありふれた田舎や街並みを眺めているのも悪くない", "approach": "ordinary countryside or streets、not bad either / also enjoyable"},
+          {"ja": "そこに見かける、きっとこの先出会うこともなさそうな人々", "approach": "二重の修飾を関係詞で処理(the people I see there, whom I will probably never meet again)"},
+          {"ja": "その人なりの喜びや悲しみとともに暮らしている", "approach": "each living with their own joys and sorrows"},
+          {"ja": "どこか遠くに感じられて、心がふっと軽くなる気がする", "approach": "my worries somehow seem far away, and I feel suddenly relieved / lighter"}
+        ]
+      },
+      "questions": [{"label": "", "type": "和文英訳", "note": "全文(5文)を英訳"}],
+      "difficulty": "やや難",
+      "difficulty_reason": "感覚的な和語・副詞(捨てがたい、ただただ、ふっと)が多く、第4文は連体修飾が重なる長い主語になる",
+      "key_idea": "感覚的な和語を意味を保って平易な英語にすることと、第4文の長い主語の組み立て、主語「私」の補い。",
+      "note": ""
+    },
+    {
+      "problem": "IV",
+      "part": "",
+      "format": "自由英作文",
+      "points": 25,
+      "theme": "大学で研究をするうえで最も重要と考えることとその理由。",
+      "composition": {
+        "word_limit": "100語程度",
+        "task": "意見論述",
+        "prompt_summary": "大学で研究をするうえで自分が最も重要と考えることを一つ挙げ、その理由を2点に絞って具体的に説明する。"
+      },
+      "questions": [{"label": "", "type": "自由英作文", "note": "条件は「一つ挙げる」「理由を2点に絞る」「100語程度」「具体的に」"}],
+      "difficulty": "標準",
+      "difficulty_reason": "型は標準的な意見論述だが、研究経験のない受験生が具体的な理由を2つ、100語に収める必要がある",
+      "key_idea": "4つの条件の充足と、重複しない2つの理由が主張を支えていること。",
+      "note": "task は「意見論述」とした(主張1つ+理由2つを求めるため。「理由説明」の要素も強い)"
+    }
+  ],
+  "overall_note": "問題冊子5ページと分量が少なく、I の英文は約390語と短いが、下線部に倒置・挿入・比喩が集中する。読解は両題とも和訳2+説明1の構成で、II(2) は「和訳したうえで説明」の複合設問。IV は2021年度の会話文空所補充から100語程度の意見論述に変わった。出典の記載はなく、語注は I の1語(英語による注)のみ、英文の省略もない。"
+}

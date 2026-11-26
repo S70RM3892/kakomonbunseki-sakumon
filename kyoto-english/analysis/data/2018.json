@@ -1,0 +1,172 @@
+{
+  "year": 2018,
+  "booklet_pages": 10,
+  "exam_format": {
+    "num_problems": 4,
+    "points": 150,
+    "time_note": "試験時間の記載なし。表紙に「150点満点」「問題冊子は表紙のほかに6ページ、解答冊子は表紙のほかに8ページ」「問題は全部で4題」とある。各大問の配点は問題文の右肩に印字。PDF 10ページ(表紙1、白紙3、問題6)。"
+  },
+  "parts": [
+    {
+      "problem": "I",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "人助けには「救世主コンプレックス」に陥る危険がある。大切なのは助けること自体と同じくらい「どう助けるか」であり、まず「どうお手伝いできますか」と尋ねることで相手の主体性と尊厳を守れる。脳卒中で倒れた80代女性と隣人たちの実話で例証する。",
+      "passage": {"words": 525, "genre": "エッセイ・随筆", "field": "社会", "abstractness": "A2", "source": "", "glossary": 0, "omitted": false},
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "内容説明",
+          "target_words": 3,
+          "limit": "「本文に即して日本語で」「解答欄におさまる長さ」。字数指定なし",
+          "syntax_features": ["同格", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "共通関係(A and B の並列把握)"],
+          "vocab_items": [],
+          "polysemy_items": ["uneven = 対等でない・一方的な", "fall prey to = 〜に陥る", "complex = (心理的)コンプレックス"],
+          "context_dependent": true,
+          "note": "下線部(a)は the savior complex の3語。定義は直後の2文にあり、「自分は突然現れて他者を救える専門家だと信じる態度」「助ける側がすべての答えを持ち、相手は救世主を待っていたと思い込む、対等でない援助の仕方」をまとめる。believes の目的語が3つ並ぶ箇所(he or she has ..., knows ..., and that ...)の把握が必要。"
+        },
+        {
+          "label": "(2)",
+          "type": "下線部和訳",
+          "target_words": 75,
+          "limit": "",
+          "syntax_features": ["関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "比較(no more than 等の慣用含む)", "挿入", "as/that/of の用法識別", "代名詞・指示語の特定"],
+          "vocab_items": [],
+          "polysemy_items": ["matter = (動詞)重要である", "afford = 与える", "direction = 指示・指図", "remain in charge = 主導権を握ったままでいる", "that you do help = 助けるという事実(that 節の名詞用法+強調の do)"],
+          "context_dependent": true,
+          "note": "下線部(b)は3文・75語と長い。文頭の All of which is to say that ... は前段落全体を受ける関係代名詞で始まる独立文。how you help と that you do help を as much as で比べる構造(イタリックの how / do が対比の目印)。asking, with humility, for direction は ask for の間に挿入。基本語の語義選択(matter, afford, direction, in charge)が訳の質を決める。"
+        },
+        {
+          "label": "(3)",
+          "type": "空所補充(選択)",
+          "target_words": null,
+          "limit": "空所5つ(ア〜オ)に対し選択肢6つ(begin with, come in for, deny, live there with, recognize, retain)。同じ語句は1回のみ",
+          "syntax_features": [],
+          "vocab_items": [],
+          "polysemy_items": ["To begin with = 最初は", "come in for a chat = 立ち寄っておしゃべりする", "retain = 保つ", "walker = 歩行器(直後の関係詞節で用途が分かる)"],
+          "context_dependent": true,
+          "note": "動詞・句動詞の選択。語句の塊(live there with, come in for)で与えられ、前後の前置詞・目的語との接続で決まる。最終段落の逸話の筋を追えれば平易。"
+        }
+      ],
+      "max_vocab_level": "V1",
+      "difficulty": "標準",
+      "difficulty_reason": "語彙は平易で論旨も明快。(2) が75語と長く、文頭の関係代名詞と how / that 節の比較、基本多義語の訳し分けで差がつく。(1)(3) は取りやすい。",
+      "key_idea": "(2) の第1文で「どう助けるかは、実際に助けるということと同じくらい重要だ」という比較の骨格を取ること。afford, direction, in charge を文脈に合う訳語にすること。",
+      "note": "語注なし。本文中に番組名 The Moth がイタリックで出るが、直後に説明がある。taken aback, cordial など下線部外に単語帳レベル上位の語がある。"
+    },
+    {
+      "problem": "II",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "小惑星と彗星は有用な資源を含み、接近・着陸できれば軌道の変更(衝突回避・資源利用のための移動)と現地での資源加工が可能になる。しかし地球近傍天体(NEO)は暗く、とくに彗星は方向も速度も予測しにくいので発見自体が難しく、探索体制も不十分である。",
+      "passage": {"words": 505, "genre": "科学解説", "field": "科学論", "abstractness": "A1", "source": "", "glossary": 1, "omitted": false},
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "内容説明",
+          "target_words": 3,
+          "limit": "「本文に即して日本語で」「解答欄におさまる長さ」。字数指定なし",
+          "syntax_features": ["倒置", "仮定法", "省略", "代名詞・指示語の特定"],
+          "vocab_items": [
+            {"word": "rendezvous", "level": "V2", "clue": "landing on と並列され、括弧内で「すでに実行済みのこと」と補足。カタカナ語「ランデブー」からも推測可"}
+          ],
+          "polysemy_items": ["exploit = (資源を)開発・利用する", "commuting = (地球との)行き来", "service station = 補給基地(給油所の比喩)"],
+          "context_dependent": true,
+          "note": "下線部(a)は several major things の3語。直後の First ... Second ... を拾う。First の中がさらに2つ(地球に衝突しないよう軌道をそらす/資源利用のため地球や月の周回軌道に移す)に分かれ、Second は現地で資源を加工して燃料等を供給する。Should we find ...(if の省略による倒置)が2回出る。"
+        },
+        {
+          "label": "(2)",
+          "type": "下線部和訳",
+          "target_words": 60,
+          "limit": "",
+          "syntax_features": ["無生物主語", "it の形式主語・目的語", "代名詞・指示語の特定", "共通関係(A and B の並列把握)", "省略"],
+          "vocab_items": [
+            {"word": "trajectory", "level": "V2", "clue": "第2段落の alter their orbits の言い換え(modify its trajectory)"},
+            {"word": "rendezvous", "level": "V2", "clue": "第2段落冒頭で既出。landing on と対で使われている"}
+          ],
+          "polysemy_items": ["plane = 平面(the plane of the solar system = 太陽系の軌道面)", "degree = (角度の)度", "contained to within ~ = 〜以内の範囲に収まっている", "take = 必要とする", "challenging = 困難な"],
+          "context_dependent": true,
+          "note": "下線部(b)は4文。them は NEOs、one は不定の1個(a comet)。第2文の contained to within a few degrees of the plane が最大の難所で、「太陽系の(軌道)面から数度以内」という天文学的な位置関係を plane / degrees の語義から組み立てる必要がある。最終文は makes it challenging to A and (perhaps) B の並列と enough to somehow make it safe。"
+        },
+        {
+          "label": "(3)",
+          "type": "下線部和訳",
+          "target_words": 49,
+          "limit": "",
+          "syntax_features": ["関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "長い主語・修飾の入れ子", "分詞構文"],
+          "vocab_items": [
+            {"word": "underutilized", "level": "V2", "clue": "under- + utilize。下線部直後の「使える時間のごく一部しか NEO 探索に使われていない」と呼応"}
+          ],
+          "polysemy_items": ["network = (動詞)ネットワークで結ぶ", "field of view = 視野", "struggle to do = なかなか〜できない", "faint = かすかな・暗い"],
+          "context_dependent": false,
+          "note": "下線部(c)は2文。第1文は programs [funded by NASA] that network ... で、that の先行詞は NASA ではなく programs、network は動詞。品詞の見抜きが要点。第2文は for maximizing ... that can be monitored と that have diameters below ... の2つの関係詞節。"
+        }
+      ],
+      "max_vocab_level": "V2",
+      "difficulty": "標準",
+      "difficulty_reason": "具体的な科学解説で論旨は追いやすい。(2) の天文学的な位置表現と (3) の network の品詞判断が山。理系的な常識があると有利。",
+      "key_idea": "基本語の専門的な語義(plane, degree, network, field of view)を文脈と品詞から決めること。指示語(them / one / it)の指す対象を訳文で明確にすること。",
+      "note": "語注は asteroid の1語で、英語による定義(英英注)。設問は3問すべて記述(内容説明1、和訳2)で、選択問題はない。"
+    },
+    {
+      "problem": "III",
+      "part": "",
+      "format": "和文英訳",
+      "points": 25,
+      "theme": "外国人観光客に和食が人気だという話題で「文化が違うのに味がわかるのか」と疑う人がいたが本当にそうか、と問い、(空所)のあと、日本人でも育った環境はさまざまだから日本人ならわかるとも言えない、と結ぶ。",
+      "ja_translation": {
+        "ja_chars": 116,
+        "ja_style": "随筆調",
+        "paraphrase_level": "J2",
+        "key_expressions": [
+          {"ja": "〜という話になったときに", "approach": "主語を補う。When we were talking about ... / When the conversation turned to the fact that ..."},
+          {"ja": "和食が人気だ", "approach": "Japanese food / cuisine is popular with (among) tourists from abroad。前置詞の選択"},
+          {"ja": "文化が違うのだから味がわかるのか疑問だと言った人がいた", "approach": "間接話法で someone said (that) he doubted whether they could really ... since they come from a different culture。「味がわかる」は appreciate / understand its taste。taste を動詞で使うと「味見する」になり不可"},
+          {"ja": "はたしてそうだろうか", "approach": "修辞疑問。But is this really true? / I wonder if that is really the case."},
+          {"ja": "さらに言うならば", "approach": "Furthermore / What is more / To go further。空所に書いた内容からの追加であることを示す"},
+          {"ja": "育った環境はさまざま", "approach": "「人によって育った環境が異なる」と主語を立てる。they grew up in different environments / were brought up in various circumstances"},
+          {"ja": "日本人ならわかるということでもない", "approach": "部分否定。it is not necessarily true that / it does not follow that all Japanese people can ..."}
+        ]
+      },
+      "composition": {
+        "word_limit": "語数指定なし(「解答欄におさまる長さ」。問題冊子上は空所が約2行分の下線)",
+        "task": "その他",
+        "prompt_summary": "和文の途中にある空所に「ふさわしい内容を自分で考えて補い」、全体としてまとまりのある英文にする。空所は直前の修辞疑問「はたしてそうだろうか」に対する筆者の答え(文化が違っても味はわかると考える理由・根拠)にあたり、直後の「さらに言うならば」につながる内容である必要がある。"
+      },
+      "questions": [
+        {"label": "", "type": "和文英訳", "note": "空所の前(2行・約67字)と後(約49字)をすべて英訳する。"},
+        {"label": "下線部", "type": "条件英作文", "note": "空所の内容を自分で考えて英語で補う。前後の日本語との論理的整合(反論→追加)が条件。日本語は与えられない。"}
+      ],
+      "difficulty": "標準",
+      "difficulty_reason": "英訳部分は短いが「味がわかる」「〜という話になった」「〜ということでもない」と主語補い・部分否定が要る。空所は論理の流れ(反論の根拠)を読めば書く内容は絞られる。分量の配分判断が必要。",
+      "key_idea": "空所の機能を「修辞疑問への答え(いや、そうではない)+理由」と見抜き、あとの「さらに言うならば」が追加として成り立つ内容にする。和訳部分は「味がわかる」を appreciate で処理し、最後を部分否定で締める。",
+      "note": "和文英訳と自由度のある内容補充を1題に融合した形式。JSON スキーマ上は和文英訳パートとし、空所部分を composition に記録した。ja_chars は英訳対象の日本語のみ(空所を除く)。"
+    },
+    {
+      "problem": "IV",
+      "part": "",
+      "format": "条件英作文",
+      "points": 25,
+      "theme": "授業を欠席した学生が教員室で、レポート課題(ロンドンとニューヨークの類似点と相違点)の内容・書式と期末試験について教員に確認する会話。学生の発言4つを補う。",
+      "passage": {"words": 255, "genre": "その他", "field": "教育", "abstractness": "A1", "source": "", "glossary": 0, "omitted": false},
+      "composition": {
+        "word_limit": "語数指定なし(「解答欄におさまるように」。問題冊子上は(1)(2)(4)が各1行分、(3)が2行分の下線)",
+        "task": "会話の空所補充",
+        "prompt_summary": "場面は [In the Teacher's Office]。(1) 直後に教員が著者名の綴りとファーストネームを答えるので、著者名を聞き返して綴り等を尋ねる。(2) 書式の詳細がよく分からないと述べたあと、教員が Okay と説明を始めるので、説明を依頼する。(3) 「英語・日本語その他の言語でエッセイやレポートを書いた経験を話して」への応答(2行分)。(4) 期末試験の話のあと、教員が「良い質問だ。1〜4章を勉強しなさい」と答えるので、試験に向けて何を勉強すればよいかを尋ねる。"
+      },
+      "questions": [
+        {"label": "(1)", "type": "条件英作文", "note": "聞き返し+綴りの確認。直後の応答(綴りとファーストネーム)から質問内容を逆算する。"},
+        {"label": "(2)", "type": "条件英作文", "note": "依頼表現。直前の自分の発言(書式がよく分からない)と直後の教員の説明をつなぐ。"},
+        {"label": "(3)", "type": "条件英作文", "note": "自分の経験の説明。唯一内容の自由度が高い空所。直後が I understand. なので経験の有無どちらでも可。"},
+        {"label": "(4)", "type": "条件英作文", "note": "質問。直後の That's a good question. と試験範囲の助言に対応する問いにする。"}
+      ],
+      "difficulty": "易",
+      "difficulty_reason": "(1)(2)(4) は直後の応答からほぼ内容が決まる機能的な発話(聞き返し・依頼・質問)。(3) も身近な経験の説明で書きやすい。ミスなく丁寧な表現で書けるかの勝負。",
+      "key_idea": "空所の直後の発言を必ず読み、それが答えになる質問・依頼を書く。教員に対する丁寧さ(Could you ...? / Would you mind ...?)を保つ。",
+      "note": "会話文が約255語と長く、空所が4つに増えた。2016・2017年度の会話補充(意見・論拠を書かせる)に比べ、場面に即した実用的なやり取りを書かせる方向。"
+    }
+  ],
+  "overall_note": "大問4題・150点(I 50 / II 50 / III 25 / IV 25、いずれも冊子に印字)。読解2題は合計約1030語で、設問は下線部和訳3・内容説明2(字数指定なし、解答欄の大きさで制限)・選択式空所補充1。和訳の下線部が49〜75語と長い。III は和文英訳の途中に内容を自分で考える空所を置いた融合形式、IV は長めの会話文に4つの空所を置く実用的な会話補充で、英作文2題とも「前後の文脈から書く内容を決める」力を問う。"
+}

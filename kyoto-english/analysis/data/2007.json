@@ -1,0 +1,179 @@
+{
+  "year": 2007,
+  "booklet_pages": 6,
+  "exam_format": {
+    "num_problems": 3,
+    "points": 150,
+    "time_note": "表紙に「150点満点(聞き取りテストは別記)」「問題は全部で3題(1〜5ページ)。ただし総合人間学部及び医学部(医学科)志願者はこのほかに聞き取りテスト(6ページ)を行う」と記載。試験時間の記載はなし。IV の配点は総合人間学部50点・医学部医学科30点と記載。booklet_pages は表紙を除く問題ページ数(PDF は表紙込み7ページ)。"
+  },
+  "parts": [
+    {
+      "problem": "I",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "社会は共有された理解(価値観)の上に成り立ち、親が幼少期から道徳・伝統を教えることで維持される。それが失われると共同体の絆が崩れるという主張。",
+      "passage": {"words": 500, "genre": "評論・論説", "field": "社会", "abstractness": "A3", "source": "", "glossary": 0, "omitted": false},
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "下線部和訳",
+          "target_words": 42,
+          "limit": "",
+          "syntax_features": ["分詞構文", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "名詞構文", "共通関係(A and B の並列把握)", "代名詞・指示語の特定"],
+          "vocab_items": [],
+          "polysemy_items": ["critical = 決定的に重要な", "founding values = 土台となる価値観", "concern for = 〜への関心・気づかい"],
+          "context_dependent": true,
+          "note": "The understanding は冒頭の「共有された理解」。with + 名詞 + being の付帯状況、前文全体を受ける , which is why。parental concern for の目的語が morality or the actual values adopted まで及ぶこと、adopted の後置修飾。"
+        },
+        {
+          "label": "(2)",
+          "type": "下線部和訳",
+          "target_words": 55,
+          "limit": "",
+          "syntax_features": ["関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "無生物主語", "長い主語・修飾の入れ子", "代名詞・指示語の特定"],
+          "vocab_items": [],
+          "polysemy_items": ["spring = 泉", "the very land = まさにその土地", "keep for themselves = 独占する", "fights certain to develop = 必ず起こるはずの争い"],
+          "context_dependent": true,
+          "note": "keep for themselves a natural spring は目的語が後置された語順。where の先行詞(places / desert regions)、on which it exists の it。in this sense は直前の「権威の全面的受容」を受ける。無生物主語 cooperation prevents fights。"
+        },
+        {
+          "label": "(3)",
+          "type": "下線部和訳",
+          "target_words": 82,
+          "limit": "",
+          "syntax_features": ["比較(no more than 等の慣用含む)", "同格", "共通関係(A and B の並列把握)", "挿入", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "比喩表現の訳出", "長い主語・修飾の入れ子"],
+          "vocab_items": [{"word": "disintegrate", "level": "V2", "clue": "dis- + integrate。直前の「絆が修復不能なほどゆるむ」との並列から「崩壊する・ばらばらになる」"}],
+          "polysemy_items": ["a fish out of water = 陸に上がった魚(場違いな存在)", "for better or worse = 良くも悪くも", "beyond repair = 修復できないほど", "than some would like = 一部の人が望むよりも", "base itself on = 〜に基礎を置く"],
+          "context_dependent": false,
+          "note": "2文で約80語と長い。the resulting adult、different and possibly incompatible が to 以下を共有、on which society, for better or worse, bases itself の挿入。ダッシュ以下は fish out of water の言い換え(同格)なので、比喩はここから意味を確定できる。"
+        }
+      ],
+      "max_vocab_level": "V2",
+      "difficulty": "やや難",
+      "difficulty_reason": "抽象名詞中心の硬い文体で、下線が長く(計約180語)、付帯状況・関係詞・挿入が重なる。訳文を日本語として通すのに手間がかかる。",
+      "key_idea": "抽象名詞構文(parental concern for ..., one-hundred per cent cooperation prevents ...)を動詞的に開いて訳すこと。(3) の共通関係と挿入を崩さず長文を訳し切る持久力。",
+      "note": "英文の出典記載なし。具体例は「砂漠地帯の泉」の1つだけで、ほぼ抽象的な議論に終始する。"
+    },
+    {
+      "problem": "II",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "大学で科学を教える筆者が、「なぜこれを学ぶのか」という問いに答えるために、科学を技術・社会と結びつけて教える方法を提案する。",
+      "passage": {"words": 490, "genre": "エッセイ・随筆", "field": "教育", "abstractness": "A2", "source": "", "glossary": 0, "omitted": false},
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "下線部和訳",
+          "target_words": 53,
+          "limit": "",
+          "syntax_features": ["同格", "省略", "否定(部分否定・二重否定・準否定)", "代名詞・指示語の特定"],
+          "vocab_items": [],
+          "polysemy_items": ["may very well = おそらく〜だろう", "all the same = それでもやはり", "do without doing = 〜せずに済ます", "embarrassing = (教師を)困らせる・ばつの悪い"],
+          "context_dependent": true,
+          "note": "This は直前の「自分に大きな問いを問うよう心がけること」。query と引用文の同格、whether (it is) posed の省略、no ... without の二重否定。what is indispensable to learn の訳し方。query は直後の引用と次文の question への言い換えで意味が取れる(V1 扱い)。"
+        },
+        {
+          "label": "(2)",
+          "type": "下線部和訳",
+          "target_words": 63,
+          "limit": "",
+          "syntax_features": ["代名詞・指示語の特定", "比較(no more than 等の慣用含む)", "倒置", "仮定法", "無生物主語"],
+          "vocab_items": [],
+          "polysemy_items": ["take A for B = A を B だとみなす", "the reverse = その逆", "the earth-centered view of the universe = 天動説"],
+          "context_dependent": true,
+          "note": "the former / the latter は下線の直前の文(technology and science)を見ないと決まらない。no less true、made possible + 長い目的語(VCO 語順)、Without による仮定法過去完了、nor could ... の倒置。"
+        },
+        {
+          "label": "(3)",
+          "type": "下線部和訳",
+          "target_words": 91,
+          "limit": "",
+          "syntax_features": ["倒置", "同格", "否定(部分否定・二重否定・準否定)", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "比較(no more than 等の慣用含む)", "省略", "代名詞・指示語の特定"],
+          "vocab_items": [{"word": "groundbreaking", "level": "V2", "clue": "ground + break。revolutionary ideas と並列され、brand-new decisions を生むという文脈から「画期的な」"}],
+          "polysemy_items": ["Important as ... is = 〜は重要だが(譲歩の as)", "go by = (日が)過ぎる", "carry the potential to = 〜する可能性を秘める"],
+          "context_dependent": true,
+          "note": "3文で約90語。譲歩の 形容詞 + as + S + V、these two = science and technology、rarely does a day go by without ...(準否定+倒置+二重否定)、findings being announced(動名詞の意味上の主語)と先行詞から離れた that carry。not just ... but が節どうしをつなぐ変則形。"
+        }
+      ],
+      "max_vocab_level": "V2",
+      "difficulty": "やや難",
+      "difficulty_reason": "英文の内容は身近だが、下線部に譲歩の as・倒置2種・二重否定・仮定法と文法項目が集中し、(3) は約90語と長い。",
+      "key_idea": "倒置と二重否定(rarely does a day go by without ...、nor could ...)を肯定的な自然な日本語に直せるか。the former / the latter を具体的に訳出するか。",
+      "note": "英文の出典記載なし。一人称の教育エッセイ。本文に equipments という通常は不可算の語の複数形がある(原文のまま)。"
+    },
+    {
+      "problem": "III",
+      "part": "(1)",
+      "format": "和文英訳",
+      "points": null,
+      "problem_points": 50,
+      "theme": "教育について考えると小学校の恩師を思い出す。教えが心に響いたのは人柄によるもので、教育では教える側の人間性も重要だという随想。",
+      "ja_translation": {
+        "ja_chars": 190,
+        "ja_style": "随筆調",
+        "paraphrase_level": "J2",
+        "key_expressions": [
+          {"ja": "私が決まって思い出すのが小学校の恩師の顔である", "approach": "Whenever I think about ..., I always remember (the face of) ...。「恩師」は my (former) teacher at elementary school / a teacher to whom I owe a great deal"},
+          {"ja": "物事に真剣に取り組むことを教えてくださった", "approach": "taught us to take things seriously / to work earnestly on whatever we do。敬語は訳出不要"},
+          {"ja": "人生の指針となっている", "approach": "has been my guiding principle (a guide) in life。現在完了で「これまで」を表す"},
+          {"ja": "今から考えると", "approach": "Looking back now / In retrospect"},
+          {"ja": "心に響いたのは…人柄によるところが大きかった", "approach": "「心に響く」は impress me deeply / touch my heart。the reason ... was largely because of his/her ... / owed much to ... と因果で組む"},
+          {"ja": "尊敬できる誠実な人柄", "approach": "respectable and sincere character (personality)。respectful との混同に注意"},
+          {"ja": "教える側の人間性", "approach": "what kind of person the teacher is / the character of the person who teaches と節に開く"}
+        ]
+      },
+      "questions": [{"label": "(1)", "type": "和文英訳", "note": "全文英訳(下線なし)。出典表記なし。"}],
+      "difficulty": "標準",
+      "difficulty_reason": "文の骨組みは素直だが、「恩師」「指針」「心に響く」「〜によるところが大きい」「人間性」と言い換えの要る表現が各文に1つずつある。",
+      "key_idea": "各文に配置された和語・慣用的表現を平易な英語に読み替える力。先生の性別が不明な点(he/she)の処理も必要。",
+      "note": "配点は III 全体で 50 点と記載。(1)(2) の内訳は記載なし。"
+    },
+    {
+      "problem": "III",
+      "part": "(2)",
+      "format": "和文英訳",
+      "points": null,
+      "problem_points": 50,
+      "theme": "久しぶりの旅行で田舎の星空を見た実感。空気がきれいだからだが、風景は見る者の心を映すとも言われ、あの時の自分は心が澄んでいたのかもしれないという随想。",
+      "ja_translation": {
+        "ja_chars": 165,
+        "ja_style": "随筆調",
+        "paraphrase_level": "J2",
+        "key_expressions": [
+          {"ja": "最近久しぶりに旅行して実感したのですが", "approach": "「久しぶりに」は for the first time in a long time。「実感した」は realized / was struck by the fact that。前置きを主節にして I recently traveled ... and realized that ..."},
+          {"ja": "星が驚くほどたくさん見えます", "approach": "you can see a surprising (an amazing) number of stars in the night sky in the country と一般の you を主語に"},
+          {"ja": "汚染がなく空気がきれいだからでしょうが", "approach": "主語を補う。This is probably because there is no pollution and the air is clean, but ..."},
+          {"ja": "風景はそれを見る者の心を映すとよく言われます", "approach": "It is often said that a landscape reflects the mind of the person who looks at it"},
+          {"ja": "雑事に追われて忙しいだけの生活からしばしの逃避行を敢行した", "approach": "「雑事に追われて」は kept busy with trivial chores、「忙しいだけ」は just busy / nothing but busy、「しばしの逃避行を敢行した」は escaped for a while from ... と平易に"},
+          {"ja": "めずらしく無邪気な子供のように心が澄んでいた", "approach": "「心が澄んで」は my mind was (as) pure/clear as that of an innocent child。「めずらしく」は for once / unusually。maybe / may have been で推量"}
+        ]
+      },
+      "questions": [{"label": "(2)", "type": "和文英訳", "note": "全文英訳(下線なし)。出典表記なし。"}],
+      "difficulty": "やや難",
+      "difficulty_reason": "最終文(約70字)は長い連体修飾が「あの時の私」にかかり、「逃避行を敢行」「心が澄む」など大仰・比喩的な表現を平易に落とす必要がある。",
+      "key_idea": "最終文の連体修飾を when 節や分詞で切り出して再構成すること。硬い漢語(敢行、逃避行、雑事)をあえて易しい動詞で言い切る判断。",
+      "note": "配点は III 全体で 50 点と記載。(1)(2) の内訳は記載なし。"
+    },
+    {
+      "problem": "IV",
+      "part": "",
+      "format": "その他",
+      "points": null,
+      "points_note": "総合人間学部 50点、医学部(医学科) 30点と記載",
+      "theme": "聞き取り(総合人間学部・医学部医学科志願者のみ)。セクション2の質問文から、1918年のインフルエンザ(スペインかぜ)の流行とそのウイルスの研究に関する内容と分かる。",
+      "passage": {"words": null, "genre": "その他", "field": "医療", "abstractness": "", "source": "", "glossary": 0, "omitted": true},
+      "questions": [
+        {"label": "セクション1", "type": "その他(冊子に設問の印刷なし)", "target_words": null, "limit": "", "syntax_features": [], "vocab_items": [], "polysemy_items": [], "context_dependent": false, "note": "冊子には「セクション1」の見出しだけがあり、設問・選択肢は印刷されていない。形式は不明。"},
+        {"label": "セクション2 (1)〜(5)", "type": "英語での説明", "target_words": null, "limit": "", "syntax_features": [], "vocab_items": [], "polysemy_items": [], "context_dependent": false, "note": "英語の質問5問(流行が恐れられた理由、死者数、感染時の死亡率、ウイルスを注射されたマウスに起きたこと、再発の可能性)。解答言語の指示は冊子に印刷されていないため、型は前年のセクション2に合わせた暫定分類。"}
+      ],
+      "max_vocab_level": "V1",
+      "difficulty": "",
+      "difficulty_reason": "音声・スクリプトが冊子にないため判定不能。",
+      "key_idea": "判定不能(音声資料なし)。",
+      "note": "テープによる聞き取り。スクリプトは PDF に含まれない(passage.omitted=true)。セクション1は設問自体が冊子にない。"
+    }
+  ],
+  "overall_note": "全学共通は前年と同じ大問3題・各50点(I 読解、II 読解、III 和文英訳)で、読解は下線部和訳のみ(各3か所)。下線部が長く(I 約180語、II 約205語)、倒置・二重否定・譲歩の as など文法項目が意図的に盛り込まれた英文で、構文把握の比重が高い。聞き取り(IV)の対象が総合人間学部にも広がり、配点が学部ごとに記載された。語注・出典記載はなし。和文英訳は2題とも一人称の随筆調。"
+}
