@@ -12,6 +12,14 @@
   - `analysis/official-intent.md` 京大公式「出題意図」の要点
   - `sakumon/blueprint.md` 作問設計図
   - `sakumon/problems/` 作った問題(1 題 1 ファイル)
+- `kyoto-english/` 京都大学 英語
+  - `analysis/CODEBOOK.md` 分析の物差し(語彙レベル V0〜V3、和文和訳の必要度 J0〜J2 など)
+  - `analysis/years/YYYY.md` 年度別の分析(2004〜2026)
+  - `analysis/data/YYYY.json` 同、集計用データ
+  - `analysis/trend.md` 横断分析の結論
+  - `analysis/official-intent.md` 京大公式「出題意図」の要点
+  - `sakumon/blueprint.md` 作問設計図
+  - `sakumon/problems/` 作った問題(1 題 1 ファイル)
 
 ## 方針
 
