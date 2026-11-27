@@ -1,8 +1,8 @@
 // problems/*.md から PDF を作る。
 //   node build-pdf.mjs
 // 出力:
-//   pdf/セット別/セットNN/セットNN_大問K_分野_{問題|解答}.pdf   … セット順に並ぶ
-//   pdf/大問別/大問K/大問K_セットNN_分野_{問題|解答}.pdf       … 大問ごとに並ぶ
+//   pdf/NNセット/問題/NNセット_大問K_分野_問題.pdf
+//   pdf/NNセット/回答/NNセット_大問K_分野_回答.pdf
 // 各 md の先頭に front matter(set, daimon, field, title)が必要。
 // 「## 問題」〜「## 解答」を問題 PDF、「## 解答」以降を解答 PDF にする(「狙い」などの前置きは問題 PDF に入れない)。
 //
@@ -179,12 +179,11 @@ for (const name of fs.readdirSync(src).filter(f => f.endsWith('.md')).sort()) {
     fs.writeFileSync(htmlFile, html);
     await tab.goto(`file://${htmlFile}`);
     await tab.evaluate(arrange, isExam);
-    const bySet = path.join(out, 'セット別', set, `${set}_${dai}_${meta.field}_${kind}.pdf`);
-    const byDai = path.join(out, '大問別', dai, `${dai}_${set}_${meta.field}_${kind}.pdf`);
-    fs.mkdirSync(path.dirname(bySet), { recursive: true });
-    fs.mkdirSync(path.dirname(byDai), { recursive: true });
+    const folder = isExam ? '問題' : '回答';
+    const dest = path.join(out, `${setNo}セット`, folder, `${setNo}セット_${dai}_${meta.field}_${folder}.pdf`);
+    fs.mkdirSync(path.dirname(dest), { recursive: true });
     await tab.pdf({
-      path: bySet,
+      path: dest,
       preferCSSPageSize: true,
       printBackground: true,
       displayHeaderFooter: true,
@@ -193,8 +192,7 @@ for (const name of fs.readdirSync(src).filter(f => f.endsWith('.md')).sort()) {
         ― <span class="pageNumber"></span> ―
         <span style="position:absolute; right:22mm; font-size:8pt;">◇${set}(${num})</span></div>`,
     });
-    fs.copyFileSync(bySet, byDai);
-    console.log(path.relative(here, bySet));
+    console.log(path.relative(here, dest));
   }
 }
 await browser.close();
