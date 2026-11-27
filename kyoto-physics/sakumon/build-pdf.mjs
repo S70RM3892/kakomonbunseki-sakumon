@@ -95,6 +95,7 @@ function mdToHtml(markdown) {
     .replace(/<annotation[\s\S]*?<\/annotation>/g, '')
     // 単項のマイナスのまわりに余分な空きが入らないようにする
     .replace(/(<mrow>|<mo[^>]*>[=(<>≦≧≒]<\/mo>)<mo>−<\/mo>/g, '$1<mo form="prefix" lspace="0" rspace="0">−</mo>')
+    .replace(/<mi>Δ<\/mi>/g, '<mi mathvariant="normal">Δ</mi>')
     .replace(/<math /g, '<math lang="en" ')
     .replace(/\{ ([^:{}<]{1,2}): ([\s\S]*?) \}/g, '{<span class="sel">$1</span>:$2}')
     .replace(/\{ \}/g, '{　　　}')

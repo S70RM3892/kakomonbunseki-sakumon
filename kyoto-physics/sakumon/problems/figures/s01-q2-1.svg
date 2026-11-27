@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 250" width="520" height="250" font-family="Latin Modern Roman, IPAexMincho, serif" font-size="17">
+  <rect width="520" height="250" fill="#fff"/>
+  <!-- rails -->
+  <line x1="90" y1="70" x2="470" y2="70" stroke="#000" stroke-width="3"/>
+  <line x1="90" y1="170" x2="470" y2="170" stroke="#000" stroke-width="3"/>
+  <!-- terminals and element -->
+  <circle cx="90" cy="70" r="4" fill="#fff" stroke="#000" stroke-width="1.5"/>
+  <circle cx="90" cy="170" r="4" fill="#fff" stroke="#000" stroke-width="1.5"/>
+  <text x="84" y="56">P</text><text x="84" y="196">Q</text>
+  <path d="M86 70 L45 70 L45 100 M45 140 L45 170 L86 170" fill="none" stroke="#000" stroke-width="1.5"/>
+  <rect x="35" y="100" width="20" height="40" fill="#fff" stroke="#000" stroke-width="1.5"/>
+  <text x="4" y="126" font-size="15">抵抗</text>
+  <!-- rod -->
+  <line x1="290" y1="52" x2="290" y2="188" stroke="#000" stroke-width="7"/>
+  <text x="252" y="44" font-size="15">導体棒(質量 <tspan font-style="italic">m</tspan>)</text>
+  <!-- current arrow -->
+  <line x1="272" y1="95" x2="272" y2="140" stroke="#000" stroke-width="1.3"/>
+  <path d="M272 148 L267 136 L277 136 Z" fill="#000"/>
+  <text x="252" y="125" font-style="italic">I</text>
+  <!-- force -->
+  <line x1="294" y1="120" x2="360" y2="120" stroke="#000" stroke-width="2"/>
+  <path d="M370 120 L356 114 L356 126 Z" fill="#000"/>
+  <text x="352" y="106" font-style="italic">F</text>
+  <!-- ell -->
+  <line x1="440" y1="74" x2="440" y2="166" stroke="#000" stroke-width="1"/>
+  <path d="M440 72 L436 82 L444 82 Z M440 168 L436 158 L444 158 Z" fill="#000"/>
+  <text x="448" y="126" font-style="italic">ℓ</text>
+  <!-- B -->
+  <circle cx="180" cy="120" r="9" fill="#fff" stroke="#000" stroke-width="1.5"/><circle cx="180" cy="120" r="2.5" fill="#000"/>
+  <text x="195" y="126" font-style="italic">B</text>
+  <!-- x axis -->
+  <line x1="90" y1="222" x2="470" y2="222" stroke="#000" stroke-width="1.2"/>
+  <path d="M480 222 L468 217 L468 227 Z" fill="#000"/>
+  <text x="488" y="228" font-style="italic">x</text>
+  <text x="380" y="62" font-size="15">レール</text>
+</svg>

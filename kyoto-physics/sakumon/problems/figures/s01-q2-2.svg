@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 170" width="520" height="170" font-family="Latin Modern Roman, IPAexMincho, serif" font-size="17">
+  <rect width="520" height="170" fill="#fff"/>
+  <!-- (a) capacitor -->
+  <g transform="translate(20,0)">
+    <path d="M110 30 L50 30 L50 72 M50 88 L50 130 L110 130" fill="none" stroke="#000" stroke-width="1.5"/>
+    <line x1="34" y1="72" x2="66" y2="72" stroke="#000" stroke-width="2.5"/><line x1="34" y1="88" x2="66" y2="88" stroke="#000" stroke-width="2.5"/>
+    <circle cx="114" cy="30" r="4" fill="#fff" stroke="#000" stroke-width="1.5"/><circle cx="114" cy="130" r="4" fill="#fff" stroke="#000" stroke-width="1.5"/>
+    <text x="122" y="36">P</text><text x="122" y="136">Q</text>
+    <text x="12" y="86" font-style="italic">C</text>
+    <text x="50" y="160" font-size="15">(a)</text>
+  </g>
+  <!-- (b) coil -->
+  <g transform="translate(195,0)">
+    <path d="M110 30 L50 30 L50 50 a10 10 0 0 1 0 20 a10 10 0 0 1 0 20 a10 10 0 0 1 0 20 L50 130 L110 130" fill="none" stroke="#000" stroke-width="1.5"/>
+    <circle cx="114" cy="30" r="4" fill="#fff" stroke="#000" stroke-width="1.5"/><circle cx="114" cy="130" r="4" fill="#fff" stroke="#000" stroke-width="1.5"/>
+    <text x="122" y="36">P</text><text x="122" y="136">Q</text>
+    <text x="22" y="86" font-style="italic">L</text>
+    <text x="50" y="160" font-size="15">(b)</text>
+  </g>
+  <!-- (c) parallel -->
+  <g transform="translate(350,0)">
+    <path d="M130 30 L30 30 L30 50 a10 10 0 0 1 0 20 a10 10 0 0 1 0 20 a10 10 0 0 1 0 20 L30 130 L130 130" fill="none" stroke="#000" stroke-width="1.5"/>
+    <path d="M85 30 L85 72 M85 88 L85 130" fill="none" stroke="#000" stroke-width="1.5"/>
+    <line x1="69" y1="72" x2="101" y2="72" stroke="#000" stroke-width="2.5"/><line x1="69" y1="88" x2="101" y2="88" stroke="#000" stroke-width="2.5"/>
+    <circle cx="85" cy="30" r="2.5" fill="#000"/><circle cx="85" cy="130" r="2.5" fill="#000"/>
+    <circle cx="134" cy="30" r="4" fill="#fff" stroke="#000" stroke-width="1.5"/><circle cx="134" cy="130" r="4" fill="#fff" stroke="#000" stroke-width="1.5"/>
+    <text x="142" y="36">P</text><text x="142" y="136">Q</text>
+    <text x="4" y="86" font-style="italic">L</text><text x="106" y="86" font-style="italic">C</text>
+    <text x="70" y="160" font-size="15">(c)</text>
+  </g>
+</svg>
