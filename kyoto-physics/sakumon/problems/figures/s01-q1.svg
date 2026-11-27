@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 250" width="460" height="250" font-family="IPAGothic, sans-serif" font-size="15">
-  <rect width="460" height="250" fill="#fff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 250" width="520" height="250" font-family="Latin Modern Roman, IPAexMincho, serif" font-size="15">
+  <rect width="520" height="250" fill="#fff"/>
   <!-- floor -->
-  <line x1="20" y1="215" x2="440" y2="215" stroke="#000" stroke-width="2"/>
+  <line x1="20" y1="215" x2="500" y2="215" stroke="#000" stroke-width="2"/>
   <g stroke="#000" stroke-width="1">
     <line x1="40" y1="215" x2="30" y2="227"/><line x1="90" y1="215" x2="80" y2="227"/><line x1="140" y1="215" x2="130" y2="227"/>
     <line x1="190" y1="215" x2="180" y2="227"/><line x1="240" y1="215" x2="230" y2="227"/><line x1="290" y1="215" x2="280" y2="227"/>
@@ -12,7 +12,7 @@
   <text x="46" y="15">壁</text>
   <!-- block with semicircular groove: O=(210,70), R=110 -->
   <path d="M70 70 L100 70 A110 110 0 0 0 320 70 L350 70 L350 215 L70 215 Z" fill="#e8e8e8" stroke="#000" stroke-width="2"/>
-  <text x="300" y="205">台(質量 M)</text>
+  <text x="232" y="206">台(質量 <tspan font-style="italic">M</tspan>)</text>
   <!-- O, P, A, B -->
   <circle cx="210" cy="70" r="2.5" fill="#000"/>
   <text x="204" y="60">O</text>
@@ -23,12 +23,13 @@
   <!-- ball at theta=35deg right: contact point (210+110 sin35, 70+110 cos35)=(273.1,160.1); ball r=8 center at radius 102 -->
   <line x1="210" y1="70" x2="268.5" y2="153.6" stroke="#000" stroke-width="1"/>
   <circle cx="268.5" cy="153.6" r="8" fill="#000"/>
-  <text x="282" y="150">小球(質量 m)</text>
+  <line x1="276" y1="150" x2="372" y2="132" stroke="#000" stroke-width="0.7"/>
+  <text x="376" y="136">小球(質量 <tspan font-style="italic">m</tspan>)</text>
   <path d="M210 110 A40 40 0 0 0 232.9 102.8" fill="none" stroke="#000" stroke-width="1"/>
-  <text x="216" y="128">θ</text>
-  <text x="252" y="108">R</text>
+  <text x="216" y="128" font-style="italic">θ</text>
+  <text x="252" y="108" font-style="italic">R</text>
   <!-- g arrow -->
-  <line x1="410" y1="60" x2="410" y2="110" stroke="#000" stroke-width="1.5"/>
-  <path d="M410 116 L405 104 L415 104 Z" fill="#000"/>
-  <text x="418" y="92">g</text>
+  <line x1="490" y1="40" x2="490" y2="90" stroke="#000" stroke-width="1.5"/>
+  <path d="M490 96 L485 84 L495 84 Z" fill="#000"/>
+  <text x="498" y="72" font-style="italic">g</text>
 </svg>
