@@ -12,6 +12,7 @@
   - `analysis/official-intent.md` 京大公式「出題意図」の要点
   - `sakumon/blueprint.md` 作問設計図
   - `sakumon/problems/` 作った問題(1 題 1 ファイル)
+  - `sakumon/pdf/セット別/`、`sakumon/pdf/大問別/` 問題と解答の PDF(`node build-pdf.mjs` で生成)
 
 ## 方針
 

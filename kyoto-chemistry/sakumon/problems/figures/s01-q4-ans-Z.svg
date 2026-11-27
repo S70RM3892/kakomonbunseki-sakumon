@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 225" width="240" height="225" font-family="Latin Modern Roman, IPAexMincho, serif"><rect width="240" height="225" fill="#fff"/>
+<text x="120.0" y="35.4" font-size="16" text-anchor="middle" >CHO</text>
+<line x1="120.0" y1="42.0" x2="120.0" y2="64.0" stroke="#000" stroke-width="1.3" />
+<line x1="94.0" y1="64.0" x2="146.0" y2="64.0" stroke="#000" stroke-width="1.3" />
+<text x="90.0" y="69.4" font-size="16" text-anchor="end" >H</text>
+<text x="150.0" y="69.4" font-size="16" text-anchor="start" >OCH<tspan baseline-shift="sub" font-size="11.2">3</tspan></text>
+<line x1="120.0" y1="64.0" x2="120.0" y2="98.0" stroke="#000" stroke-width="1.3" />
+<line x1="94.0" y1="98.0" x2="146.0" y2="98.0" stroke="#000" stroke-width="1.3" />
+<text x="90.0" y="103.4" font-size="16" text-anchor="end" >CH<tspan baseline-shift="sub" font-size="11.2">3</tspan>O</text>
+<text x="150.0" y="103.4" font-size="16" text-anchor="start" >H</text>
+<line x1="120.0" y1="98.0" x2="120.0" y2="132.0" stroke="#000" stroke-width="1.3" />
+<line x1="94.0" y1="132.0" x2="146.0" y2="132.0" stroke="#000" stroke-width="1.3" />
+<text x="90.0" y="137.4" font-size="16" text-anchor="end" >H</text>
+<text x="150.0" y="137.4" font-size="16" text-anchor="start" >OH</text>
+<line x1="120.0" y1="132.0" x2="120.0" y2="166.0" stroke="#000" stroke-width="1.3" />
+<line x1="94.0" y1="166.0" x2="146.0" y2="166.0" stroke="#000" stroke-width="1.3" />
+<text x="90.0" y="171.4" font-size="16" text-anchor="end" >H</text>
+<text x="150.0" y="171.4" font-size="16" text-anchor="start" >OH</text>
+<line x1="120.0" y1="166.0" x2="120.0" y2="188.0" stroke="#000" stroke-width="1.3" />
+<text x="114.0" y="205.4" font-size="16" text-anchor="start" >CH<tspan baseline-shift="sub" font-size="11.2">2</tspan>OH</text>
+</svg>

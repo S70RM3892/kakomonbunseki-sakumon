@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 310" width="560" height="310" font-family="Latin Modern Roman, IPAexMincho, serif"><rect width="560" height="310" fill="#fff"/>
+<line x1="110.0" y1="250.0" x2="280.0" y2="250.0" stroke="#000" stroke-width="1.1" />
+<line x1="280.0" y1="250.0" x2="280.0" y2="80.0" stroke="#000" stroke-width="1.1" />
+<line x1="280.0" y1="80.0" x2="110.0" y2="80.0" stroke="#000" stroke-width="1.1" />
+<line x1="110.0" y1="80.0" x2="110.0" y2="250.0" stroke="#000" stroke-width="1.1" />
+<line x1="188.0" y1="200.0" x2="358.0" y2="200.0" stroke="#000" stroke-width="1.1" stroke-dasharray="5 4"/>
+<line x1="358.0" y1="200.0" x2="358.0" y2="30.0" stroke="#000" stroke-width="1.1" />
+<line x1="358.0" y1="30.0" x2="188.0" y2="30.0" stroke="#000" stroke-width="1.1" />
+<line x1="188.0" y1="30.0" x2="188.0" y2="200.0" stroke="#000" stroke-width="1.1" stroke-dasharray="5 4"/>
+<line x1="110.0" y1="250.0" x2="188.0" y2="200.0" stroke="#000" stroke-width="1.1" stroke-dasharray="5 4"/>
+<line x1="280.0" y1="250.0" x2="358.0" y2="200.0" stroke="#000" stroke-width="1.1" />
+<line x1="280.0" y1="80.0" x2="358.0" y2="30.0" stroke="#000" stroke-width="1.1" />
+<line x1="110.0" y1="80.0" x2="188.0" y2="30.0" stroke="#000" stroke-width="1.1" />
+<circle cx="188.0" cy="200.0" r="15" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<circle cx="188.0" cy="30.0" r="15" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<circle cx="358.0" cy="200.0" r="15" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<circle cx="358.0" cy="30.0" r="15" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<circle cx="273.0" cy="115.0" r="11" fill="#bbb" stroke="#000" stroke-width="1.2"/>
+<circle cx="234.0" cy="225.0" r="11" fill="#bbb" stroke="#000" stroke-width="1.2"/>
+<circle cx="234.0" cy="55.0" r="11" fill="#bbb" stroke="#000" stroke-width="1.2"/>
+<circle cx="149.0" cy="140.0" r="11" fill="#bbb" stroke="#000" stroke-width="1.2"/>
+<circle cx="319.0" cy="140.0" r="11" fill="#bbb" stroke="#000" stroke-width="1.2"/>
+<circle cx="234.0" cy="140.0" r="7.5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<circle cx="110.0" cy="250.0" r="15" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<circle cx="110.0" cy="80.0" r="15" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<circle cx="280.0" cy="250.0" r="15" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<circle cx="280.0" cy="80.0" r="15" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<circle cx="195.0" cy="165.0" r="11" fill="#bbb" stroke="#000" stroke-width="1.2"/>
+<circle cx="410" cy="90" r="15" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="438.0" y="95.8" font-size="17" text-anchor="start" >A(Sr<tspan baseline-shift="super" font-size="11.9">2+</tspan>)</text>
+<circle cx="410" cy="134" r="7.5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="438.0" y="139.8" font-size="17" text-anchor="start" >B(Ti<tspan baseline-shift="super" font-size="11.9">4+</tspan>)</text>
+<circle cx="410" cy="178" r="11" fill="#bbb" stroke="#000" stroke-width="1.2"/>
+<text x="438.0" y="183.8" font-size="17" text-anchor="start" >O<tspan baseline-shift="super" font-size="11.9">2−</tspan></text>
+<line x1="110.0" y1="280.0" x2="280.0" y2="280.0" stroke="#000" stroke-width="0.8" />
+<line x1="110.0" y1="274.0" x2="110.0" y2="286.0" stroke="#000" stroke-width="0.8" />
+<line x1="280.0" y1="274.0" x2="280.0" y2="286.0" stroke="#000" stroke-width="0.8" />
+<text x="195.0" y="301.8" font-size="17" text-anchor="middle" font-style="italic">a</text>
+</svg>
