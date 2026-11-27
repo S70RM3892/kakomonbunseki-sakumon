@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 250" width="520" height="250" font-family="Latin Modern Roman, IPAexMincho, serif" font-size="15">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 250" width="520" height="250" font-family="Latin Modern Roman, IPAexMincho, serif" font-size="17">
   <rect width="520" height="250" fill="#fff"/>
   <!-- floor -->
   <line x1="20" y1="215" x2="500" y2="215" stroke="#000" stroke-width="2"/>
