@@ -3,6 +3,7 @@
 // 出力:
 //   pdf/NNセット/問題/NNセット_大問K_分野_問題.pdf(京大数学の問題冊子の体裁: 枠つき番号、右肩に配点)
 //   pdf/NNセット/回答/NNセット_大問K_分野_回答.pdf
+//   pdf/NNセット/問題/NNセット_全問_問題.pdf、pdf/NNセット/回答/NNセット_全問_回答.pdf(6 題まとめ)
 // 各 md の先頭に front matter(set, daimon, field, title, points)が必要。
 // 「## 問題」〜「## 解答」を問題 PDF、「## 解答」以降を解答 PDF にする(「狙い」などの前置きは問題 PDF に入れない)。
 //
@@ -52,7 +53,7 @@ h1 .no { display: inline-block; border: 1.6px solid #000; width: 1.7em; line-hei
 h1 .pts { font-family: "Latin Modern Roman", "IPAexMincho", serif; font-weight: normal; font-size: 11pt; }
 h1 .num { font-family: ${mincho}; font-weight: bold; margin-left: 1.2em; font-size: 1.1em; }
 p { margin: 0; }
-#content { padding-left: 0.9em; }
+.content { padding-left: 0.9em; }
 .intro { text-indent: 1em; margin-left: -0.9em; }
 figure { margin-left: -0.9em; }
 .sec { margin-top: 2.05em; padding-left: 3em; text-indent: -3em; }
@@ -122,8 +123,9 @@ function arrange(isExam) {
     if (!mo.parentElement.querySelector('mfrac')) mo.setAttribute('stretchy', 'false');
   }
   if (!isExam) return;
+  for (const block of document.querySelectorAll('.content')) {
   let state = 'intro';
-  for (const p of [...document.querySelectorAll('#content > p')]) {
+  for (const p of [...block.querySelectorAll(':scope > p')]) {
     const img = p.children.length === 1 && p.firstElementChild.tagName === 'IMG' ? p.firstElementChild : null;
     if (img) {
       const fig = document.createElement('figure');
@@ -151,27 +153,30 @@ function arrange(isExam) {
       p.className = state === 'intro' ? 'intro' : 'cont';
     }
   }
+  }
   // 本文中で小問を指す (1) などは太字にしない
-  for (const st of document.querySelectorAll('#content p:not(.sec) > strong')) {
+  for (const st of document.querySelectorAll('.content p:not(.sec) > strong')) {
     if (/^\(\d\)$/.test(st.textContent)) st.replaceWith(`(${st.textContent[1]})`);
   }
   // 数式の直後に続く「を用いてよい。…」のような段落は字下げしない
-  for (const p of document.querySelectorAll('#content > p.math + p.cont')) p.style.textIndent = '0';
+  for (const p of document.querySelectorAll('.content > p.math + p.cont')) p.style.textIndent = '0';
 }
 
 fs.rmSync(out, { recursive: true, force: true });
 const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'sakumon-'));
 const browser = await chromium.launch();
 const tab = await browser.newPage();
+const sets = {};
 for (const name of fs.readdirSync(src).filter(f => f.endsWith('.md')).sort()) {
   const { meta, question, answer } = parse(path.join(src, name));
   const setNo = String(meta.set).padStart(2, '0');
   const set = `セット${setNo}`;
   const dai = `大問${meta.daimon}`;
+  (sets[setNo] ??= []).push({ meta, question, answer });
   for (const kind of ['問題', '解答']) {
     const isExam = kind === '問題';
     const html = isExam
-      ? page(examCss, `<h1><span class="no">${meta.daimon}</span><span class="pts">(${meta.points} 点)</span></h1><div id="content">${mdToHtml(question)}</div>`)
+      ? page(examCss, `<h1><span class="no">${meta.daimon}</span><span class="pts">(${meta.points} 点)</span></h1><div class="content">${mdToHtml(question)}</div>`)
       : page(answerCss, `<div class="meta">${set} 数学(理系) ${dai}(${meta.field}・${meta.points} 点)</div>
           <h1>${dai} 解答・解説(${meta.title})</h1>${mdToHtml(answer)}`);
     const htmlFile = path.join(tmp, 'p.html');
@@ -190,6 +195,41 @@ for (const name of fs.readdirSync(src).filter(f => f.endsWith('.md')).sort()) {
       footerTemplate: `<div style="width:100%; font-size:10.5pt; font-family:serif; position:relative; text-align:center; padding-bottom:6mm;">
         ― <span class="pageNumber"></span> ―
         <span style="position:absolute; right:22mm; font-size:8pt;">◇${set}(${meta.daimon})</span></div>`,
+    });
+    console.log(path.relative(here, dest));
+  }
+}
+// セットごとに、6 題を 1 つにまとめた PDF も作る(問題は本番の冊子と同じく 2 ページ)
+const allCss = `
+body { line-height: 1.95; }
+.prob { break-inside: avoid; margin-bottom: 16mm; }
+.prob:nth-of-type(4) { break-before: page; }
+.prob h1 { margin: 0 0 3mm; }
+.toi, .sec { margin-top: 1.1em; }
+.end { text-align: center; font-family: ${gothic}; font-weight: bold; font-size: 13pt; margin-top: 10mm; }
+`;
+for (const [setNo, items] of Object.entries(sets)) {
+  items.sort((a, b) => a.meta.daimon - b.meta.daimon);
+  for (const isExam of [true, false]) {
+    const html = isExam
+      ? page(examCss + allCss, items.map(({ meta, question }) =>
+          `<div class="prob"><h1><span class="no">${meta.daimon}</span><span class="pts">(${meta.points} 点)</span></h1><div class="content">${mdToHtml(question)}</div></div>`).join('')
+          + '<div class="end">問題は,このページで終わりである。</div>')
+      : page(answerCss, items.map(({ meta, answer }, i) =>
+          `<div style="${i ? 'break-before: page;' : ''}"><div class="meta">セット${setNo} 数学(理系) 大問${meta.daimon}(${meta.field}・${meta.points} 点)</div>
+          <h1>大問${meta.daimon} 解答・解説(${meta.title})</h1>${mdToHtml(answer)}</div>`).join(''));
+    const htmlFile = path.join(tmp, 'all.html');
+    fs.writeFileSync(htmlFile, html);
+    await tab.goto(`file://${htmlFile}`);
+    await tab.evaluate(arrange, isExam);
+    const folder = isExam ? '問題' : '回答';
+    const dest = path.join(out, `${setNo}セット`, folder, `${setNo}セット_全問_${folder}.pdf`);
+    await tab.pdf({
+      path: dest, preferCSSPageSize: true, printBackground: true, displayHeaderFooter: true,
+      headerTemplate: '<span></span>',
+      footerTemplate: `<div style="width:100%; font-size:10.5pt; font-family:serif; position:relative; text-align:center; padding-bottom:6mm;">
+        ― <span class="pageNumber"></span> ―
+        <span style="position:absolute; right:22mm; font-size:8pt;">◇セット${setNo}</span></div>`,
     });
     console.log(path.relative(here, dest));
   }
