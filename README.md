@@ -21,6 +21,8 @@
   - `analysis/data/YYYY.json`、`analysis/data/stats.json` 同、集計用データ
   - `analysis/trend.md` 横断分析の結論
   - `analysis/official-intent.md` 京大公式の出題意図、工学部の配点、合格者得点
+  - `sakumon/problems/` 作った問題(1 題 1 ファイル、解答・採点の観点つき)
+  - `sakumon/pdf/NNセット/問題/`、`sakumon/pdf/NNセット/回答/` 大問ごとの PDF(`node build-pdf.mjs` で生成)
 
 ## 方針
 
