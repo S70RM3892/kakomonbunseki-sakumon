@@ -22,6 +22,7 @@
   - `sakumon/blueprint.md` 作問設計図
   - `sakumon/saiten.md` 採点基準(自己採点・添削用、厳格版)
   - `sakumon/problems/` 作った問題(1 題 1 ファイル)
+  - `sakumon/build-pdf.mjs` 問題から PDF を作る(`pdf/NNセット/問題/`、`pdf/NNセット/回答/`)
 
 ## 方針
 
