@@ -1,0 +1,182 @@
+{
+ "year": 2025,
+ "exam_format": {
+  "num_problems": 6,
+  "points_total": 200,
+  "points_by_problem": [
+   35,
+   35,
+   30,
+   35,
+   30,
+   35
+  ],
+  "time_min": 150,
+  "has_komon_shugo": true
+ },
+ "parts": [
+  {
+   "year": 2025,
+   "no": 1,
+   "part": "問1",
+   "points": 35,
+   "field": "複素数平面",
+   "sub_fields": [],
+   "format": "求値",
+   "num_subq": 0,
+   "guide": "G0",
+   "difficulty": "易",
+   "patterns": [
+    "絶対値の性質",
+    "円周上の点と定点の距離"
+   ],
+   "summary": "|z|=2 のとき |z-i/z| の最大・最小。",
+   "key_idea": "|z²-i|/|z|。z² は半径4の円周を動く。",
+   "answer": "最大 5/2、最小 3/2",
+   "checked": "手計算",
+   "sakumon_memo": "小問集合の一行問題。"
+  },
+  {
+   "year": 2025,
+   "no": 1,
+   "part": "問2",
+   "points": 0,
+   "field": "積分",
+   "sub_fields": [],
+   "format": "求値",
+   "num_subq": 2,
+   "guide": "G1",
+   "difficulty": "標準",
+   "patterns": [
+    "分数式を割って分ける",
+    "半角で根号を外す"
+   ],
+   "summary": "定積分2題(分数式+無理式、√((1-cos x)/(1+cos x)))。",
+   "key_idea": "(1) は x/√(x²+1) と (2x³+1)/(x²+1) に分ける。(2) は tan(x/2)。",
+   "answer": "(1) 4-2log 2+π/3 (2) log 2",
+   "checked": "計算機",
+   "sakumon_memo": "計算力確認。arctan 型を含む。"
+  },
+  {
+   "year": 2025,
+   "no": 2,
+   "part": "",
+   "points": 35,
+   "field": "整数",
+   "sub_fields": [
+    "平方数"
+   ],
+   "format": "求値",
+   "num_subq": 0,
+   "guide": "G0",
+   "difficulty": "やや難",
+   "patterns": [
+    "mod 3 で平方和",
+    "ピタゴラス数",
+    "最小性の論証"
+   ],
+   "summary": "N=9z²=x⁶+y⁴ と表される正整数 N の最小。",
+   "key_idea": "平方数の和が 3 の倍数なら両方 3 の倍数。x=3a, y=3b で w²=(3a³)²+(b²)²。a=1 で (w-b²)(w+b²)=9。",
+   "answer": "2025(x=3, y=6, z=15)",
+   "checked": "手計算",
+   "sakumon_memo": "答が西暦。最小であることの論証(a≧2 では大きすぎる)まで書く。"
+  },
+  {
+   "year": 2025,
+   "no": 3,
+   "part": "",
+   "points": 30,
+   "field": "微分",
+   "sub_fields": [
+    "対数"
+   ],
+   "format": "求値",
+   "num_subq": 0,
+   "guide": "G0",
+   "difficulty": "標準",
+   "patterns": [
+    "式の整理で約分が起きる",
+    "log x を変数に"
+   ],
+   "summary": "f(x)=x²log x の接線に垂直で (t,g(t)) を通る直線の x 切片 p(t) の値域。",
+   "key_idea": "p=t+g·f'。g の分母 1+2log t が f' の因数と消えて p=t³log t(1+2log t)。",
+   "answer": "-1/(9√e)≦p≦3e³",
+   "checked": "手計算",
+   "sakumon_memo": "きれいに約分されるよう g を作ってある。見た目に怯まず計算する。"
+  },
+  {
+   "year": 2025,
+   "no": 4,
+   "part": "",
+   "points": 35,
+   "field": "空間図形",
+   "sub_fields": [
+    "ベクトル"
+   ],
+   "format": "証明+求値",
+   "num_subq": 2,
+   "guide": "G2",
+   "difficulty": "標準",
+   "patterns": [
+    "平面の方程式(斜交座標)",
+    "恒等式として見る",
+    "体積比=係数"
+   ],
+   "summary": "OL=sOA 等で 1/s+2/t+3/u=4。(1) 平面 LMN が定点 P を通り、P は唯一。(2) 四面体 PABC の体積。",
+   "key_idea": "点 xOA+yOB+zOC が平面 LMN 上 ⇔ x/s+y/t+z/u=1。条件式と比べて P=(1/4,1/2,3/4)。唯一性は s,t,u を具体的に3組とって示す。",
+   "answer": "(2) V/2",
+   "checked": "手計算",
+   "sakumon_memo": "「定点を通る」の存在と一意性を分けて書かせる。一意性の論証が抜けやすい。"
+  },
+  {
+   "year": 2025,
+   "no": 5,
+   "part": "",
+   "points": 30,
+   "field": "軌跡・領域",
+   "sub_fields": [
+    "空間座標",
+    "2次曲線"
+   ],
+   "format": "求値+図示",
+   "num_subq": 0,
+   "guide": "G0",
+   "difficulty": "やや難",
+   "patterns": [
+    "直線と平面の交点",
+    "媒介変数の消去",
+    "変域"
+   ],
+   "summary": "A(0,0,√2/4) と P(cosθ,sinθ,(1/2)cosθ) を通る直線と xy 平面の交点 Q の軌跡(-π/4<θ<π/4)。",
+   "key_idea": "Q=(cosθ,sinθ)/(1-√2cosθ)。X²+Y²=(1+√2X)² に整理すると双曲線。θ の範囲から片方の枝全体。",
+   "answer": "(x+√2)²-y²=1 の x≦-√2-1 の枝",
+   "checked": "手計算",
+   "sakumon_memo": "円錐曲線を「円の射影」として出す。数学C の2次曲線が単独の大問になった。"
+  },
+  {
+   "year": 2025,
+   "no": 6,
+   "part": "",
+   "points": 35,
+   "field": "確率・場合の数",
+   "sub_fields": [
+    "数列"
+   ],
+   "format": "求値",
+   "num_subq": 0,
+   "guide": "G0",
+   "difficulty": "やや難",
+   "patterns": [
+    "直前の出目を状態に含める",
+    "偶奇の差に注目",
+    "2項ずつの漸化式"
+   ],
+   "summary": "硬貨を n 回投げ X_k∈{0,1}。Y_n=ΣX_{k-1}X_k が奇数である確率。",
+   "key_idea": "(Y の偶奇, 最後の X) の4状態。偶−奇の差で見ると2ステップごとに 1/2 倍。",
+   "answer": "n 偶数: (1-2^{-n/2})/2、n 奇数: (1-2^{-(n-1)/2})/2",
+   "checked": "計算機",
+   "sakumon_memo": "状態に「直前の結果」を入れる必要がある漸化式。偶奇で答の形が変わる。"
+  }
+ ],
+ "overall_note": "新課程初年度。出題範囲の変更による影響は小さく、2次曲線の[5]が目立つ程度。答が 2025 になる[2]。小問集合は[1]。"
+}

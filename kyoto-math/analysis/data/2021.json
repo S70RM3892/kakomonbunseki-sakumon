@@ -1,0 +1,202 @@
+{
+ "year": 2021,
+ "exam_format": {
+  "num_problems": 6,
+  "points_total": 200,
+  "points_by_problem": [
+   40,
+   30,
+   30,
+   30,
+   30,
+   40
+  ],
+  "time_min": 150,
+  "has_komon_shugo": true
+ },
+ "parts": [
+  {
+   "year": 2021,
+   "no": 1,
+   "part": "問1",
+   "points": 40,
+   "field": "空間図形",
+   "sub_fields": [
+    "ベクトル"
+   ],
+   "format": "求値",
+   "num_subq": 0,
+   "guide": "G0",
+   "difficulty": "易",
+   "patterns": [
+    "平面の方程式 or 法線ベクトル"
+   ],
+   "summary": "3点を通る平面に関する点 P の対称点。",
+   "key_idea": "平面 2x-2y+z=2、法線方向に2倍移動。",
+   "answer": "(13/9, 5/9, 11/9)",
+   "checked": "手計算",
+   "sakumon_memo": "小問集合の計算問題。問題文が「対称」の定義を与えている。"
+  },
+  {
+   "year": 2021,
+   "no": 1,
+   "part": "問2",
+   "points": 0,
+   "field": "確率・場合の数",
+   "sub_fields": [],
+   "format": "求値",
+   "num_subq": 0,
+   "guide": "G0",
+   "difficulty": "標準",
+   "patterns": [
+    "包除原理",
+    "最後の1回を固定"
+   ],
+   "summary": "4色の玉を戻しながら引く。n 回目に初めて赤が出て全色が出そろう確率。",
+   "key_idea": "n-1 回目までは赤以外の3色で、かつ3色すべて出ている。",
+   "answer": "(3^{n-1}-3·2^{n-1}+3)/4^n",
+   "checked": "手計算",
+   "sakumon_memo": "クーポンコレクター型。3色すべて、の数え方が包除。"
+  },
+  {
+   "year": 2021,
+   "no": 2,
+   "part": "",
+   "points": 30,
+   "field": "微分",
+   "sub_fields": [],
+   "format": "求値",
+   "num_subq": 0,
+   "guide": "G0",
+   "difficulty": "易",
+   "patterns": [
+    "接線",
+    "1変数関数の最小"
+   ],
+   "summary": "y=(x²+1)/2 上の点 P の接線と x 軸の交点 Q。PQ の長さの最小。",
+   "key_idea": "P の x 座標 t で PQ²=(t²+1)³/(4t²)。",
+   "answer": "3√3/4",
+   "checked": "手計算",
+   "sakumon_memo": "教科書章末レベル。この年の易化を象徴する。"
+  },
+  {
+   "year": 2021,
+   "no": 3,
+   "part": "",
+   "points": 30,
+   "field": "極限",
+   "sub_fields": [
+    "無限級数",
+    "複素数"
+   ],
+   "format": "求値",
+   "num_subq": 0,
+   "guide": "G0",
+   "difficulty": "標準",
+   "patterns": [
+    "複素数の等比級数の実部",
+    "周期12でまとめる"
+   ],
+   "summary": "Σ(1/2)^n cos(nπ/6)。",
+   "key_idea": "複素数 (1/2)(cos π/6+i sin π/6) の無限等比級数の実部。複素数列の収束に触れるか、周期で実数の級数に分ける。",
+   "answer": "(14+3√3)/13",
+   "checked": "手計算",
+   "sakumon_memo": "答案の書き方(複素級数を使ってよいか)で悩ませる問題。"
+  },
+  {
+   "year": 2021,
+   "no": 4,
+   "part": "",
+   "points": 30,
+   "field": "積分",
+   "sub_fields": [
+    "曲線の長さ"
+   ],
+   "format": "求値",
+   "num_subq": 0,
+   "guide": "G0",
+   "difficulty": "易",
+   "patterns": [
+    "半角",
+    "1/cos の積分"
+   ],
+   "summary": "y=log(1+cos x) の 0≦x≦π/2 の長さ。",
+   "key_idea": "√(1+y'²)=1/cos(x/2)。",
+   "answer": "2log(1+√2)",
+   "checked": "計算機",
+   "sakumon_memo": "公式どおり。2019[1]問2(2) の積分がそのまま出てくる。"
+  },
+  {
+   "year": 2021,
+   "no": 5,
+   "part": "",
+   "points": 30,
+   "field": "軌跡・領域",
+   "sub_fields": [
+    "平面図形",
+    "ベクトル"
+   ],
+   "format": "求値",
+   "num_subq": 2,
+   "guide": "G2",
+   "difficulty": "標準",
+   "patterns": [
+    "外心を原点に",
+    "垂心=A+B+C(外心原点)"
+   ],
+   "summary": "B,C 固定、∠BAC=π/3、A の y 座標正。(1) 外心。(2) 垂心の軌跡。",
+   "key_idea": "外心は原点で半径 2。垂心 H=A+B+C なので A の動く弧を平行移動。",
+   "answer": "(1) (0,0) (2) 円 x²+(y+2)²=4 の y>-2 の部分",
+   "checked": "手計算",
+   "sakumon_memo": "(1) が (2) の座標の取り方を教えている。A の動く範囲(円弧のどの部分か)を正確に。"
+  },
+  {
+   "year": 2021,
+   "no": 6,
+   "part": "問1",
+   "points": 40,
+   "field": "整数",
+   "sub_fields": [
+    "論証"
+   ],
+   "format": "証明",
+   "num_subq": 0,
+   "guide": "G0",
+   "difficulty": "標準",
+   "patterns": [
+    "対偶",
+    "a^n-b^n の因数分解"
+   ],
+   "summary": "3^n-2^n が素数なら n も素数。",
+   "key_idea": "n=kl(k,l≧2)なら 3^k-2^k が真の約数。",
+   "answer": "(証明)",
+   "checked": "証明問題",
+   "sakumon_memo": "メルセンヌ数の定番を底を変えて。"
+  },
+  {
+   "year": 2021,
+   "no": 6,
+   "part": "問2",
+   "points": 0,
+   "field": "微分",
+   "sub_fields": [
+    "論証",
+    "平均値の定理"
+   ],
+   "format": "証明",
+   "num_subq": 0,
+   "guide": "G0",
+   "difficulty": "標準",
+   "patterns": [
+    "補助関数 f(x)/x",
+    "ロルの定理"
+   ],
+   "summary": "微分可能な f が f(a)=af(1)(a>1)を満たすとき、原点を通る接線が存在する。",
+   "key_idea": "g(x)=f(x)/x とすると g(1)=g(a)。g'(c)=0 となる c で cf'(c)=f(c)。",
+   "answer": "(証明)",
+   "checked": "証明問題",
+   "sakumon_memo": "具体的な関数がない抽象的な存在証明。補助関数を作れるか。"
+  }
+ ],
+ "overall_note": "前年の反動で大きく易化。小問集合が[1][6]の2題、教科書レベルの[2][4]を含む。高得点勝負で、ミスが致命傷になる年。"
+}
