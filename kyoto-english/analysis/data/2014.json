@@ -1,0 +1,161 @@
+{
+  "year": 2014,
+  "booklet_pages": 5,
+  "exam_format": {
+    "num_problems": 3,
+    "points": 150,
+    "time_note": "表紙に「150点満点」「問題は全部で3題(1〜5ページ)」と記載。試験時間の記載なし。booklet_pages は表紙を除くページ数"
+  },
+  "parts": [
+    {
+      "problem": "I",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "哲学者が哲学史を重視するのは、哲学史が「賢い人々の魅力的な誤り」の歴史だからであり、誤りを犯すことこそ進歩の鍵で、哲学者は問いそのものを正す専門家だという主張。",
+      "passage": {"words": 520, "genre": "評論・論説", "field": "哲学", "abstractness": "A2", "source": "", "glossary": 0, "omitted": false},
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "下線部和訳",
+          "target_words": 45,
+          "limit": "",
+          "syntax_features": ["代名詞・指示語の特定", "省略", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "否定(部分否定・二重否定・準否定)", "名詞構文"],
+          "vocab_items": [{"word": "philosophy-free", "level": "V2", "clue": "-free(〜のない)の接辞と、直後の just 以下の言い換え(前提を考慮せずに行われた科学)"}],
+          "polysemy_items": ["at one's own risk = 自分の責任で・危険を承知で", "do so = ignore philosophy を受ける代動詞", "cheerfully = 平気で・気楽に", "underlying assumptions = 根底にある前提"],
+          "context_dependent": true,
+          "note": "2文。That's why の That は前文(歴史を知らないと同じ誤りを繰り返す)を受ける。第2文は There is no such thing as A, just B で、just の後ろに there is が省略され「あるのは B だけだ」となる。without any consideration of ... は名詞構文。"
+        },
+        {
+          "label": "(2)",
+          "type": "下線部和訳",
+          "target_words": 24,
+          "limit": "",
+          "syntax_features": ["省略", "挿入", "共通関係(A and B の並列把握)", "仮定法", "否定(部分否定・二重否定・準否定)", "代名詞・指示語の特定"],
+          "vocab_items": [],
+          "polysemy_items": ["Not that ~ = 〜というわけではない", "work on = 〜に取り組む", "defend = 擁護する"],
+          "context_dependent": true,
+          "note": "2文。文頭の Not that ... は It is not that の省略で、否定が重なる(「哲学者が誤りを犯さないわけではない」)。make と defend が the old mistakes を共有し、ダッシュの挿入が割り込む。第2文は仮定法過去。直前の「罠を避けられる科学者は例外」との関係(哲学者も例外ではない)を踏まえ、too の含意と the questions(哲学の問い)を補って訳す。"
+        },
+        {
+          "label": "(3)",
+          "type": "下線部和訳",
+          "target_words": 64,
+          "limit": "",
+          "syntax_features": ["関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "比較(no more than 等の慣用含む)", "名詞構文", "無生物主語", "代名詞・指示語の特定", "長い主語・修飾の入れ子"],
+          "vocab_items": [{"word": "set ~ off on the wrong foot", "level": "V2", "clue": "wrong + 出発の off から「出だしでつまずかせる」。主語が「誤った問いを立てること」であることからも推測できる"}],
+          "polysemy_items": ["discipline = 学問分野", "defining questions = その分野を規定する中心的な問い", "let alone = まして〜は言うまでもなく", "mixed up = 混乱した", "risk doing = 〜するおそれがある", "inquiry = 探究"],
+          "context_dependent": true,
+          "note": "4文。第1文は While の対比のもと、all the ways there are of getting things so mixed up that ...(ways を there are が修飾する関係詞省略、of getting は ways にかかる、so ... that 構文、let alone)が一続きになる最難所。第3文は動名詞主語 + risks + 動名詞。第4文の that(誤った問いで出だしを誤ること)と this の指示内容。イタリックの questions の強調を訳に出す。"
+        }
+      ],
+      "max_vocab_level": "V2",
+      "difficulty": "やや難",
+      "difficulty_reason": "語彙は平易だが、口語的な省略(Not that, just)、慣用表現、(3)の入れ子構造、皮肉を含む論調を自然な日本語にするのが難しい。",
+      "key_idea": "省略を復元して否定の向きを正しく取り((1) just、(2) Not that)、(3)の the ways there are of ... so ... that ... let alone を骨格から組み立てる。語り口のユーモアを損なわない訳語を選ぶ。",
+      "note": "出典の記載なし。設問は下線部和訳3か所のみ(前年度までの4か所から減り、1か所あたりが長くなった)。本文にイタリックの強調語が複数ある。"
+    },
+    {
+      "problem": "II",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "数学者はどう問題を解くか。アダマールの聞き取りとポアンカレの内省から、創造には準備・孵化・ひらめきの3段階があり、意識的な論理と無意識の直観の両方が要ると論じる。",
+      "passage": {"words": 560, "genre": "科学解説", "field": "数学", "abstractness": "A2", "source": "", "glossary": 0, "omitted": false},
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "下線部和訳",
+          "target_words": 27,
+          "limit": "",
+          "syntax_features": ["共通関係(A and B の並列把握)", "代名詞・指示語の特定"],
+          "vocab_items": [],
+          "polysemy_items": ["address = 扱う・取り上げる", "undergraduate = 学部(生)の", "existing = 既存の"],
+          "context_dependent": false,
+          "note": "2文。第2文は between A and B の A が learning and teaching existing mathematics、B が creating new mathematics。and が2つあり、切れ目を「既存の数学」と「新しい数学」の対比で決める。those = studies。"
+        },
+        {
+          "label": "(2)",
+          "type": "下線部和訳",
+          "target_words": 47,
+          "limit": "",
+          "syntax_features": ["関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "挿入", "無生物主語", "否定(部分否定・二重否定・準否定)", "比喩表現の訳出"],
+          "vocab_items": [],
+          "polysemy_items": ["for lack of a better term = ほかに適切な言葉がないので", "emerge = 明らかになる", "leap = (論理の)飛躍", "wild = 突拍子もない"],
+          "context_dependent": false,
+          "note": "3文。第1文は What emerged ... was the vital role of what ... must be described as intuition で what 節が2つ。2つ目の what 節の主語 what と述語 must be の間に for lack of a better term が挿入される。第3文は not through A but by B。"
+        },
+        {
+          "label": "(3)",
+          "type": "下線部和訳",
+          "target_words": 76,
+          "limit": "",
+          "syntax_features": ["関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "省略", "挿入", "比喩表現の訳出", "代名詞・指示語の特定", "長い主語・修飾の入れ子"],
+          "vocab_items": [{"word": "mental swamp", "level": "V2", "clue": "swamp(沼)は be stuck in と結びつき、and 以下の「新しいことは何も発見できない」が言い換え"}],
+          "polysemy_items": ["just in case = 万一〜の場合に備えて", "may or may not = 〜かもしれないし、そうでないかもしれない", "all you do is (to) do = 〜するだけ", "fruitlessly = 成果なく", "get trapped into = 〜にはまり込む"],
+          "context_dependent": false,
+          "note": "2文。On the one hand / On the other hand の対比。第1文は the area to which it seems to belong(前置詞 + 関係詞、it = the problem)、ダッシュ以下の along with ... 、just in case they are の後ろに related の省略。第2文は if all you do is get ...(原形補語)、非制限 which 節に fruitlessly が挿入的に後置される。最長の下線部。"
+        }
+      ],
+      "max_vocab_level": "V2",
+      "difficulty": "標準",
+      "difficulty_reason": "論旨が明快で構文も素直。(2)の what 節内の挿入と(3)の省略・長さが関門だが、定番の処理で対応できる。",
+      "key_idea": "(2)の二重の what 節と挿入句を正しく括り、(3)では省略(they are [related])と all you do is の形を見抜いて、対比が分かる日本語にまとめる。",
+      "note": "出典の記載なし(本文中で言及される書名は題材であり、この英文の出典ではない)。設問は下線部和訳3か所のみ。"
+    },
+    {
+      "problem": "III",
+      "part": "(1)",
+      "format": "和文英訳",
+      "points": null,
+      "theme": "電子書籍が普及し画面で読む機会が増えているが、紙の本でないと読んだ気がしない人も多く、製本された新しい本には独特の味わいがあるらしい。",
+      "ja_translation": {
+        "ja_chars": 171,
+        "ja_style": "論説調",
+        "paraphrase_level": "J2",
+        "key_expressions": [
+          {"ja": "普及が急速に進んできた", "approach": "名詞「普及」を動詞化する(E-books have rapidly become widespread / popular)。現在完了"},
+          {"ja": "アメリカほどではないが", "approach": "比較対象を補う(though not as much as in the United States)。何が「ほどではない」のか(機会の増え方・普及の度合い)を決める"},
+          {"ja": "耳慣れない機器", "approach": "「名前を聞き慣れない機器」(devices with unfamiliar names / devices whose names we are not familiar with)"},
+          {"ja": "増える一方である", "approach": "have more and more opportunities / are increasingly reading。進行形や比較級の反復で表す"},
+          {"ja": "中高年層に限らず", "approach": "not only middle-aged and older people。主語(〜という人も多い)との組み合わせ方に注意"},
+          {"ja": "紙の本でないとどうも読んだ気がしない", "approach": "二重否定を条件節に(do not feel as if they have really read something unless it is a paper book)。「どうも」は somehow"},
+          {"ja": "何とも言えない味わいがあるらしい", "approach": "「言葉にしにくい魅力」(a charm that is hard to describe)。「らしい」は seem / it seems that で伝聞・推量を残す"}
+        ]
+      },
+      "questions": [{"label": "(1)", "type": "和文英訳", "note": "4文。全文が英訳対象(下線なし)。"}],
+      "difficulty": "やや難",
+      "difficulty_reason": "「耳慣れない」「増える一方」「どうも読んだ気がしない」「何とも言えない味わい」と和語的・感覚的な表現が各文にあり、譲歩の接続(だけれども)も含む。",
+      "key_idea": "感覚的な日本語を平易な英語の説明に言い換えること。「〜でないと…ない」を unless で処理し、文末の「らしい」を落とさない。",
+      "note": "配点は大問III全体で50点((1)(2)の内訳は記載なし)。"
+    },
+    {
+      "problem": "III",
+      "part": "(2)",
+      "format": "和文英訳",
+      "points": null,
+      "theme": "帰宅途中の満員電車で、男の子が叫びながら人込みをかき分けて走り去った場面の描写と、忘れ物をしたのだろうという筆者の推測。",
+      "ja_translation": {
+        "ja_chars": 175,
+        "ja_style": "随筆調",
+        "paraphrase_level": "J2",
+        "key_expressions": [
+          {"ja": "通勤帰りの満員電車で揺られていたら", "approach": "「仕事帰りに満員電車に乗っていたとき」(while I was on a crowded train on my way home from work)。「揺られる」は訳出にこだわらない"},
+          {"ja": "大きな声を張り上げて車内の人込みをかき分けて走ってきた", "approach": "動作が3つ重なる。came running + pushing his way through the crowd + shouting loudly と分詞で整理する"},
+          {"ja": "小学生ぐらいの男の子", "approach": "a boy who looked like an elementary school student / a boy of about elementary school age"},
+          {"ja": "頬を真っ赤に染めて", "approach": "付帯状況(with his cheeks bright red / red-faced)"},
+          {"ja": "さっきの駅で降ろしてください", "approach": "直接話法のまま。「さっきの駅」は the last station / the station we just left、「降ろす」は let me off"},
+          {"ja": "たちまちのうちに私の目の前から姿を消した", "approach": "disappeared from my sight in an instant"},
+          {"ja": "忘れ物でもしたのだろうか", "approach": "I wonder if he had left something behind。時制は過去完了。「でも」は maybe / or something"},
+          {"ja": "あの必死の形相からして", "approach": "judging from the desperate look on his face。「〜だったに違いない」は must have been"}
+        ]
+      },
+      "questions": [{"label": "(2)", "type": "和文英訳", "note": "5文。全文が英訳対象(下線なし)。直接話法の台詞を含む物語調。"}],
+      "difficulty": "やや難",
+      "difficulty_reason": "場面描写で、複合動詞や擬態的な表現(揺られる、張り上げる、かき分ける、染める、形相)が続く。時制(過去・過去完了)と推量の助動詞の使い分けも必要。",
+      "key_idea": "重なった動作を主動詞1つ + 分詞・付帯状況に整理し、推量(だろうか/に違いない)を wonder if / must have + 過去分詞 で正確に書く。",
+      "note": "配点は大問III全体で50点((1)(2)の内訳は記載なし)。"
+    }
+  ],
+  "overall_note": "読解2題+和文英訳1題(各50点、計150点)。読解の設問は2題とも下線部和訳のみだが、下線部は各3か所(計6か所)に減り、1か所が2〜4文・最大約75語と長くなった。大問I は哲学者による一人称の論説で、口語的な省略・慣用句・皮肉の訳出が難所(やや難)。大問II は数学的創造性の解説で論旨は明快(標準)。2題とも「学問とは何か」を扱う知的な題材。和文英訳は論説調と場面描写の2題で、いずれも感覚的な和語の言い換えを多く要求する。"
+}

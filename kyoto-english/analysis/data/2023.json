@@ -1,0 +1,161 @@
+{
+  "year": 2023,
+  "booklet_pages": 16,
+  "exam_format": {
+    "num_problems": 4,
+    "points": 150,
+    "time_note": "試験時間の記載なし。表紙に「150点満点」「問題冊子は表紙のほかに6ページある」(解答冊子のページ数の記載はない)。PDF 16ページのうち問題は冊子1〜6ページ、残りは空白ページ"
+  },
+  "parts": [
+    {
+      "problem": "I",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "情報過多によって注意が薄く分散し公共の議論が断片化・表面化していると指摘し、注意に値するものを見分け、少し掘り下げて考えることの価値を説く。",
+      "passage": {"words": 535, "genre": "評論・論説", "field": "社会", "abstractness": "A2", "source": "", "glossary": 0, "omitted": false},
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "下線部和訳",
+          "target_words": 49,
+          "limit": "",
+          "syntax_features": ["比較(no more than 等の慣用含む)", "否定(部分否定・二重否定・準否定)", "名詞構文"],
+          "vocab_items": [],
+          "polysemy_items": ["be to blame = 責任がある", "play its part = 一因である", "be quick to do = すぐ〜する", "while = 譲歩", "stuff = 物事"],
+          "context_dependent": false,
+          "note": "The more …, the less …。this reduced attention span は名詞構文として「注意の持続時間がこのように短くなったこと」。not entirely の部分否定"
+        },
+        {
+          "label": "(2)",
+          "type": "下線部和訳",
+          "target_words": 42,
+          "limit": "",
+          "syntax_features": ["as/that/of の用法識別", "比較(no more than 等の慣用含む)", "同格", "否定(部分否定・二重否定・準否定)", "長い主語・修飾の入れ子"],
+          "vocab_items": [],
+          "polysemy_items": ["It isn't that … but rather that … = 〜というわけではなく、むしろ〜", "engagement with = 〜への関与", "as = 〜につれて"],
+          "context_dependent": false,
+          "note": "2つ目の that 節内で、as 節(… becomes denser)と主節(our attention gets spread …)の間にカンマがなく、切れ目の判断が要る。with the result that の同格"
+        },
+        {
+          "label": "(3)",
+          "type": "下線部和訳",
+          "target_words": 39,
+          "limit": "",
+          "syntax_features": ["長い主語・修飾の入れ子", "共通関係(A and B の並列把握)", "同格", "無生物主語"],
+          "vocab_items": [],
+          "polysemy_items": ["weigh up = 比較検討する", "the pros and cons = 賛否・利点と欠点", "in the long run = 長い目で見れば", "dig into = 掘り下げる"],
+          "context_dependent": false,
+          "note": "taking … and weighing up …, before making up your mind までが主語、動詞は can help。taking と weighing の並列。the pros and cons about an issue は the evidence の言い換え"
+        }
+      ],
+      "max_vocab_level": "V1",
+      "difficulty": "易",
+      "difficulty_reason": "語彙は V1 までで構文も標準的。京大としては取りやすく、切れ目の誤りと日本語の不自然さだけが失点要因",
+      "key_idea": "(2) の as 節の切れ目と (3) の主語の範囲・並列を取り違えず、名詞構文や熟語を自然な日本語にする。高得点が必要な大問。",
+      "note": "出典記載なし。本文中に Feynman への言及があるが、その逸話は抜粋範囲の外。設問は下線部和訳3問のみ"
+    },
+    {
+      "problem": "II",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "意識は定義も説明もできないとする哲学者の立場をジャズの逸話と対比しながら紹介し、「あなたであるとはこのようなことだという何かがある」という説明と、視点による説明の循環性を論じる。",
+      "passage": {"words": 640, "genre": "評論・論説", "field": "哲学", "abstractness": "A3", "source": "", "glossary": 1, "omitted": false},
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "下線部和訳",
+          "target_words": 56,
+          "limit": "",
+          "syntax_features": ["as/that/of の用法識別", "挿入", "比較(no more than 等の慣用含む)", "長い主語・修飾の入れ子", "代名詞・指示語の特定", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)"],
+          "vocab_items": [
+            {"word": "purportedly", "level": "V2", "clue": "有名人の逸話の引用という文脈から「〜と伝えられる」"},
+            {"word": "profess", "level": "V2", "clue": "後の段落で claim not to know と言い換えられる"},
+            {"word": "the uninitiated", "level": "V2", "clue": "un-+initiate、the+形容詞。someone who professes not to know と並行"}
+          ],
+          "polysemy_items": ["see A as B saw C の as = 〜が見たように(接続詞)", "that of = the task of", "do profess の do = 強調"],
+          "context_dependent": false,
+          "note": "コロン以下は逸話の言葉の趣旨。第2文は長い主語+ダッシュの挿入+比較。this は「知らないと公言すること」"
+        },
+        {
+          "label": "(2)",
+          "type": "下線部和訳",
+          "target_words": 42,
+          "limit": "",
+          "syntax_features": ["長い主語・修飾の入れ子", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "代名詞・指示語の特定", "否定(部分否定・二重否定・準否定)"],
+          "vocab_items": [],
+          "polysemy_items": ["quite a bit = かなり多く", "enlighten = 教える・啓発する", "the very same = まさに同じ"],
+          "context_dependent": true,
+          "note": "主語が約27語(… what consciousness is までが主語、have found が動詞)。to those は say にかかる。what it is の it は consciousness。知らないと言う人/すでに知っていると言う人の対比"
+        },
+        {
+          "label": "(3)",
+          "type": "下線部和訳",
+          "target_words": 83,
+          "limit": "",
+          "syntax_features": ["同格", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "省略", "長い主語・修飾の入れ子", "it の形式主語・目的語", "共通関係(A and B の並列把握)"],
+          "vocab_items": [],
+          "polysemy_items": ["circular = 循環論法の", "in terms of = 〜という観点から", "for there to be = 〜が存在すること(不定詞の意味上の主語)", "simply = まさに・単に"],
+          "context_dependent": true,
+          "note": "'something it is like to be you' は前段落で説明された言い回しで、そこを読まないと訳せない。第3文は to explain … and then to explain … までが主語で is circular が述部"
+        }
+      ],
+      "max_vocab_level": "V2",
+      "difficulty": "難",
+      "difficulty_reason": "抽象度が高く、what it is / what it is like / claim to know など同形の語句が入れ子になった長い主語が続く。(3) は約83語で内容理解なしには日本語にならない",
+      "key_idea": "(2) の主語の切れ目と to those の係り先、(3) の 'something it is like to be you' を前段落の説明に沿って訳し、長い不定詞主語をまとめること。",
+      "note": "出典記載なし。語注は anaesthesia(麻酔)の1語。設問は下線部和訳3問のみ"
+    },
+    {
+      "problem": "III",
+      "part": "",
+      "format": "和文英訳",
+      "points": 25,
+      "theme": "損得勘定の親切は忘れられるが、善意の親切は感謝され返ってくることがあるとして、「情けは人のためならず」ということわざの正しさを述べる。",
+      "ja_translation": {
+        "ja_chars": 150,
+        "ja_style": "論説調",
+        "paraphrase_level": "J2",
+        "key_expressions": [
+          {"ja": "人間、損得勘定で動くと", "approach": "「人間、」は主題提示。総称の主語を立て If you act only out of self-interest / thinking only about what you will gain or lose"},
+          {"ja": "ろくなことがない", "approach": "nothing good will come of it / it rarely leads to good results"},
+          {"ja": "あとで見返りがあるだろうと便宜を図っても", "approach": "even if you do someone a favor expecting something in return"},
+          {"ja": "恩恵を受けた方はコロッと忘れているものだ", "approach": "the person you helped often forgets all about it(「コロッと」は completely、「ものだ」は often / tend to)"},
+          {"ja": "恩に報いてくれる", "approach": "return the favor / help you in return。「こちら」は総称の you で統一"},
+          {"ja": "「情けは人のためならず」", "approach": "ことわざの意味(親切は巡って自分に返る)を説明的に訳す。「相手のためにならない」の意味で訳さない"},
+          {"ja": "人の世の真理を突いた言葉", "approach": "a saying that captures a truth about human life / society"}
+        ]
+      },
+      "questions": [{"label": "", "type": "和文英訳", "note": "全文(4文)を英訳"}],
+      "difficulty": "やや難",
+      "difficulty_reason": "口語的な主題提示・擬態語・ことわざがあり、人称(こちら/相手/恩恵を受けた方)を総称で一貫させる必要がある",
+      "key_idea": "ことわざの意味を正しく取り説明的に訳すことと、人称の一貫、「ろくなことがない」「コロッと」の言い換え。",
+      "note": "文体は論説調としたが、書き出しは口語的で随筆寄り"
+    },
+    {
+      "problem": "IV",
+      "part": "",
+      "format": "条件英作文",
+      "points": 25,
+      "theme": "「たいていの人は毎日嘘をつく」という記事をきっかけに、罪のない嘘(white lies)の定義・例・社会的な必要性を話し合う2人の会話。",
+      "passage": {"words": 175, "genre": "その他", "field": "社会", "abstractness": "A1", "source": "", "glossary": 0, "omitted": false},
+      "composition": {
+        "word_limit": "(1) 12語以内、(2) 24語以内、(3) 12語以内、(4) 16語以内",
+        "task": "会話の空所補充",
+        "prompt_summary": "Jo と Naomi の会話が成立するように、下線部4か所に指定語数以内で発言を書き、それぞれ1文を完成させる。記事を疑う理由、white lie の別の例、宿題を忘れたときにつくような嘘、white lies が社会に必要な理由を書く。"
+      },
+      "questions": [
+        {"label": "(1)", "type": "条件英作文", "note": "I have some doubts because の後。情報の正確さを疑う理由。12語以内"},
+        {"label": "(2)", "type": "条件英作文", "note": "another example might be の後。相手の気分をよくする white lie の別の例。24語以内。be の補語になる形で書く"},
+        {"label": "(3)", "type": "条件英作文", "note": "you might の後(動詞の原形から)。宿題を忘れたときにつくような、誰も傷つけない小さな嘘。12語以内"},
+        {"label": "(4)", "type": "条件英作文", "note": "because の後。white lies が社会に必要な理由。16語以内。直後の応答が those reasons と複数形なので理由を複数含めるのが自然"}
+      ],
+      "difficulty": "標準",
+      "difficulty_reason": "内容は平易だが、空所前後の文法的接続と次の発言との整合を読み取り、定義に合う例を自作する必要がある",
+      "key_idea": "空所の前後(特に直後の応答)から求められる内容と形を読み取ること。(2) と (3) で性格の違う例を出すこと。",
+      "note": "解答欄の各下線に1語ずつ記入。カンマ等は直前の語と同じ下線に含め語数に数えない。短縮形は1語。語数指定は上限のみ(2021年度は上限・下限の両方)。会話文の語数は空所を除く概算。passage の genre は会話文のため「その他」"
+    }
+  ],
+  "overall_note": "読解2題の設問がすべて下線部和訳(各3問)で、内容説明がない年度。I は平易な現代評論、II は意識をめぐる抽象度の高い哲学的文章で、難度差が大きい。IV は会話文の4空所を語数上限つきで埋める条件英作文で、2022年度の100語意見論述から2021年度と同系統の形式に戻った。出典の記載はなく、語注は II の1語のみ、英文の省略もない。"
+}

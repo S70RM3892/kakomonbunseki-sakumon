@@ -1,0 +1,158 @@
+{
+  "year": 2015,
+  "booklet_pages": 7,
+  "exam_format": {
+    "num_problems": 3,
+    "points": 150,
+    "time_note": "表紙に「150点満点」「問題は全部で3題(1〜7ページ)」と記載。4ページは白紙。試験時間の記載なし。booklet_pages は表紙を除くページ数"
+  },
+  "parts": [
+    {
+      "problem": "I",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "物質の性質は構成要素そのものではなく階層的な組み立て方で決まるという原理を、音楽の階層構造と重ね、アミノ酸配列を音楽に変換して人工の絹の設計に生かす研究を紹介する。",
+      "passage": {"words": 690, "genre": "科学解説", "field": "科学", "abstractness": "A2", "source": "", "glossary": 1, "omitted": false},
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "下線部和訳",
+          "target_words": 44,
+          "limit": "",
+          "syntax_features": ["倒置", "省略", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "共通関係(A and B の並列把握)"],
+          "vocab_items": [{"word": "nested", "level": "V2", "clue": "nest(巣)の動詞用法。within larger patterns と、ダッシュ以下の「語→文→章→小説」の例から「入れ子になっている」と決まる"}],
+          "polysemy_items": ["essentially = 本質的には", "hierarchical system = 階層的な体系"],
+          "context_dependent": false,
+          "note": "2文。第1文は Only when combined do these tones become ... の倒置で、when の後ろに they are が省略、sound の後ろに関係詞が省略。第2文は関係副詞 where と、ダッシュ以下 similar to the way words form sentences, then chapters and eventually a novel で動詞 form が省略されながら段階が進む。"
+        },
+        {
+          "label": "(2)",
+          "type": "指示内容",
+          "target_words": 2,
+          "limit": "30〜50字(句読点を含む)",
+          "syntax_features": ["代名詞・指示語の特定"],
+          "vocab_items": [{"word": "universality-diversity paradigm", "level": "V2", "clue": "直前文の「少数の普遍的な構成要素から異なる機能が生じる」が内容の定義になっている"}],
+          "polysemy_items": ["paradigm = (ものの見方としての)枠組み・原理", "building blocks = 構成要素"],
+          "context_dependent": true,
+          "note": "下線部は this paradigm。直前段落末の筆者による命名(普遍性と多様性の枠組み)を指すが、設問は「本文の主旨に照らして」と条件をつけており、名称ではなく中身(少数の普遍的な構成要素の組み立て方の違いによって多様な機能が生まれる)を、冒頭の「構造が機能を決める」も踏まえて 30〜50 字にまとめる。"
+        },
+        {
+          "label": "(3)",
+          "type": "下線部和訳",
+          "target_words": 69,
+          "limit": "",
+          "syntax_features": ["無生物主語", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "長い主語・修飾の入れ子", "代名詞・指示語の特定", "as/that/of の用法識別", "挿入"],
+          "vocab_items": [{"word": "interwoven", "level": "V2", "clue": "inter- + woven(weave の過去分詞)。絹糸・network という文脈から「織り合わされた・絡み合った」"}],
+          "polysemy_items": ["translate into = (自動詞で)〜に変換される・〜になる", "fluid = 流れるような(形容詞)", "be derived from = 〜に由来する", "harsh = 耳障りな"],
+          "context_dependent": true,
+          "note": "2文。第1文は動名詞主語(無生物主語)+ the mechanism by which ...。第2文は The chains ... that formed ... が長い主語で、translated は自動詞(音楽に変換すると〜になった)。while の対比、the ones = the chains、理由の as、they の指示対象(質のよい繊維をつくる鎖、またはそこから得た音)を文脈で決める。「絹を音楽に翻訳する」という前段の設定を踏まえないと translated の訳が決まらない。"
+        }
+      ],
+      "max_vocab_level": "V2",
+      "difficulty": "やや難",
+      "difficulty_reason": "約690語と長く、階層・構成要素という抽象概念と材料科学の実験が組み合わさる。和訳自体は標準的だが、(2)の字数制限つき説明で本文全体の主旨の把握が要る。",
+      "key_idea": "「少数の共通の構成要素 × 組み立て方の違い = 多様な機能」という一文で本文を要約できること。和訳では倒置・省略の復元と、translate into / interwoven を実験の設定に合わせて訳すこと。",
+      "note": "出典の記載なし。語注は string theory の1語。設問文が本文とは別ページにまとめて置かれ、和訳に加えて字数制限つきの内容説明(指示内容)が課された。英国式綴り(organised, fibres)。"
+    },
+    {
+      "problem": "II",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "「無(nothing)」は過去に片付いた問題どころか今なお謎であり、知識が増えるほど無については分からなくなるという逆説と、芸術が無を執拗に追い求めていること。",
+      "passage": {"words": 380, "genre": "エッセイ・随筆", "field": "哲学", "abstractness": "A3", "source": "", "glossary": 0, "omitted": false},
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "下線部和訳",
+          "target_words": 35,
+          "limit": "Far from it の it が指す内容が具体的に分かるように訳す",
+          "syntax_features": ["倒置", "挿入", "代名詞・指示語の特定", "省略"],
+          "vocab_items": [],
+          "polysemy_items": ["Far from it = それどころではない", "every walk of life = あらゆる分野・階層", "virtually = ほとんど", "make an appearance = 姿を現す"],
+          "context_dependent": true,
+          "note": "2文。Far from it の it は第1段落全体(無の問題は17世紀末までに片付いて過去のものとなり、語ることも悩むこともなくなった、という想定)を指し、これを訳文に具体的に織り込むことが設問の条件。第2文は Not only does ... の倒置と but also、括弧の挿入(because of it の it は「無が謎のままであること」)。イタリックの nothing を「無」と名詞として訳す。"
+        },
+        {
+          "label": "(2)",
+          "type": "下線部和訳",
+          "target_words": 35,
+          "limit": "",
+          "syntax_features": ["比較(no more than 等の慣用含む)", "同格", "否定(部分否定・二重否定・準否定)", "it の形式主語・目的語", "as/that/of の用法識別"],
+          "vocab_items": [],
+          "polysemy_items": ["it follows that = 当然〜ということになる", "be left with = 結果として〜が残る・〜に行き着く", "one of those = よくある例の"],
+          "context_dependent": true,
+          "note": "1文。Since 節の中に it follows that + the 比較級, the 比較級(the less we don't know と否定が重なる)、主節に paradoxes と同格の that 節(ここにも the 比較級, the 比較級)。that が2つあり役割が異なる。everything と nothing の対比、イタリックの nothing(無)と通常の否定語としての nothing の言葉遊びを訳し分ける必要がある。"
+        },
+        {
+          "label": "(3)",
+          "type": "空所補充(選択)",
+          "target_words": null,
+          "limit": "4語(sing, annoy, bring, hide)から選び、必要なら語形を変えて記入。同じ語は1回のみ",
+          "syntax_features": ["分詞構文", "共通関係(A and B の並列把握)"],
+          "vocab_items": [{"word": "recesses", "level": "V2", "clue": "out from ... to an honored place という移動の起点。forbidden thought と結びつき「奥まった所・隠れた場所」と推測"}],
+          "polysemy_items": [],
+          "context_dependent": true,
+          "note": "空所2つ。ア は文頭の分詞構文(主語 nothing が out from A to B, and finally into C と移される受け身の関係)なので動詞を選んだうえで過去分詞にする。イ は thought about, laughed about, written about と並ぶ受動態の過去分詞の列で、芸術分野の列挙(直前段落に music がある)から選ぶ。不規則変化の過去分詞が書けるかも問われる。選択と語形変化の複合。"
+        }
+      ],
+      "max_vocab_level": "V2",
+      "difficulty": "やや難",
+      "difficulty_reason": "英文は約380語と短いが、nothing を名詞(無)として扱う抽象的な言葉遊びが全編に続き、具体例がほとんどない。(1)は指示内容の補い、(2)は二重の the 比較級と同格の処理が必要。",
+      "key_idea": "イタリックの nothing を一貫して「無」という主題として読み、通常の否定語と区別する。(1)は第1段落を要約して it に代入し、(2)は that の役割(follows の主語節/paradoxes の同格)を分けて訳す。",
+      "note": "出典の記載なし。語注なし。本文には powers-that-be, hallowed, holy grail, affront など単語帳外の語や、文学作品への言及(「無からは無しか生じない」という台詞、風車)が語注なしで出るが、下線部外。設問文は本文の次ページ。語群から選んで語形を変える空所補充は CODEBOOK の 選択/記述 の中間で、選択 に分類した。"
+    },
+    {
+      "problem": "III",
+      "part": "(1)",
+      "format": "和文英訳",
+      "points": null,
+      "theme": "トキの雛が孵ったという新聞記事をめぐる二人の会話。自然に戻されたトキから生まれたこと、トキが住みやすい環境は人間にとっても居心地がよいのではないかという感想。",
+      "ja_translation": {
+        "ja_chars": 163,
+        "ja_style": "口語・会話",
+        "paraphrase_level": "J2",
+        "key_expressions": [
+          {"ja": "昨日の夕刊見た?", "approach": "主語 you を補い Did you read yesterday's evening paper? と完全な疑問文にする"},
+          {"ja": "絶滅の危機に瀕していたトキの雛が孵ったと書いてあったわ", "approach": "「書いてあった」は It said (that) ...。「絶滅の危機に瀕していた」は endangered / on the verge of extinction でトキ(種)にかける。「雛が孵る」は a chick hatched"},
+          {"ja": "飼育係の人はさぞかし大変だったろうね", "approach": "過去の推量(It must have been very hard for the keepers / The keepers must have had a hard time)"},
+          {"ja": "自然に戻されたトキから生まれたのよ", "approach": "released into the wild。「〜から生まれた」は was born to / its parents are ibises that ...。「でも」は前の発言(飼育係が大変)の前提を訂正する but / actually"},
+          {"ja": "珍しい鳥だからと追いかけ回されたりしない場所", "approach": "「だからと」は just because they are rare。受動態 + 否定(where they are not chased around)"},
+          {"ja": "トキが住みやすい環境、つまり…場所というのは、〜居心地のよいものなのかもしれないね", "approach": "主語が非常に長い。An environment where ibises can live comfortably — that is, a place with clean water and air where ... — may also be comfortable for us humans と挿入で処理するか、2文に切る"}
+        ]
+      },
+      "questions": [{"label": "(1)", "type": "和文英訳", "note": "二人(花子・太郎)の会話4発言。全文が英訳対象(下線なし)。「トキ = Toki (or Japanese crested ibis)」の注つき。"}],
+      "difficulty": "やや難",
+      "difficulty_reason": "会話体で主語・目的語の省略が多く、「孵る」「飼育係」「自然に戻す」の語彙も要る。最後の発言は「つまり」以下の言い換えを含む長い主題部の処理が難しい。",
+      "key_idea": "省略された主語を補って完全な文にし、会話の流れ(でも = 飼育されていたのではなく野生で生まれた)を理解して訳す。最終発言は主題部を挿入または2文に分けて組み立てる。",
+      "note": "配点は大問III全体で50点((1)(2)の内訳は記載なし)。和文英訳に会話文形式が使われた。会話文だが課題は全文の英訳なので format は 和文英訳 とし、passage は付けていない。"
+    },
+    {
+      "problem": "III",
+      "part": "(2)",
+      "format": "和文英訳",
+      "points": null,
+      "theme": "文字を持たない言語は多い。文字に囲まれた私たちは不便だろうと思いがちだが、言葉の基本的な働きは同じで、文字のある言語が優れていると考えるのは思い上がりである。",
+      "ja_translation": {
+        "ja_chars": 150,
+        "ja_style": "論説調",
+        "paraphrase_level": "J1",
+        "key_expressions": [
+          {"ja": "文字を持たない言語", "approach": "「文字」は letters ではなく書記体系(languages without a writing system / that have no written form)"},
+          {"ja": "たくさんあるらしい", "approach": "伝聞(I hear / It is said that there are many ...)"},
+          {"ja": "毎日文字に囲まれて暮らしている私たちからすれば", "approach": "for those of us who live surrounded by written words every day。「からすれば」は主節の主語 we にまとめてもよい"},
+          {"ja": "さぞ不便なことだろうと思ってしまいがちだ", "approach": "we tend to assume that it must be very inconvenient。何が不便か(文字がないこと)を it / not having ... で補う"},
+          {"ja": "文字があろうがなかろうが", "approach": "whether or not a language has a writing system / whether it is written or not"},
+          {"ja": "とんでもない思い上がりだろう", "approach": "「思い上がり」は arrogance / arrogant。It would be extremely arrogant to think that ... と形式主語で"}
+        ]
+      },
+      "questions": [{"label": "(2)", "type": "和文英訳", "note": "4文。全文が英訳対象(下線なし)。"}],
+      "difficulty": "標準",
+      "difficulty_reason": "構文は tend to / whether or not / It is arrogant to think that で素直に組める。「文字」の訳語選択と「思い上がり」の処理が関門。",
+      "key_idea": "「文字」を文脈に合う語(writing system, written form)で一貫して表し、最終文を形式主語構文で比較(優れている)まで正確に書く。",
+      "note": "配点は大問III全体で50点((1)(2)の内訳は記載なし)。"
+    }
+  ],
+  "overall_note": "読解2題+和文英訳1題(各50点、計150点)という枠は同じだが、読解の設問形式が変わった年度。2題とも「次の文章を読み、下の設問に答えなさい」の形になり、下線部和訳は各2か所に減って、字数制限つきの指示内容説明(I)、指示内容を明示させる条件つき和訳(II)、語群から選んで語形を変える空所補充(II)が加わった。大問I は約690語の材料科学の解説(語注1)、大問II は約380語と短いが「無」をめぐる抽象的なエッセイで、長さと抽象度が対照的。和文英訳も(1)が会話文形式となり、前年までの地の文2題から変化した。"
+}

@@ -1,0 +1,196 @@
+{
+  "year": 2006,
+  "booklet_pages": 7,
+  "exam_format": {
+    "num_problems": 3,
+    "points": 150,
+    "time_note": "表紙に「150点満点」「問題は全部で3題(1〜5ページ)。ただし医学部(医学科)志願者はこのほかに聞き取りテストを行う」と記載。試験時間の記載はなし。IV(聞き取り、50点と記載)は医学部医学科のみで、150点との関係は冊子からは読み取れない。booklet_pages は表紙を除く問題ページ数(PDF は表紙込み8ページ)。"
+  },
+  "parts": [
+    {
+      "problem": "I",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "古代ギリシアの哲学者たちは地位や他人の評価への不安から自由だった。逸話を並べたうえで、他人の意見を「理性」という箱で吟味してから受け入れるという態度を説明する。",
+      "passage": {"words": 490, "genre": "評論・論説", "field": "哲学", "abstractness": "A2", "source": "", "glossary": 0, "omitted": false},
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "下線部和訳",
+          "target_words": 36,
+          "limit": "",
+          "syntax_features": ["分詞構文", "仮定法"],
+          "vocab_items": [],
+          "polysemy_items": ["call ~ names = 〜の悪口を言う・ののしる", "Why? = (意外・反問の)どうして"],
+          "context_dependent": false,
+          "note": "会話を含む逸話。完了分詞構文の主語は passer-by。being called names を「名前を呼ばれる」と誤訳しやすい。should resent ... if ... kicked の仮定法。"
+        },
+        {
+          "label": "(2)",
+          "type": "下線部和訳",
+          "target_words": 55,
+          "limit": "",
+          "syntax_features": ["挿入", "分詞構文", "代名詞・指示語の特定", "名詞構文", "長い主語・修飾の入れ子"],
+          "vocab_items": [{"word": "approximation", "level": "V2", "clue": "approximate(おおよその)の派生。「数学を良い思考の手本とみなし、倫理でもその確実性の〜を探した」という文脈から「近いもの・それに準ずるもの」"}],
+          "polysemy_items": ["a given conclusion = ある(任意の)結論", "is to be deemed = みなされるべきである(be to 不定詞)", "sound premises = 確かな前提", "flow from = 〜から導かれる"],
+          "context_dependent": false,
+          "note": "if, and only if, の挿入。its = mathematics。an approximation of its objective certainties の名詞構文を「数学の持つ客観的確実性に近いもの」と開けるか。"
+        },
+        {
+          "label": "(3)",
+          "type": "下線部和訳",
+          "target_words": 47,
+          "limit": "",
+          "syntax_features": ["比較(no more than 等の慣用含む)", "仮定法", "無生物主語", "省略", "長い主語・修飾の入れ子"],
+          "vocab_items": [],
+          "polysemy_items": ["bent on doing = 〜しようと固く決意した・躍起になった", "amount to = (合計が)〜になる", "be bothered by = 〜を気に病む"],
+          "context_dependent": false,
+          "note": "下線は文頭の And を除いた if から。recommended that we be(仮定法現在)、no more ... than we would be if ...(クジラ構文+仮定法過去完了)、a confused person bent on proving の後置修飾。"
+        }
+      ],
+      "max_vocab_level": "V2",
+      "difficulty": "やや難",
+      "difficulty_reason": "(2) は多義の基本語(given, sound)と抽象名詞構文、(3) は no more ... than と仮定法の重なりで、構文力と訳語選択の両方が要る。",
+      "key_idea": "(3) の no more A than B を「B でないのと同様 A でない」と正しく処理し、比較対象の if 節まで崩さず訳すこと。(1) の call names、(2) の given / sound の語義。",
+      "note": "英文の出典記載なし。下線部の周辺(非下線部)に the darker half of the equation、a shrug of the shoulders など比喩的な表現が多い。"
+    },
+    {
+      "problem": "II",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "ニュートンの2つのプリズムによる実験(白色光は全色の混合で、プリズムは光の性質を変えない)と、虹を7色とした理由の諸説、現代では藍を除く6色とする見方。",
+      "passage": {"words": 575, "genre": "科学解説", "field": "科学史", "abstractness": "A1", "source": "", "glossary": 0, "omitted": false},
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "下線部和訳",
+          "target_words": 62,
+          "limit": "",
+          "syntax_features": ["共通関係(A and B の並列把握)", "省略", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "代名詞・指示語の特定"],
+          "vocab_items": [],
+          "polysemy_items": ["in order of events = 起こった順に述べると", "at a shallow angle = 浅い角度で", "lower down / higher up = (板の)下の方・上の方"],
+          "context_dependent": true,
+          "note": "実験装置の配置(レンズ → 第1プリズム → 穴のあいた板 → 第2プリズム)を前段落から把握していないと訳語が定まらない。became redirected and focused、passed ... and struck の並列。violet beams の後の動詞省略、with a complete rainbow in between の付帯状況。"
+        },
+        {
+          "label": "(2)",
+          "type": "下線部和訳",
+          "target_words": 41,
+          "limit": "",
+          "syntax_features": ["長い主語・修飾の入れ子", "同格", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)"],
+          "vocab_items": [{"word": "indigo", "level": "V2", "clue": "7色の列挙で violet と blue の間に置かれていること、後段で「独立した色とは見なされない」とあることから「藍(色)」"}],
+          "polysemy_items": ["account = 説・説明", "or = すなわち(言い換え)", "note = 音(音符)", "scale = 音階", "involve = 〜に関係する"],
+          "context_dependent": false,
+          "note": "Different accounts exist of why ... は主語と of 以下が分離。gave O1 O2 の間に or による言い換えが挿入される。音楽の文脈で notes / scale の語義を決める。"
+        },
+        {
+          "label": "(3)",
+          "type": "下線部和訳",
+          "target_words": 34,
+          "limit": "",
+          "syntax_features": ["挿入", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "強調構文"],
+          "vocab_items": [],
+          "polysemy_items": ["if we are to do = 〜しようとするなら(be to 不定詞)", "strictly = 厳密に言えば", "do merge = 実際に溶け合う(強調の do)"],
+          "context_dependent": false,
+          "note": "If ..., although ..., then ... の構造。譲歩節の挿入を訳文のどこに置くか。syntax_features の `強調構文` は強調の助動詞 do を指す(It is ... that ではない)。"
+        }
+      ],
+      "max_vocab_level": "V2",
+      "difficulty": "標準",
+      "difficulty_reason": "構文は素直だが、(1) は実験の光路を頭に描かないと訳せず、(2) は多義語(account, note, scale)が集中する。",
+      "key_idea": "(1) の状況把握(位置関係・省略の補い)と、(2) の音楽に関する多義語の処理。科学的記述を論理が通る日本語にすること。",
+      "note": "英文の出典記載なし。スキャン原本の 3〜4 ページには手書きの書き込み(鉛筆の下線・丸囲み)があり、印刷された設問の下線は番号 (1)〜(3) の付いた箇所で判定した。"
+    },
+    {
+      "problem": "III",
+      "part": "(1)",
+      "format": "和文英訳",
+      "points": null,
+      "problem_points": 50,
+      "theme": "ものの見方は人それぞれという主張を、駅前のハンバーガー店が筆者にとっては仕事帰りにくつろぐ場であるという例で述べる。",
+      "ja_translation": {
+        "ja_chars": 175,
+        "ja_style": "随筆調",
+        "paraphrase_level": "J2",
+        "key_expressions": [
+          {"ja": "ものの見方や好みは人さまざまである", "approach": "Different people have different ways of looking at things and different tastes / ... vary from person to person"},
+          {"ja": "人々にとってどのような意味を持つだろうか", "approach": "What does ... mean to people? と動詞 mean で処理"},
+          {"ja": "肉が苦手な私", "approach": "「苦手」は not good at ではなく don't like (care for) meat。関係詞の非制限用法か for me, as I do not ... で処理"},
+          {"ja": "ハンバーガーを楽しむというよりは…くつろぎの場である", "approach": "not so much a place to enjoy hamburgers as a place where I can relax / rather than の骨組みを先に決める"},
+          {"ja": "仕事帰りにちょっと立ち寄り", "approach": "drop in (stop by) on my way home from work"},
+          {"ja": "コーヒー一杯で一日の疲れをいやす", "approach": "「疲れをいやす」は relax (unwind) after a long day over a cup of coffee。heal は不適"},
+          {"ja": "書斎代わりに使うことも少なくない", "approach": "主語 I を補い、二重否定を肯定に。I often bring a book and use it as a (kind of) study"}
+        ]
+      },
+      "questions": [{"label": "(1)", "type": "和文英訳", "note": "全文英訳(下線なし)。出典表記なし。"}],
+      "difficulty": "標準",
+      "difficulty_reason": "日常的な内容だが、長い第4文(約70字)の修飾関係を整理する必要があり、和語(苦手、ちょっと立ち寄り、いやす、くつろぎ)の処理で差がつく。",
+      "key_idea": "第4文を「A というより B」の骨組みに乗せ、連用修飾の連なり(立ち寄り…いやす)を関係詞節にまとめる構成力。",
+      "note": "配点は III 全体で 50 点と記載。(1)(2) の内訳は記載なし。前年までと違い出典表記と「( )内は英訳不要」の指示がない。"
+    },
+    {
+      "problem": "III",
+      "part": "(2)",
+      "format": "和文英訳",
+      "points": null,
+      "problem_points": 50,
+      "theme": "子どもの頃に見ていた、町から町へ旅をして事件解決を助ける犬のテレビ番組と、一か所にとどまらないその姿に魅了されたという回想。",
+      "ja_translation": {
+        "ja_chars": 160,
+        "ja_style": "随筆調",
+        "paraphrase_level": "J2",
+        "key_expressions": [
+          {"ja": "毎週欠かさず観た", "approach": "never missed / watched every week without fail。There was a TV program (which) I ... の関係詞で"},
+          {"ja": "どこにでもいそうな犬", "approach": "an ordinary dog / the kind of dog you could see anywhere"},
+          {"ja": "ふらりとやってきては", "approach": "擬態語+反復の「ては」。would wander into / turn up in a town と習慣の would、または番組内容として現在形で統一"},
+          {"ja": "人間からほめられる前に姿を消して", "approach": "disappear before people could (have a chance to) praise him。「そいつ」は he/it"},
+          {"ja": "わたしをとりこにしたのは…その姿だったに違いない", "approach": "It must have been the way he ... that fascinated me / What fascinated me must have been ... の強調構文・what 節"},
+          {"ja": "一つの場所に安住せずに,たえず動きつづける", "approach": "「安住」は settle down in one place。never settling down ... but always on the move"}
+        ]
+      },
+      "questions": [{"label": "(2)", "type": "和文英訳", "note": "全文英訳(下線なし)。出典表記なし。"}],
+      "difficulty": "やや難",
+      "difficulty_reason": "第2文が約85字の1文で動詞が5つ連なり、時制(番組内容の現在形か、過去の習慣か)を自分で決める必要がある。擬態語・和語も多い。",
+      "key_idea": "長い第2文を2文に切るか関係詞・分詞でつなぐかの設計と時制の一貫性。最終文を強調構文か what 節で組み立て、「その姿」を the way he ... と読み替えること。",
+      "note": "配点は III 全体で 50 点と記載。(1)(2) の内訳は記載なし。"
+    },
+    {
+      "problem": "IV",
+      "part": "セクション1",
+      "format": "その他",
+      "points": null,
+      "problem_points": 50,
+      "theme": "聞き取り(医学部医学科志願者のみ)。News report を聞いて答える。設問文から、血管壁を調べる新しい装置の開発に関する報道と分かる。",
+      "passage": {"words": null, "genre": "その他", "field": "医療", "abstractness": "", "source": "", "glossary": 0, "omitted": true},
+      "questions": [
+        {"label": "(1)", "type": "空所補充(選択)", "target_words": null, "limit": "", "syntax_features": [], "vocab_items": [], "polysemy_items": [], "context_dependent": false, "note": "英文の空所に入るものを a〜d から選ぶ。選択肢は冊子に印刷されていない。"},
+        {"label": "(2)〜(5)", "type": "内容一致(選択)", "target_words": null, "limit": "", "syntax_features": [], "vocab_items": [], "polysemy_items": [], "context_dependent": false, "note": "コロンで終わる英文の書き出しに続く内容を a〜d から選ぶ4問(装置を可能にした技術、研究の目標、開発場所、開発期間)。選択肢は冊子に印刷されていない。"}
+      ],
+      "max_vocab_level": "V1",
+      "difficulty": "",
+      "difficulty_reason": "音声・スクリプト・選択肢が冊子にないため判定不能。",
+      "key_idea": "判定不能(音声資料なし)。",
+      "note": "テープによる聞き取り。スクリプトと選択肢は PDF に含まれないため、passage.omitted=true とし、冊子に印刷された設問の書き出しだけを記録した。配点は IV 全体で 50 点と記載。"
+    },
+    {
+      "problem": "IV",
+      "part": "セクション2",
+      "format": "その他",
+      "points": null,
+      "problem_points": 50,
+      "theme": "聞き取り(医学部医学科志願者のみ)。セクション1の報道に対する Editorial を聞き、英語の質問に英語の文章で答える。設問文から、大学のバイオテクノロジー課程(複数分野の統合)をめぐる論説と分かる。",
+      "passage": {"words": null, "genre": "その他", "field": "教育", "abstractness": "", "source": "", "glossary": 0, "omitted": true},
+      "questions": [
+        {"label": "(1)〜(5)", "type": "英語での説明", "target_words": null, "limit": "", "syntax_features": [], "vocab_items": [], "polysemy_items": [], "context_dependent": false, "note": "英語の質問5問(主な論争点、統合される学問分野を2つ、課程を非効果的にする状態、大学が開設に熱心な理由、新しいタイプの科学者が必要な理由)に英語の文章で答える。"}
+      ],
+      "max_vocab_level": "V1",
+      "difficulty": "",
+      "difficulty_reason": "音声・スクリプトが冊子にないため判定不能。",
+      "key_idea": "判定不能(音声資料なし)。",
+      "note": "スクリプトは PDF に含まれない(passage.omitted=true)。質問文は冊子に印刷されている。"
+    }
+  ],
+  "overall_note": "全学共通は大問3題・各50点(I 読解、II 読解、III 和文英訳)。読解の設問は前年の探索型をやめ、下線部和訳のみ(各3か所)に戻った。I は哲学的な評論、II は科学史の解説で、文系的題材と理系的題材の組み合わせ。この年度から医学部医学科志願者のみに聞き取りテスト(IV、50点)が加わり、冊子が7ページになった。語注・英文の出典記載はなく、和文英訳からも出典表記が消えた。"
+}

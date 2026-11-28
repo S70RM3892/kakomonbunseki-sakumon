@@ -1,0 +1,201 @@
+{
+  "year": 2025,
+  "booklet_pages": 16,
+  "exam_format": {
+    "num_problems": 4,
+    "points": 150,
+    "time_note": "試験時間は冊子に記載なし。表紙に「150点満点」「問題は全部で4題ある(1〜6ページ)」。PDF は16ページだが、問題が印刷されているのは表紙と本文6ページのみで、残り9ページは白紙(下書き用)。"
+  },
+  "parts": [
+    {
+      "problem": "I",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "言語に優劣はなく、どの言語も十全な体系であるが、話者間の社会的格差により少数言語が消滅に追い込まれている。言語多様性がなぜ重要かを4つの理由で述べる。",
+      "passage": {
+        "words": 480,
+        "genre": "評論・論説",
+        "field": "言語",
+        "abstractness": "A2",
+        "source": "",
+        "glossary": 0,
+        "omitted": false
+      },
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "下線部和訳",
+          "target_words": 26,
+          "limit": "",
+          "syntax_features": ["無生物主語", "省略", "it の形式主語・目的語", "否定(部分否定・二重否定・準否定)"],
+          "vocab_items": [
+            {"word": "mark out", "level": "V2", "clue": "直前の引用「言語は何を伝えねばならないかで異なる」の言い換え。文法が表示を義務づける、の意"}
+          ],
+          "polysemy_items": [
+            "however unconsciously = どれほど無意識にであれ(譲歩。「しかしながら」ではない)",
+            "parts of reality = 現実の(ある)側面"
+          ],
+          "context_dependent": true,
+          "note": "1文(コロンの後)。requires がイタリックで、前半の possible / 引用中の must と may の対比を受ける。grammar requires speakers to do の無生物主語、certain parts ... and not others の省略、文末の however + 副詞(they do so の省略)が要点。"
+        },
+        {
+          "label": "(2)",
+          "type": "下線部和訳",
+          "target_words": 45,
+          "limit": "",
+          "syntax_features": ["代名詞・指示語の特定", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "無生物主語"],
+          "vocab_items": [],
+          "polysemy_items": [
+            "reflect = 示している・表している",
+            "comprise = 〜で構成される",
+            "community = (言語)共同体",
+            "stable = 安定している(存続が危うくない)",
+            "could = (過去に)〜でありえた",
+            "hundreds of thousands / a few million / fewer than a thousand の数量表現"
+          ],
+          "context_dependent": true,
+          "note": "2文。these numbers は前段落の話者数の統計。Today と In the past, however の対比。especially 以下は small language communities の具体例で、which 節が続く。vulnerable は V1。"
+        },
+        {
+          "label": "(3)",
+          "type": "下線部和訳",
+          "target_words": 26,
+          "limit": "",
+          "syntax_features": ["関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "代名詞・指示語の特定", "挿入", "長い主語・修飾の入れ子"],
+          "vocab_items": [
+            {"word": "rugged", "level": "V2", "clue": "remote と並列。コロン以下の具体例(山脈・群島・避難地帯)"}
+          ],
+          "polysemy_items": [
+            "beyond the reach of = 〜の(支配の)手が及ばない",
+            "remain strongest = 最もよく保たれている",
+            "Like = 〜と同様に(前置詞)"
+          ],
+          "context_dependent": true,
+          "note": "1文(コロンの前まで)。with which の先行詞は biodiversity、it は後出の主語 linguistic diversity を先取りする。regions を traditionally beyond ... が後置修飾。empires and nation-states の訳語。"
+        }
+      ],
+      "max_vocab_level": "V2",
+      "difficulty": "標準",
+      "difficulty_reason": "下線部は各25〜45語と短めで、構文は標準的。however の用法、後方照応の it、数量表現の訳し分けなど、細部の精度で差がつく。",
+      "key_idea": "however unconsciously を譲歩と取る、it が後ろの主語を指すと見抜く、reflect / comprise / stable を文脈に合う訳語にする。骨格は易しいので減点されない訳語選択が勝負。",
+      "note": "出典の記載なし。語注なし。設問は下線部和訳3題のみ。"
+    },
+    {
+      "problem": "II",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "「ビッグバン」という語は「宇宙の始まりの瞬間」と「宇宙が高温高密度の状態から膨張してきたという検証可能な考え」の2つの意味で使われる。前者は検証が極めて難しく、観測者が扱うのは後者である。",
+      "passage": {
+        "words": 490,
+        "genre": "科学解説",
+        "field": "宇宙",
+        "abstractness": "A2",
+        "source": "",
+        "glossary": 1,
+        "omitted": false
+      },
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "指示内容",
+          "target_words": 2,
+          "limit": "30字〜50字の日本語(句読点を含む)",
+          "syntax_features": ["代名詞・指示語の特定", "強調構文"],
+          "vocab_items": [],
+          "polysemy_items": ["sense = 意味(語義)"],
+          "context_dependent": true,
+          "note": "this sense が指す内容を説明。直前文(理論寄りの人や大多数にとってのビッグバン=宇宙の歴史が始まった唯一の瞬間)をまとめる。段落冒頭の「2つの別々のものを指す」のうち第1の意味であることを押さえる。下線は It's ... that の強調構文の中。"
+        },
+        {
+          "label": "(2)",
+          "type": "下線部和訳",
+          "target_words": 68,
+          "limit": "",
+          "syntax_features": ["関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "挿入", "共通関係(A and B の並列把握)", "分詞構文", "代名詞・指示語の特定", "比喩表現の訳出"],
+          "vocab_items": [
+            {"word": "well-motivated", "level": "V2", "clue": "well + motivated。creative と並んで theoretical sketches を修飾。「十分な根拠・動機に基づく」と推測する"}
+          ],
+          "polysemy_items": [
+            "go some way to ~ing = 〜するのにある程度役立つ",
+            "big or otherwise = 大きなものであれ、そうでないものであれ",
+            "the way it is = 現にあるあり方",
+            "admittedly = 確かに(〜ではあるが)",
+            "sketch = (理論の)素描・概略",
+            "routes to it = そこへ至る道筋"
+          ],
+          "context_dependent": true,
+          "note": "2文。a complete theory に which ... and which ... の2つの関係詞節。whether there have been, or ever will be, other bangs は other bangs が2つの動詞句の共通要素。this first moment は前文までの「始まりの瞬間」。all we have are ...。文末の it は a complete theory(離れた先行詞)。"
+        },
+        {
+          "label": "(3)",
+          "type": "下線部和訳",
+          "target_words": 94,
+          "limit": "",
+          "syntax_features": ["関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "同格", "比較(no more than 等の慣用含む)", "挿入", "比喩表現の訳出", "長い主語・修飾の入れ子", "共通関係(A and B の並列把握)"],
+          "vocab_items": [],
+          "polysemy_items": [
+            "not so much A but B = AというよりむしろB",
+            "It turns out (that) = 〜だとわかる",
+            "conditions then = 当時の状況(then が名詞を後ろから修飾)",
+            "start the thing rolling = 事を始動させる",
+            "in the first place = そもそも",
+            "observers = 観測(を行う)者(theoretically inclined と対)",
+            "sensible = 筋の通った・意味のある"
+          ],
+          "context_dependent": true,
+          "note": "2文、第2文は約65語。What we can do is make(原形不定詞)。stages と the first pages of its story が同格(比喩)。the general and testable idea that ... の同格 that 節の中に whatever ... の譲歩節が挿入され、began ... and has been expanding が並列。observers の訳語は本文の理論/観測の対比で決まる。"
+        }
+      ],
+      "max_vocab_level": "V2",
+      "difficulty": "やや難",
+      "difficulty_reason": "(3) は約95語と長く、not so much A but B、同格 that 節、挿入の譲歩節が1文に重なる。(2) も共通関係と熟語(go some way to)、離れた it の処理が要る。(1) は字数制限つきで圧縮が必要。",
+      "key_idea": "「ビッグバン」の2つの意味という本文の軸を押さえる。(1) は第1の意味、(3) は第2の意味の定義そのものなので、段落構造が取れていれば訳語が安定する。長い文は要素を落とさず順に訳し下ろす。",
+      "note": "出典の記載なし。語注1(particle accelerator)。(1) の設問型は CODEBOOK の「指示内容」としたが、字数制限つきで要約力も問う(公式は「内容説明」に分類)。"
+    },
+    {
+      "problem": "III",
+      "part": "",
+      "format": "和文英訳",
+      "points": 25,
+      "theme": "心と顔の表情の関係は単純ではなく、表情を変えることが心に影響するという研究もある、という説明。",
+      "ja_translation": {
+        "ja_chars": 155,
+        "ja_style": "説明文",
+        "paraphrase_level": "J1",
+        "key_expressions": [
+          {"ja": "一般的なイメージ以上に込み入っている", "approach": "「イメージ」を image と直訳せず、more complicated than people generally think / than is commonly believed と節で処理"},
+          {"ja": "顔は心を映す鏡だと言われるが", "approach": "比喩はそのまま通じる(a mirror of the mind / reflects)。It is said that / is said to be の形を正確に"},
+          {"ja": "「ポーカーフェイス」という言葉もあるように", "approach": "as the term \"poker face\" suggests / as shown by the existence of the expression。「〜もあるように」は例示の as"},
+          {"ja": "いつもそうであるとは限らない", "approach": "部分否定 this is not always the case / not necessarily true"},
+          {"ja": "顔の表情を変えることが心を動かすこともある", "approach": "「心を動かす」は感動させる(move)ではなく、感情に影響する・気分を変えるの意。can affect / influence how we feel。「こともある」は can / sometimes"},
+          {"ja": "口角を少し上げるだけで,前向きな気持ちになれるかもしれない", "approach": "「口角」は the corners of one's mouth。just by raising ... slightly / simply smiling a little。主語(you / we)を補い、仮定(If that is the case)との呼応で may / might"}
+        ]
+      },
+      "questions": [{"label": "", "type": "和文英訳", "note": "4文全体を英訳(下線なし)。"}],
+      "difficulty": "標準",
+      "difficulty_reason": "文構造はほぼ日本語の順に英語へ移せる。差は「イメージ」「心を動かす」「口角」の語彙処理と、部分否定・示唆する研究の構文の正確さ。",
+      "key_idea": "カタカナ語と慣用的な言い回しを意味に戻してから訳す。4文の論理関係(が/実際/もしそうならば)を接続表現で明示する。",
+      "note": "paraphrase_level は言い換え箇所が3か所あるが、文全体の再構成は不要なので J1 とした。"
+    },
+    {
+      "problem": "IV",
+      "part": "",
+      "format": "自由英作文",
+      "points": 25,
+      "theme": "人工知能の普及は人間の想像力を豊かにするか乏しくするか。",
+      "composition": {
+        "word_limit": "80語以上100語以内",
+        "task": "意見論述",
+        "prompt_summary": "「人間の想像力は人工知能の普及によって豊かになる」「乏しくなる」のどちらかの主張を選び、それを論証する英文を書く。主張を提示する文、理由や例で妥当性を論証する文、主張と論証を総括する文を必ず含める。"
+      },
+      "questions": [{"label": "", "type": "自由英作文", "note": "指示文は日本語。条件は3つ(構成要素の指定/語数/語数の数え方)。解答欄の下線1本に1語、記号は語数に数えない、短縮形は1語。"}],
+      "difficulty": "標準",
+      "difficulty_reason": "二択の立場選択で論点は立てやすいが、100語以内に主張・論証・総括の3要素を収める構成力と、imagination を具体例で論じる語彙が要る。",
+      "key_idea": "指定された3要素(主張文→理由・例→総括文)を形式として満たす。理由は1〜2個に絞り、具体例を1つ入れて語数内に収める。",
+      "note": ""
+    }
+  ],
+  "overall_note": "大問4題構成(I 50点・II 50点・III 25点・IV 25点、計150点)。前年度の3題構成(II に英語説明を内包)から、独立した自由英作文(80〜100語、二択の主張を論証、構成要素を条件で指定)が IV として置かれた。読解の設問は和訳5題+字数制限つきの指示内容説明1題で、空所補充はない。英文は2題で約970語、語注は II に1語のみ、出典の記載はない。"
+}

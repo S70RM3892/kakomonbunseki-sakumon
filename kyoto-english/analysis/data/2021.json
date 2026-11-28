@@ -1,0 +1,165 @@
+{
+  "year": 2021,
+  "booklet_pages": 10,
+  "exam_format": {
+    "num_problems": 4,
+    "points": 150,
+    "time_note": "試験時間の記載なし。表紙に「150点満点」「問題冊子は表紙のほかに7ページ、解答冊子は表紙のほかに12ページ」。PDF 10ページ(表紙1、空白2、問題7)"
+  },
+  "parts": [
+    {
+      "problem": "I",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "物語る動物としての人間にとってフィクションは有益かを、プラトンとアリストテレスの対立、共感力を育てるという心理学研究、共感と善い行動は別だという留保の順に論じる。",
+      "passage": {"words": 525, "genre": "評論・論説", "field": "文学", "abstractness": "A2", "source": "", "glossary": 0, "omitted": false},
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "下線部和訳",
+          "target_words": 26,
+          "limit": "",
+          "syntax_features": ["分詞構文", "省略", "as/that/of の用法識別", "共通関係(A and B の並列把握)"],
+          "vocab_items": [],
+          "polysemy_items": ["the particular / the universal / the accidental = 個別的なもの/普遍的なもの/偶然的なもの(the+形容詞)", "while = 対比", "illuminate = 明らかにする"],
+          "context_dependent": true,
+          "note": "末尾の Hence the justification. は動詞のない省略文。何の正当化かを直前のプラトンの考え(フィクションは自らを正当化できない)と対応させて補う。as they happened の as は様態"
+        },
+        {
+          "label": "(2)",
+          "type": "下線部和訳",
+          "target_words": 43,
+          "limit": "",
+          "syntax_features": ["比喩表現の訳出", "代名詞・指示語の特定"],
+          "vocab_items": [
+            {"word": "rubbery", "level": "V2", "clue": "rubber+y。直後の easy to shape が言い換え"}
+          ],
+          "polysemy_items": ["with our shields up = 盾を構えて(付帯状況の with)", "drop one's guard = 警戒を解く", "be absorbed in = 没頭する"],
+          "context_dependent": false,
+          "note": "引用文4文。this は感情的に動かされること。比喩(盾・ガード・ゴムのよう)を日本語として通る形にする"
+        },
+        {
+          "label": "(3)",
+          "type": "下線部和訳",
+          "target_words": 70,
+          "limit": "",
+          "syntax_features": ["挿入", "省略", "共通関係(A and B の並列把握)", "無生物主語", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "代名詞・指示語の特定"],
+          "vocab_items": [
+            {"word": "clinch (a deal)", "level": "V2", "clue": "win a trial との並列から「取引をまとめる」"},
+            {"word": "bookish", "level": "V2", "clue": "book+ish。下線直後の括弧内で keen readers of fiction と説明"},
+            {"word": "puzzle out", "level": "V2", "clue": "前文の grasp another person's feelings の言い換え"}
+          ],
+          "polysemy_items": ["act on = 〜に基づいて行動する", "may well = おそらく〜だろう", "leave O C = OをCの状態にする"],
+          "context_dependent": true,
+          "note": "or, if they are, lack … の if they are の後の省略を補い、who are not good at … / lack … の並列を取る。They は直前の businesspeople and lawyers"
+        }
+      ],
+      "max_vocab_level": "V2",
+      "difficulty": "標準",
+      "difficulty_reason": "英文は読みやすいが、the+形容詞の抽象名詞、省略文、挿入を含む並列など和訳の技術を要する箇所が各下線にある",
+      "key_idea": "(1) の the+形容詞の訳し分けと Hence 以下の補い、(3) の or, if they are, lack の省略・並列把握。",
+      "note": "出典記載なし。設問は下線部和訳3問のみ"
+    },
+    {
+      "problem": "II",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "『種の起源』の影響力の大きさは、科学的発見としての価値よりも、一元論・二元論という2つの世界観の一方と衝突し他方と調和したことによる、という19世紀の文筆家 Lewes の論を引用して紹介する。",
+      "passage": {"words": 650, "genre": "評論・論説", "field": "科学論", "abstractness": "A3", "source": "George Henry Lewes(本文中で引用元として人物名のみ言及。with modification とあり改変あり。書名・出典の記載なし)", "glossary": 0, "omitted": false},
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "内容説明",
+          "target_words": 55,
+          "limit": "第2パラグラフ(引用部第1段落)から選ぶ",
+          "syntax_features": ["比較(no more than 等の慣用含む)", "名詞構文", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "共通関係(A and B の並列把握)"],
+          "vocab_items": [
+            {"word": "chime with", "level": "V2", "clue": "clash against と対で使われ、後段でも繰り返される"}
+          ],
+          "polysemy_items": ["conception of the world = 世界観", "general = 広範な"],
+          "context_dependent": true,
+          "note": "『種の起源』が大きな影響力を持った要因として Lewes が最重要視するもの。less due to A than to B の B 側(2つの世界観の一方と衝突し他方と調和)を抜き出す。2つの世界観が一元論・二元論であることは後段で分かる。target_words は該当文の概算"
+        },
+        {
+          "label": "(2)",
+          "type": "下線部和訳",
+          "target_words": 67,
+          "limit": "",
+          "syntax_features": ["同格", "長い主語・修飾の入れ子", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "比較(no more than 等の慣用含む)", "比喩表現の訳出"],
+          "vocab_items": [],
+          "polysemy_items": ["but = only(are but)", "manifestations of life = 生命の現れ", "what may be called = いわゆる"],
+          "context_dependent": false,
+          "note": "下線部(a)。1文約67語。indications of [what may be called A rather than B] of the truth that …、同格の that 節がダッシュをはさんで2つ並ぶ"
+        },
+        {
+          "label": "(3)",
+          "type": "下線部和訳",
+          "target_words": 66,
+          "limit": "",
+          "syntax_features": ["挿入", "仮定法", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "長い主語・修飾の入れ子", "共通関係(A and B の並列把握)", "比較(no more than 等の慣用含む)", "無生物主語", "代名詞・指示語の特定"],
+          "vocab_items": [],
+          "polysemy_items": ["appreciate = 正しく評価する", "pronounce on = 意見を表明する", "equipment = 知識・素養", "otherwise = そうでなければ"],
+          "context_dependent": true,
+          "note": "下線部(b)。this は前段落(受容・拒否が世界観で決まる)。explains の目的語の前に what would otherwise be inexplicable が挿入。末尾の Why not? は非専門家の側の反問として訳す。\"refuted\" の引用符の含みにも注意"
+        }
+      ],
+      "max_vocab_level": "V2",
+      "difficulty": "難",
+      "difficulty_reason": "19世紀の文体で1文が長く抽象度が高い。和訳2問はいずれも60語超で、挿入・同格・多義語が重なる",
+      "key_idea": "(2) の修飾関係と同格の整理、(3) の挿入の見抜きと appreciate / pronounce / equipment の訳語。(1) は比較構文の B 側を正確に抜き出す。",
+      "note": "現代の筆者による導入・結びの間に、Lewes の文章を長く引用する構成。monistic / dualistic は本文中に定義がある(V2)。段落番号は設問の指定に従い、引用部第1段落を「第2パラグラフ」と数える"
+    },
+    {
+      "problem": "III",
+      "part": "",
+      "format": "和文英訳",
+      "points": 25,
+      "theme": "用心は大切だが、ときには結果を心配する前に踏み出す勇気が必要で、失敗から立ち上がった経験が大きな困難を乗り越える力になるという人生訓。",
+      "ja_translation": {
+        "ja_chars": 155,
+        "ja_style": "論説調",
+        "paraphrase_level": "J2",
+        "key_expressions": [
+          {"ja": "転ばぬ先の杖は大切である", "approach": "ことわざを「失敗しないよう前もって用心することは大切だ」と説明的に訳す(take precautions / be careful in advance)"},
+          {"ja": "結果をあれこれ心配する前に", "approach": "before worrying too much about what might happen"},
+          {"ja": "一歩踏み出す勇気", "approach": "the courage to take the first step / a step forward"},
+          {"ja": "痛い目を見る", "approach": "主語 you / we を補い have a painful (bitter) experience"},
+          {"ja": "人としての円熟味が増す", "approach": "become more mature as a person"},
+          {"ja": "あきらめずに何度も立ち上がった体験", "approach": "the experience of having got back on your feet again and again without giving up"},
+          {"ja": "大きな武器となる", "approach": "比喩を意味に戻し be a great help / asset(in overcoming it)"}
+        ]
+      },
+      "questions": [{"label": "", "type": "和文英訳", "note": "全文(4文)を英訳"}],
+      "difficulty": "標準",
+      "difficulty_reason": "ことわざ・比喩が多いが、意味に戻せば構文は標準的",
+      "key_idea": "ことわざと比喩(杖・円熟味・武器)を意味に戻して平易な英語にし、総称の主語を一貫させる。",
+      "note": "文体は論説調としたが随筆寄り"
+    },
+    {
+      "problem": "IV",
+      "part": "",
+      "format": "条件英作文",
+      "points": 25,
+      "theme": "一度の経験から「あの店の料理は全部まずい」と決めつけた相手に、早まった一般化(hasty generalization)を説明する2人の会話。",
+      "passage": {"words": 160, "genre": "その他", "field": "社会", "abstractness": "A1", "source": "", "glossary": 0, "omitted": false},
+      "composition": {
+        "word_limit": "(1) 8語以上12語以下、(2) 12語以上16語以下、(3) if を用いて20語以上28語以下、(4) 8語以上12語以下",
+        "task": "会話の空所補充",
+        "prompt_summary": "Noah と Emma の会話の下線部4か所に、条件に従って発言を書き、それぞれ英語1文を完成させる。パスタがまずく感じた理由と別の可能性、買い物以外での早まった一般化の例、Noah が今後取る検証行動を書く。"
+      },
+      "questions": [
+        {"label": "(1)", "type": "条件英作文", "note": "because の後。パスタがひどいと感じた理由。8〜12語"},
+        {"label": "(2)", "type": "条件英作文", "note": "Another possibility is that の後。別の可能性。12〜16語"},
+        {"label": "(3)", "type": "条件英作文", "note": "For example, の後。購入以外の場面での早まった一般化の例。if を必ず用いる。20〜28語"},
+        {"label": "(4)", "type": "条件英作文", "note": "I'll の後。直後の「そうすれば主張が正しいか確かめられる」につながる行動。8〜12語"}
+      ],
+      "difficulty": "標準",
+      "difficulty_reason": "内容は平易だが、語数の上下限と前後の文法的接続を守り、(3) では概念に合う例を自作する必要がある",
+      "key_idea": "会話の論理(反論→概念の定義→例→検証)に合う内容と、指定語数内で破綻のない1文。(3) の例の適切さで差がつく。",
+      "note": "解答欄の各下線に1語ずつ記入。カンマ等は直前の語と同じ下線に含め語数に数えない。短縮形は1語。会話文の語数は空所を除く概算。passage の genre は会話文のため「その他」"
+    }
+  ],
+  "overall_note": "読解は和訳中心(I は和訳3問のみ、II は内容説明1+和訳2)。II は19世紀の論説を長く引用した抽象度の高い文章で、この年度の最難所。IV は会話文の4つの空所を語数範囲つきで埋める条件英作文で、2020年度の手紙・メール型から形式が変わった。出典・語注の記載はなく、英文の省略もない。"
+}

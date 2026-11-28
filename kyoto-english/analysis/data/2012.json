@@ -1,0 +1,202 @@
+{
+  "year": 2012,
+  "booklet_pages": 6,
+  "exam_format": {
+    "num_problems": 3,
+    "points": 150,
+    "time_note": "表紙に「150点満点(聞き取りテストは別記)」「問題は全部で3題(1〜5ページ)」と記載。総合人間学部受験者のみ大問IV(聞き取りテスト、6ページ、50点)が加わる。試験時間の記載なし。booklet_pages は表紙を除くページ数"
+  },
+  "parts": [
+    {
+      "problem": "I",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "ホッキョクギツネが陸から遠く離れた海氷上を長距離移動する謎と、耳標・無線・衛星と進んだ追跡技術がそれをどこまで解明できたか。",
+      "passage": {"words": 500, "genre": "科学解説", "field": "生物", "abstractness": "A1", "source": "", "glossary": 0, "omitted": false},
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "下線部和訳",
+          "target_words": 51,
+          "limit": "",
+          "syntax_features": ["倒置", "挿入", "省略", "共通関係(A and B の並列把握)", "長い主語・修飾の入れ子"],
+          "vocab_items": [],
+          "polysemy_items": ["next to nothing = ほとんど何も〜ない", "fit A with B = A に B を取り付ける", "recover = (標識をつけた個体を)回収・再発見する"],
+          "context_dependent": false,
+          "note": "2文。第2文は Although 節の後ろに due to 句が挿入され、主節は場所を表す長い副詞句が主語位置に立つ「場所句 + is where S V」の形。due to 句が譲歩節側(ほとんど分からなかった理由)にかかることと、主節の主語・補語の把握が要点。第1文は fitted / released の並列と主語の切り替わり。"
+        },
+        {
+          "label": "(2)",
+          "type": "下線部和訳",
+          "target_words": 37,
+          "limit": "",
+          "syntax_features": ["関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "長い主語・修飾の入れ子"],
+          "vocab_items": [{"word": "radio collar", "level": "V2", "clue": "直前文の radio telemetry(野生動物追跡の技術)の言い換えと、fitted to the animal / transmits a signal から「発信機つきの首輪」と決まる"}],
+          "polysemy_items": ["via = 〜によって(手段)", "target = 追跡対象の動物"],
+          "context_dependent": true,
+          "note": "1文。wherever 節、collar にかかる that 節、非制限用法 which 節(先行詞は collar)、その中の that 節(signal にかかる)と関係詞が4層。which の先行詞の特定と訳し下ろしの順序が要点。直前の radio telemetry の説明文であることを踏まえて訳語を決める。"
+        },
+        {
+          "label": "(3)",
+          "type": "下線部和訳",
+          "target_words": 68,
+          "limit": "",
+          "syntax_features": ["関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "共通関係(A and B の並列把握)", "省略", "代名詞・指示語の特定", "長い主語・修飾の入れ子"],
+          "vocab_items": [
+            {"word": "preordained", "level": "V2", "clue": "pre- + ordain。or で random と対置されているので「あらかじめ決まった」と決まる"},
+            {"word": "icescape", "level": "V2", "clue": "landscape からの類推(ice + -scape)。後続の that 節が氷原の性質を列挙する"},
+            {"word": "scent trail", "level": "V2", "clue": "scent(におい)+ trail(跡)。to follow / appetites から「たどれるにおいの跡」"}
+          ],
+          "polysemy_items": ["at the mercy of = 〜のなすがままに", "in the way of = 〜の類の・〜の点で", "If not the latter = 後者でないなら(省略を含む)"],
+          "context_dependent": false,
+          "note": "2文(疑問文2つ)。第2文は icescape にかかる that 節の中で offers / drifts and spins / melts and freezes / has の動詞が並列される。the latter が直前の or 以下(でたらめな移動)を指すことを明示して訳す。最長の下線部で、並列の切れ目を誤ると崩れる。"
+        },
+        {
+          "label": "(4)",
+          "type": "下線部和訳",
+          "target_words": 38,
+          "limit": "",
+          "syntax_features": ["分詞構文", "長い主語・修飾の入れ子", "代名詞・指示語の特定"],
+          "vocab_items": [
+            {"word": "laced with", "level": "V2", "clue": "アンテナに唐辛子を「どうした」のかを、後続の to discourage ... から「まぶした・染み込ませた」と推測"},
+            {"word": "gnaw", "level": "V2", "clue": "動物が首輪のアンテナに対してする行為 + off(取れる)から「かじり取る」と推測"}
+          ],
+          "polysemy_items": ["catch up = (技術が必要に)追いつく", "in the form of = 〜という形で", "tailored for = 〜向けに作られた", "discourage A from doing = A に〜させないようにする"],
+          "context_dependent": true,
+          "note": "1文。過去分詞の後置修飾が tailored / equipped / laced と3連続し、including one の one が device を指す。直前の「初期の首輪は重すぎた」を受けて caught up の訳語を決める。it は antenna。"
+        }
+      ],
+      "max_vocab_level": "V2",
+      "difficulty": "やや難",
+      "difficulty_reason": "内容は具体的で追いやすいが、下線部が合計約190語と多く、(1)の倒置的な主節と(3)の長い並列、(3)(4)の単語帳外の語の推測が重なる。",
+      "key_idea": "修飾の入れ子と並列を正しく切り分けたうえで、知らない語(preordained, icescape, laced, gnaw)を対比・接辞・目的の to 不定詞から決めて自然な日本語にする。",
+      "note": "出典の記載なし。設問は下線部和訳4か所のみ。"
+    },
+    {
+      "problem": "II",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "外科医である語り手が、育ての親的存在の看護師長に「最も難しいこと」を選べと促されて外科に進んだ経緯と、「手術をしない判断」こそが最良だという父の教えを回想する。",
+      "passage": {"words": 420, "genre": "小説・物語", "field": "医学", "abstractness": "A1", "source": "", "glossary": 0, "omitted": false},
+      "questions": [
+        {
+          "label": "1-(1)",
+          "type": "下線部和訳",
+          "target_words": 40,
+          "limit": "",
+          "syntax_features": ["同格", "無生物主語", "名詞構文"],
+          "vocab_items": [{"word": "temperamentally", "level": "V2", "clue": "temperament(気質)の派生。better suited to と結びつき「気質的には〜向き」"}],
+          "polysemy_items": ["discipline = 学問分野", "operating theater = 手術室", "internal medicine = 内科", "be suited to = 〜に向いている"],
+          "context_dependent": true,
+          "note": "3文。第1文は discipline と field の同格的言い換え、ダッシュ以下が具体例。第2・3文は無生物主語(The sight / The idea)を「〜を見ると」「〜と考えただけで」と副詞的に訳す。前後の「最も難しいことをせよ」「だから外科医になった」との対比を踏まえて語調を決める。"
+        },
+        {
+          "label": "1-(2)",
+          "type": "下線部和訳",
+          "target_words": 69,
+          "limit": "",
+          "syntax_features": ["比較(no more than 等の慣用含む)", "省略", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "否定(部分否定・二重否定・準否定)", "比喩表現の訳出"],
+          "vocab_items": [{"word": "suffer the knife", "level": "V2", "clue": "knife = 外科手術の換喩。医師仲間が「自分自身が」と強調され、次文に surgery が出る"}],
+          "polysemy_items": ["have no use for = 〜を認めない・嫌う", "involved = 親身に関わる", "other than for = 〜という点を除いて", "intellect = 知性の持ち主(人)"],
+          "context_dependent": true,
+          "note": "3文。第2文は as ... as before and during で前置詞の目的語(the surgery)が省略。第3文は have no use for A other than for how ... の「〜という点でしか価値を認めない」という皮肉な例外表現と、how reliably 節(名詞節)の処理。Marion Stone が語り手自身であることを文脈から読み取る必要がある。引用された外科の格言2つ(脚韻あり)の訳し方も差がつく。"
+        },
+        {
+          "label": "2-(A)",
+          "type": "内容一致(選択)",
+          "target_words": 13,
+          "limit": "",
+          "syntax_features": ["比喩表現の訳出", "省略"],
+          "vocab_items": [],
+          "polysemy_items": ["settle for = 〜で妥協する"],
+          "context_dependent": true,
+          "note": "下線部(曲名を使った比喩的な修辞疑問)に最も意味の近い英文を4択から選ぶ。易しい曲と難しい曲の対比を「難しいことができるなら易しいもので満足するな」と読み替える。"
+        },
+        {
+          "label": "2-(B)",
+          "type": "内容一致(選択)",
+          "target_words": 11,
+          "limit": "",
+          "syntax_features": ["比喩表現の訳出"],
+          "vocab_items": [],
+          "polysemy_items": ["shall(二人称主語)= 話者の意志による禁止・戒律調"],
+          "context_dependent": true,
+          "note": "下線部(父の戒め)に最も意味の近い英文を4択から選ぶ。字面は「死ぬ日に手術するな」だが、直前の場面(助かる見込みがほぼない患者)から「死が確実な患者には手術しないと決めよ」と解釈する。誤答3つは「死後」と読ませる。"
+        }
+      ],
+      "max_vocab_level": "V2",
+      "difficulty": "標準",
+      "difficulty_reason": "語彙は平易だが、物語文特有の省略・皮肉・比喩が多く、1-(2)の第3文の構造と含意を取り切れるかで差がつく。選択問題は文脈が読めていれば易しい。",
+      "key_idea": "医療の文脈で多義語(discipline, theater, knife)の訳語を決め、have no use for ... other than for how ... の皮肉を日本語として通じる形に組み直す。",
+      "note": "出典の記載なし。一人称の語りで、小説か回想録かは冊子からは判別できない(人物造形と会話中心の構成から 小説・物語 と判定)。下線部の意味に近い文を選ぶ4択は CODEBOOK に専用の型がないため 内容一致(選択) とした。"
+    },
+    {
+      "problem": "III",
+      "part": "(1)",
+      "format": "和文英訳",
+      "points": null,
+      "theme": "人の性格は複雑で完全には理解できないが、初対面で旧知のような錯覚を抱くことがあり、その誤解が長い友情のきっかけになることもある。",
+      "ja_translation": {
+        "ja_chars": 145,
+        "ja_style": "随筆調",
+        "paraphrase_level": "J2",
+        "key_expressions": [
+          {"ja": "見かけよりも複雑", "approach": "more complex than it appears / than it seems。比較対象を節で書く"},
+          {"ja": "分かることなどあるはずがない", "approach": "「不可能だ」「決してできない」に読み替える(it is impossible to / we can never)。「など」の強調は never や at all で処理"},
+          {"ja": "相手のこと", "approach": "「相手」は文脈上「他人」。another person / others と一般化し、主語は we / you の一般人称に統一"},
+          {"ja": "とは言うものの", "approach": "Even so / Nevertheless / Having said that。前文との譲歩関係を接続副詞で"},
+          {"ja": "まるで何十年も前からつきあいがあったかのような錯覚に陥る", "approach": "feel as if + 仮定法過去完了(had known ... for decades)。「錯覚に陥る」は名詞 illusion にこだわらず feel as if で含意を出す"},
+          {"ja": "きっかけになったりもする", "approach": "can lead to / can be the beginning of。「たり」「時として」は sometimes / can で表す"}
+        ]
+      },
+      "questions": [{"label": "(1)", "type": "和文英訳", "note": "3文。全文が英訳対象(下線なし)。"}],
+      "difficulty": "標準",
+      "difficulty_reason": "構文は as if と譲歩で組めるが、「相手」「錯覚に陥る」「ある種の誤解」など抽象的な和語を一般人称の英文に落とす判断が要る。",
+      "key_idea": "主語のない日本語に一般人称の主語を立て、as if + 仮定法過去完了を正確に使う。",
+      "note": "配点は大問III全体で50点((1)(2)の内訳は記載なし)。"
+    },
+    {
+      "problem": "III",
+      "part": "(2)",
+      "format": "和文英訳",
+      "points": null,
+      "theme": "現代の若者は男女を問わず自炊できることが大切だという意見と、その理由(想像力と器用さ、自然への関心、人との絆)。",
+      "ja_translation": {
+        "ja_chars": 160,
+        "ja_style": "論説調",
+        "paraphrase_level": "J1",
+        "key_expressions": [
+          {"ja": "性別を問わず", "approach": "regardless of gender / whether male or female"},
+          {"ja": "料理をおいしく仕上げる", "approach": "「おいしい料理を作る」に読み替える(make a delicious meal / cook well)"},
+          {"ja": "手先の器用さが要求される", "approach": "require ... and skill with one's hands / dexterity。無生物主語 cooking requires で書ける"},
+          {"ja": "要求されるので、心身の健康にとても良い", "approach": "主語が途中で変わる(想像力が要求される → 料理は健康に良い)。「良い」の主語 cooking を補い、so / which is why でつなぐ"},
+          {"ja": "食材に意識的になれば", "approach": "「何を食べているか・材料に注意を払うようになれば」に読み替える(become more aware of / pay attention to the ingredients)"},
+          {"ja": "絆が深まることは間違いない", "approach": "「誰との絆か」を補う(your bond with them)。間違いない = there is no doubt that / will surely"}
+        ]
+      },
+      "questions": [{"label": "(2)", "type": "和文英訳", "note": "4文。全文が英訳対象(下線なし)。意見文の体裁。"}],
+      "difficulty": "標準",
+      "difficulty_reason": "意見→理由3つという論理は明快で語彙も日常的。因果の主語のねじれと「食材に意識的」の読み替えが主な関門。",
+      "key_idea": "各文で省略されている主語・目的語(誰が・誰との)を補い、因果関係が通る英文にする。",
+      "note": "配点は大問III全体で50点((1)(2)の内訳は記載なし)。"
+    },
+    {
+      "problem": "IV",
+      "part": "",
+      "format": "その他",
+      "points": 50,
+      "theme": "聞き取りテスト(総合人間学部受験者のみ)。テープの音声を聞いて Section 1・Section 2 に答える。",
+      "questions": [
+        {"label": "Section 1", "type": "その他", "note": "冊子には見出しのみで設問文の印刷なし。内容は不明。"},
+        {"label": "Section 2 (1)〜(5)", "type": "その他", "note": "あるスピーチについての英語の疑問文5問が印刷されている(スピーチの場面、話者の最初の職、その高校の特徴、話者の誇り、スピーチの主な目的)。解答言語・形式は冊子からは不明。"}
+      ],
+      "difficulty": "",
+      "difficulty_reason": "音声・スクリプトが冊子にないため判定不能。",
+      "key_idea": "",
+      "note": "聞き取りテスト。音声内容は PDF に含まれないため分析対象外。CODEBOOK の設問型に該当がないので type は その他 とした。全学部共通の3題(150点)とは別枠。"
+    }
+  ],
+  "overall_note": "全学部共通は読解2題+和文英訳1題(各50点、計150点)。大問I は下線部和訳4か所のみ、大問II は下線部和訳2か所に加えて下線部の言い換えを選ぶ4択が2問あり、和訳一辺倒の形式に小さな変化が入った年度。読解は2題とも具体的な叙述(科学ルポと一人称の物語)で抽象度は低く、難しさは修飾の入れ子・省略・比喩と、単語帳外の語の推測にある。和文英訳は随筆調と意見文の2題で、いずれも全文訳。総合人間学部のみ聞き取りテスト(50点)が別に課されている。"
+}

@@ -1,0 +1,178 @@
+{
+  "year": 2008,
+  "booklet_pages": 6,
+  "exam_format": {
+    "num_problems": 3,
+    "points": 150,
+    "time_note": "表紙に「150点満点」「問題は全部で3題(1〜5ページ)」「配点は学生募集要項に記載のとおり」とある。試験時間の記載はなし。総合人間学部・医学部(医学科)志願者のみ、別に聞き取りテスト(大問IV、6ページ)がある。PDF は表紙を含め 7 ページ"
+  },
+  "parts": [
+    {
+      "problem": "I",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "リンカーン大統領は激務のなかでも驚くほど多くの文書を自分で書いた。書くことは職務遂行に不可欠であり、同時に混乱からの知的な避難所でもあった。",
+      "passage": {"words": 580, "genre": "伝記・回想", "field": "歴史", "abstractness": "A1", "source": "", "glossary": 0, "omitted": false},
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "下線部和訳",
+          "target_words": 82,
+          "limit": "",
+          "syntax_features": ["関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "長い主語・修飾の入れ子", "挿入", "as/that/of の用法識別"],
+          "vocab_items": [{"word": "outworked", "level": "V2", "clue": "接頭辞 out-(〜よりまさる)+ work。直前の kept longer hours と並列"}],
+          "polysemy_items": ["toll = 代償・損耗(physical toll)", "exact(動詞)= 強いる・もたらす", "keep long hours = 長時間働く", "prompt A to do = A に〜させるきっかけとなる"],
+          "context_dependent": false,
+          "note": "4 文。As is often pointed out の関係代名詞的 as、the toll that these efforts exacted の関係詞節と動詞 exacted、非制限用法 which(前文全体が先行詞)が柱。引用の just when ... は「いつ眠るのか」への答えとして訳す"
+        },
+        {
+          "label": "(2)",
+          "type": "下線部和訳",
+          "target_words": 80,
+          "limit": "",
+          "syntax_features": ["関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "共通関係(A and B の並列把握)", "省略", "否定(部分否定・二重否定・準否定)", "名詞構文"],
+          "vocab_items": [
+            {"word": "delegated", "level": "V2", "clue": "直前まで「何でも自分で書いた」という流れ+ relatively little から「人に任せる」と決まる"},
+            {"word": "ceremonial proclamations", "level": "V2", "clue": "ceremony / proclaim からの派生。Except for で「例外として人に任せたもの」と分かる"}
+          ],
+          "polysemy_items": ["first taste of = 初めて味わった経験", "set down on paper = 書き留める", "make up for = 埋め合わせる", "development = 事態の進展"],
+          "context_dependent": false,
+          "note": "3 文。to take up ... and stay up ... to set down ... what needed to be done to make up ... と不定詞が連鎖。responded ... to A, and to many(= many developments)that ... の並列と省略。little の否定を訳に出す"
+        },
+        {
+          "label": "(3)",
+          "type": "下線部和訳",
+          "target_words": 62,
+          "limit": "",
+          "syntax_features": ["同格", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "否定(部分否定・二重否定・準否定)", "共通関係(A and B の並列把握)", "比喩表現の訳出"],
+          "vocab_items": [{"word": "sanctuary", "level": "V2", "clue": "次の文の refuge / a place of ... retreat が言い換え"}],
+          "polysemy_items": ["retreat(名詞)= 隠れ家・避難の場", "order(動詞)= 整理する", "more than a little = 少なからぬ", "sort through = 選り分ける・整理する"],
+          "context_dependent": false,
+          "note": "2 文。a form of refuge と a place of ... retreat の同格、その place にかかる関係副詞 where 節(sort through ... and order ...)の係り方が核心"
+        }
+      ],
+      "max_vocab_level": "V2",
+      "difficulty": "標準",
+      "difficulty_reason": "内容は具体的で読みやすいが、下線部が 3 か所とも 60〜80 語と長く、toll / exact / delegate など語義の決定が必要",
+      "key_idea": "長い下線部を文ごとに構造を崩さず訳し切る持久力。未知語(outworked, delegated, sanctuary)を前後の言い換えから決めて自然な訳語にする。",
+      "note": "出典の記載なし。下線部以外にも epithet, indefatigable, peruse, patronage system などの難語があるが解答には直接関わらない"
+    },
+    {
+      "problem": "II",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "神経科学者が、精神医学・精神分析の訓練が自分の研究の土台になったと振り返り、若い研究者に向けて、早く研究室に入ること、先行研究の成功と失敗を学ぶこと、分野の境界や未踏の領域に大胆に挑むことを勧める。",
+      "passage": {"words": 620, "genre": "伝記・回想", "field": "科学論", "abstractness": "A2", "source": "", "glossary": 0, "omitted": false},
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "下線部和訳",
+          "target_words": 63,
+          "limit": "",
+          "syntax_features": ["長い主語・修飾の入れ子", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "否定(部分否定・二重否定・準否定)", "比喩表現の訳出", "共通関係(A and B の並列把握)"],
+          "vocab_items": [
+            {"word": "overarching", "level": "V2", "clue": "over + arch(全体を覆う)。influenced almost every aspect と対応"},
+            {"word": "bedrock", "level": "V2", "clue": "bed + rock。detour(回り道)との対比で「土台」と決まる"}
+          ],
+          "polysemy_items": ["fuel(動詞)= かき立てる", "hardly a detour = 決して回り道ではない", "since(副詞)= それ以来", "aspiring = 〜志望の"],
+          "context_dependent": false,
+          "note": "2 文。主語 ideas に that have influenced ... and fueled ... が掛かり、述語 derive from まで 15 語離れる。a perspective on mind that A and B opened up for me の関係詞。all (that) I have been able to accomplish since の関係詞省略"
+        },
+        {
+          "label": "(2)",
+          "type": "下線部和訳",
+          "target_words": 75,
+          "limit": "",
+          "syntax_features": ["無生物主語", "挿入", "同格", "it の形式主語・目的語", "共通関係(A and B の並列把握)", "関係詞(連鎖・二重限定・前置詞+関係詞・what節)"],
+          "vocab_items": [],
+          "polysemy_items": ["get into a problem = 問題に取り組み始める", "lines of thought = 考えの筋道", "prove to be = 結果的に〜と分かる"],
+          "context_dependent": false,
+          "note": "3 文。allows one to see の無生物主語、see と目的語 a part of nature の間の for the first time、ダッシュ以下の同格。find it ... helpful to get ..., to learn ...(言い換えの不定詞並列)。not only what lines ... but also where and why ... の疑問詞節の並列"
+        },
+        {
+          "label": "(3)",
+          "type": "下線部和訳",
+          "target_words": 87,
+          "limit": "",
+          "syntax_features": ["強調構文", "否定(部分否定・二重否定・準否定)", "比較(no more than 等の慣用含む)", "共通関係(A and B の並列把握)", "as/that/of の用法識別"],
+          "vocab_items": [],
+          "polysemy_items": ["discipline = 学問分野", "working scientists = 現役の科学者", "for(接続詞)= というのも", "as they go along = やりながら・進めていくうちに", "reside = 存在する"],
+          "context_dependent": false,
+          "note": "4 文。for it is at the borders that ... の強調構文。are not inhibited from venturing ... because it is unfamiliar は not ... because の否定の範囲(「不慣れだからといって尻込みしない」)。Nothing is more ... than の最上級相当"
+        }
+      ],
+      "max_vocab_level": "V2",
+      "difficulty": "標準",
+      "difficulty_reason": "一人称の平明な回想文で構文は素直。分量(下線計 約 225 語)と、強調構文・not ... because など定番構文の正確さで差がつく",
+      "key_idea": "定番構文(強調構文、not only ... but also、形式目的語、not ... because)を取りこぼさず、比喩語(bedrock, detour, fuel)を文脈に合う日本語にする。",
+      "note": "出典の記載なし。本文中に共同研究者の人名が複数出る(下線部外)"
+    },
+    {
+      "problem": "III",
+      "part": "(1)",
+      "format": "和文英訳",
+      "points": null,
+      "theme": "子供のころの読書で感動した思い出は一生残り、成長後に試練に出会ったとき思わぬ力になる。",
+      "ja_translation": {
+        "ja_chars": 150,
+        "ja_style": "随筆調",
+        "paraphrase_level": "J1",
+        "key_expressions": [
+          {"ja": "本を読んで感動したり、わくわくしたりした思い出", "approach": "memories of being moved or excited by books のように受け身の動名詞でまとめるか、the memory of how ... と節にする"},
+          {"ja": "一生消えることのないほど強烈", "approach": "so ... that 構文。「消える」は fade / 「一生残る」stay with you for life と肯定に読み替えてもよい"},
+          {"ja": "本の世界のなかで生きることができる", "approach": "直訳 live in the world of a book で通じる。lose themselves in でも可"},
+          {"ja": "試練に出会ったとき", "approach": "face / encounter hardships, difficulties。「試練」を trial にこだわらない"},
+          {"ja": "そのような経験が思わぬ力を発揮する", "approach": "無生物主語のまま such experiences can help you in unexpected ways / give you unexpected strength。「力を発揮する」を直訳しない"}
+        ]
+      },
+      "questions": [{"label": "(1)", "type": "和文英訳", "note": "3 文。全文英訳"}],
+      "difficulty": "標準",
+      "difficulty_reason": "構文は so ... that、because、when で組める。「思わぬ力を発揮する」の処理が唯一の山",
+      "key_idea": "「思い出は…強烈なものである」の主述を崩さず、「力を発揮する」を help / give strength に読み替える。",
+      "note": "配点 50 点は大問III 全体((1)(2) 合計)に対する記載。パート別の内訳は記載なし"
+    },
+    {
+      "problem": "III",
+      "part": "(2)",
+      "format": "和文英訳",
+      "points": null,
+      "theme": "無機質な都会の生活では季節の移り変わりを実感する機会が減った。うるおいのある人生を求めて田舎に移住する人が増えるのも無理はない。",
+      "ja_translation": {
+        "ja_chars": 195,
+        "ja_style": "随筆調",
+        "paraphrase_level": "J2",
+        "key_expressions": [
+          {"ja": "機能第一主義の無機質な都会", "approach": "a city where function / efficiency comes first と関係詞で開く。「無機質」は lifeless, impersonal, cold などに読み替える"},
+          {"ja": "名も知らぬような草木に目をやったり", "approach": "look at plants whose names we don't even know。主語 we を補う"},
+          {"ja": "めっきり少なくなってきたように思う", "approach": "I feel (that) we have far fewer chances to ... / we much less often ...。長い主部「…を実感するようなこと」を chances to feel ... にまとめる"},
+          {"ja": "心に余裕を持ち", "approach": "live a more relaxed life / feel more at ease。「余裕」を room と直訳しない"},
+          {"ja": "一回きりのかけがえのない人生をうるおいのあるものにしたい", "approach": "make their one and only, precious life richer / more fulfilling。「うるおい」は比喩なので意味で訳す"},
+          {"ja": "…のも無理からぬことである", "approach": "It is no wonder / quite natural that more and more people ...。結論を文頭に出して語順を組み替える"}
+        ]
+      },
+      "questions": [{"label": "(2)", "type": "和文英訳", "note": "長い 2 文。全文英訳"}],
+      "difficulty": "やや難",
+      "difficulty_reason": "1 文が 110 字超で修飾が重なり、「無機質」「うるおい」「心に余裕」「無理からぬ」と直訳できない和語・比喩が 1 文に複数ある",
+      "key_idea": "第 1 文を「都会に住んでいると(条件)/〜する機会が減った(主節)/〜しながら(付帯)」に切り分ける設計力と、比喩語の和文和訳。",
+      "note": "配点はパート別の記載なし(大問III 全体で 50 点)"
+    },
+    {
+      "problem": "IV",
+      "part": "",
+      "format": "その他",
+      "points": 50,
+      "theme": "聞き取りテスト(総合人間学部・医学部医学科志願者のみ)。セクション 2 の設問から、乳児が視覚的手がかりで言語の違いを見分けるという研究報告が題材と分かる。",
+      "questions": [
+        {"label": "セクション1", "type": "その他", "note": "問題冊子には見出しのみで設問文の印刷なし。内容不明"},
+        {"label": "セクション2 (1)〜(5)", "type": "その他", "note": "英語の質問文 5 問が印刷されている(How / Which / What で始まる内容理解の質問)。解答言語の指定は冊子からは読み取れない"}
+      ],
+      "difficulty": "",
+      "difficulty_reason": "音声・スクリプトが冊子にないため判定不能",
+      "key_idea": "",
+      "note": "配点は「総合人間学部 50 点、医学部(医学科)30 点」と記載(points には総合人間学部の値を入れた)。CODEBOOK の型に該当がないため format・type とも「その他」とした。読解・英作文の傾向分析の対象外"
+    }
+  ],
+  "overall_note": "読解 2 題(各 50 点)はどちらも下線部和訳 3 か所のみで、下線部が 60〜90 語と長い(2 題合計で約 450 語を和訳)。英文は伝記的記述と科学者の回想で抽象度は低く、語注なし・出典記載なし。和文英訳は随筆調 2 題(150 字と 195 字、大問で 50 点)で、(2) は長文 1 文の切り直しと比喩語の読み替えが必要。全学部共通部分は 3 題 150 点、聞き取りは 2 学部のみ。"
+}

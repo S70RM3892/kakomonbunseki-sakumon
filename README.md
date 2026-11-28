@@ -24,6 +24,18 @@
   - `sakumon/problems/` 作った問題(1 題 1 ファイル、解答・採点の観点つき)
   - `sakumon/pdf/NNセット/問題/`、`sakumon/pdf/NNセット/回答/` 大問ごとの PDF(`node build-pdf.mjs` で生成)
 
+- `kyoto-english/` 京都大学 英語
+  - `analysis/CODEBOOK.md` 分析の物差し(語彙レベル V0〜V3、和文和訳の必要度 J0〜J2 など)
+  - `analysis/years/YYYY.md` 年度別の分析(2004〜2026)
+  - `analysis/data/YYYY.json` 同、集計用データ
+  - `analysis/trend.md` 横断分析の結論
+  - `analysis/official-intent.md` 京大公式「出題意図」の要点
+  - `analysis/scoring-research.md` 採点方法の調査(根拠の強さ別)
+  - `sakumon/blueprint.md` 作問設計図
+  - `sakumon/saiten.md` 採点基準(自己採点・添削用、厳格版)
+  - `sakumon/problems/` 作った問題(1 題 1 ファイル)
+  - `sakumon/build-pdf.mjs` 問題から PDF を作る(`pdf/NNセット/問題/`、`pdf/NNセット/回答/`)
+
 ## 方針
 
 - 過去問の PDF・問題文そのものは著作物なのでリポジトリに入れない。分析は要旨と構造だけを書く。

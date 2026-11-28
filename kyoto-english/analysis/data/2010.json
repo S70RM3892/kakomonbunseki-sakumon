@@ -1,0 +1,183 @@
+{
+  "year": 2010,
+  "booklet_pages": 6,
+  "exam_format": {
+    "num_problems": 3,
+    "points": 150,
+    "time_note": "表紙に「150点満点」「問題は全部で3題(1〜5ページ)」「配点は学生募集要項に記載のとおり」とある。試験時間の記載はなし。総合人間学部・医学部(医学科)志願者のみ、別に聞き取りテスト(大問IV、6ページ)がある。PDF は表紙を含め 7 ページ"
+  },
+  "parts": [
+    {
+      "problem": "I",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "選んだ顔写真を手品の手法でこっそり入れ替えても、被験者の多くは気づかず選んだ「理由」まで語る(選択盲)。人は自分の決定の理由を内側から知っているわけではなく、後づけで物語を作っていることを実験で示せる。",
+      "passage": {"words": 525, "genre": "科学解説", "field": "心理", "abstractness": "A2", "source": "", "glossary": 0, "omitted": false},
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "下線部和訳",
+          "target_words": 47,
+          "limit": "",
+          "syntax_features": ["分詞構文", "省略", "無生物主語", "仮定法", "代名詞・指示語の特定"],
+          "vocab_items": [],
+          "polysemy_items": ["Unknown to them = 彼らに気づかれないように", "end up with = 結局〜を手にすることになる", "so (that) = その結果", "outcome of a choice = 選択の結果"],
+          "context_dependent": true,
+          "note": "2 文。them / one face / the other / the one が何を指すか(被験者、2 枚 1 組の顔写真)は前段落の実験手順を読まないと訳語にできない。so の後の that 省略、Common sense tells us の無生物主語、would の推量"
+        },
+        {
+          "label": "(2)",
+          "type": "下線部和訳",
+          "target_words": 35,
+          "limit": "",
+          "syntax_features": ["関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "省略", "名詞構文", "同格"],
+          "vocab_items": [],
+          "polysemy_items": ["For all = 〜にもかかわらず", "intimate familiarity = よく知っているという感覚・身近さ", "from the 'inside' = 内側(当事者の主観)から"],
+          "context_dependent": false,
+          "note": "1 文(コロンで 2 節)。For all を譲歩と取れるかが第一関門。familiarity (that) we feel we have with ... は関係詞省略+連鎖(we feel が挿入的)。コロン以下は前半の理由・言い換えで、the nature of subjectivity の名詞構文"
+        },
+        {
+          "label": "(3)",
+          "type": "下線部和訳",
+          "target_words": 56,
+          "limit": "",
+          "syntax_features": ["関係詞(連鎖・二重限定・前置詞+関係詞・what節)", "as/that/of の用法識別", "比較(no more than 等の慣用含む)", "挿入", "長い主語・修飾の入れ子"],
+          "vocab_items": [{"word": "rationalizations after the event", "level": "V2", "clue": "rational + -ize + -ation。直前の elaborate justifications と対比され、nothing more than で「後づけの理屈にすぎない」と決まる"}],
+          "polysemy_items": ["verbal disagreement = 口論", "have every reason to believe = 〜と考える十分な根拠がある", "nothing more than = 〜にすぎない", "who are you to say ... ? = あなたに…が言えるのか(反語)", "after the event = 事後の"],
+          "context_dependent": false,
+          "note": "2 文。As anyone who ... can confirm の as。justifications ..., which we have every reason to believe are ... は連鎖関係詞(which は are の主語)。第 2 文は不定詞主語+挿入の though、コロン以下の修辞疑問は反論する側の台詞として訳す"
+        }
+      ],
+      "max_vocab_level": "V2",
+      "difficulty": "やや難",
+      "difficulty_reason": "(2) の For all と連鎖、(3) の連鎖関係詞と修辞疑問は、知識がないと構造を取り違える。(1) は実験の設定理解が前提",
+      "key_idea": "連鎖関係詞を 2 か所で正確に処理すること。For all = 譲歩。修辞疑問 who are you to say の含意を日本語に出すこと。",
+      "note": "出典の記載なし。一人称複数(研究者自身)による研究紹介の文体"
+    },
+    {
+      "problem": "II",
+      "part": "",
+      "format": "英文読解",
+      "points": 50,
+      "theme": "教育機会の分配は人間開発を左右する。生まれた国による教育格差は統計が示す以上に大きく、所得格差を映し、将来の富・健康・雇用の格差を予告する。",
+      "passage": {"words": 490, "genre": "評論・論説", "field": "教育", "abstractness": "A2", "source": "", "glossary": 1, "omitted": false},
+      "questions": [
+        {
+          "label": "(1)",
+          "type": "下線部和訳",
+          "target_words": 24,
+          "limit": "",
+          "syntax_features": ["挿入", "分詞構文", "共通関係(A and B の並列把握)"],
+          "vocab_items": [],
+          "polysemy_items": ["measure(名詞)= 尺度(直前の measured は動詞「測る」)", "in terms of = 〜という観点で", "admittedly = 確かに〜ではあるが", "school achievement = 就学の達成度"],
+          "context_dependent": false,
+          "note": "1 文。主語と is の間に過去分詞句の挿入。the average number of years or grade reached in education は years と grade の両方に reached が掛かる。括弧内 (admittedly limited) の訳し込み"
+        },
+        {
+          "label": "(2)",
+          "type": "下線部和訳",
+          "target_words": 45,
+          "limit": "",
+          "syntax_features": ["倒置", "同格", "比較(no more than 等の慣用含む)", "長い主語・修飾の入れ子", "代名詞・指示語の特定"],
+          "vocab_items": [],
+          "polysemy_items": ["Striking as they are = 際立ってはいるが(譲歩)", "tell only part of the story = 全体の一部を示すにすぎない", "a given level = ある一定の水準", "relative to = 〜と比べて"],
+          "context_dependent": true,
+          "note": "2 文。形容詞+as+SV の譲歩。these figures は前段落の就学率の数字を指す。the chance that a child ... will achieve ... relative to a child ... は同格 that 節の中に過去分詞の後置修飾が 2 つ入る"
+        },
+        {
+          "label": "(3)",
+          "type": "下線部和訳",
+          "target_words": 31,
+          "limit": "",
+          "syntax_features": ["比較(no more than 等の慣用含む)", "省略", "代名詞・指示語の特定", "共通関係(A and B の並列把握)"],
+          "vocab_items": [],
+          "polysemy_items": ["have less chance of = 〜する見込みがより低い", "higher education = 高等教育"],
+          "context_dependent": true,
+          "note": "1 文。They は直前の The results。less chance of completing ... than children in ... have (chance) of reaching ... の比較で、than 節の have of の間の名詞省略を補い、「A が小学校を終える見込み」<「B が高等教育に進む見込み」という非対称な比較を正しく訳す"
+        },
+        {
+          "label": "(4)",
+          "type": "下線部和訳",
+          "target_words": 38,
+          "limit": "",
+          "syntax_features": ["同格", "長い主語・修飾の入れ子", "否定(部分否定・二重否定・準否定)", "名詞構文"],
+          "vocab_items": [{"word": "marginalization", "level": "V2", "clue": "margin + -al + -ize + -ation。in the global economy と overcoming の目的語であることから「周縁に追いやられた状態」"}],
+          "polysemy_items": ["survival rate = (最終学年までの)残存率・在籍継続率", "not irrelevant to = 〜と無関係ではない", "prospects for = 〜の見通し"],
+          "context_dependent": true,
+          "note": "1 文。The fact that ... is 67% or less までが主語(27 語)で、is が 2 つ続く。survival は前段落の does not survive to the last primary grade を受けた用法で「生存率」と訳すと誤り。二重否定 not irrelevant。語注 sub-Saharan あり"
+        }
+      ],
+      "max_vocab_level": "V2",
+      "difficulty": "標準",
+      "difficulty_reason": "報告書調の明快な文章で、下線は 24〜45 語と短め。比較の省略、譲歩の倒置、長い同格主語という定番が 1 つずつ問われる",
+      "key_idea": "(3) の非対称な比較と (4) の長い主語+二重否定を正確に。survival rate を文脈に合わせて訳し分ける。",
+      "note": "出典の記載なし。語注 1 語(sub-Saharan)。下線部が 4 か所あるのは担当 4 年度のうちこの大問のみ"
+    },
+    {
+      "problem": "III",
+      "part": "(1)",
+      "format": "和文英訳",
+      "points": null,
+      "theme": "子供のころの列車旅行の高揚感。今は同じようには興奮しないが、駅に列車が並ぶ光景や発車の瞬間の高揚感は覚えている。",
+      "ja_translation": {
+        "ja_chars": 170,
+        "ja_style": "随筆調",
+        "paraphrase_level": "J1",
+        "key_expressions": [
+          {"ja": "心躍るものであった", "approach": "exciting / thrilling。「心躍る」を直訳しない"},
+          {"ja": "何時間も列車に乗ると考えただけでわくわくした", "approach": "the mere thought of -ing / just thinking about -ing を主語にした無生物主語構文"},
+          {"ja": "子供のころのように気分が高まることはない", "approach": "I don't get as excited as I did (when I was) a child。as ... as と代動詞 did"},
+          {"ja": "日本各地に向かうさまざまな列車が並んでいる光景", "approach": "the sight of various trains bound for different parts of Japan lined up at the platforms。「光景」を核に後置修飾で組む"},
+          {"ja": "発車の瞬間の独特の高揚感", "approach": "the special thrill / excitement I felt the moment the train started。名詞の連鎖を節に開く"}
+        ]
+      },
+      "questions": [{"label": "(1)", "type": "和文英訳", "note": "3 文(第 3 文が 100 字前後と長い)。全文英訳"}],
+      "difficulty": "標準",
+      "difficulty_reason": "感情語(心躍る・わくわく・気分が高まる・高揚感)の言い分けと、長い名詞修飾の処理が必要だが、構文は標準的",
+      "key_idea": "似た意味の感情表現 4 つを excite / thrill 系でどう書き分けるかと、「〜している光景」「〜の瞬間の〜感」を英語の後置修飾・節に直すこと。",
+      "note": "配点 50 点は大問III 全体((1)(2) 合計)に対する記載。パート別の内訳は記載なし"
+    },
+    {
+      "problem": "III",
+      "part": "(2)",
+      "format": "和文英訳",
+      "points": null,
+      "theme": "動物の賢さは客観的基準で判断しているわけではなく、人間の命令に従うほど賢く見えるだけではないか。人間の客観テストも、出題者の指示に従うことが高得点につながっているのかもしれない。",
+      "ja_translation": {
+        "ja_chars": 165,
+        "ja_style": "論説調",
+        "paraphrase_level": "J1",
+        "key_expressions": [
+          {"ja": "漠然と…賢いと思っている", "approach": "vaguely think / somehow assume。「漠然と」は「はっきりした根拠なく」の意"},
+          {"ja": "客観的な基準に基づいてそう判断しているわけではない", "approach": "our judgment is not based on any objective standard for measuring ...。「わけではない」の否定の範囲に注意"},
+          {"ja": "人間の命令によく従うほど、頭が良いように見える", "approach": "the + 比較級, the + 比較級。the more obediently they follow ..., the smarter they seem"},
+          {"ja": "…だけではないだろうか", "approach": "Isn't it just that ... ? / I suspect that ... simply ...。反語を推量の平叙文に直してもよい"},
+          {"ja": "いわゆる客観テストなるもの", "approach": "so-called objective tests。「なるもの」の距離を置いた言い方は so-called で兼ねる"},
+          {"ja": "指示によく従うことが高得点に結びついている", "approach": "動名詞主語+ lead to high scores。「結びつく」は lead to / result in"}
+        ]
+      },
+      "questions": [{"label": "(2)", "type": "和文英訳", "note": "3 文。全文英訳"}],
+      "difficulty": "標準",
+      "difficulty_reason": "論理の骨組み(部分的な否定、比例、推量)が明確で、構文の知識があれば直訳に近い形で書ける",
+      "key_idea": "「〜わけではない」「〜ほど〜」「〜だけではないだろうか」「〜かもしれない」という論理・モダリティ表現を英語の構文に正確に対応させる。",
+      "note": "配点はパート別の記載なし(大問III 全体で 50 点)"
+    },
+    {
+      "problem": "IV",
+      "part": "",
+      "format": "その他",
+      "points": 50,
+      "theme": "聞き取りテスト(総合人間学部・医学部医学科志願者のみ)。Section 2 の設問から、中国の水問題に関する報告が題材と分かる。",
+      "questions": [
+        {"label": "Section 1", "type": "その他", "note": "問題冊子には見出しのみで設問文の印刷なし。内容不明"},
+        {"label": "Section 2 (1)〜(5)", "type": "その他", "note": "英語の質問文 5 問が印刷されている(What / How で始まる内容理解の質問)。解答言語の指定は冊子からは読み取れない"}
+      ],
+      "difficulty": "",
+      "difficulty_reason": "音声・スクリプトが冊子にないため判定不能",
+      "key_idea": "",
+      "note": "配点は「総合人間学部 50 点、医学部(医学科)30 点」と記載(points には総合人間学部の値を入れた)。リード文に「音声を聞いている間、メモをとったり解答を記入したりしてもよい」が加わった。CODEBOOK の型に該当がないため format・type とも「その他」とした。読解・英作文の傾向分析の対象外"
+    }
+  ],
+  "overall_note": "読解 2 題とも下線部和訳のみだが、II は下線部が 4 か所になり、語注(1 語)が付いた。英文は約 525 語と約 490 語で前年より長く、題材は心理学実験の紹介と教育格差の報告という社会科学系。I は連鎖関係詞・For all・修辞疑問と構文知識を強く問い、II は比較・譲歩倒置・長い同格主語という定番を短い下線で問う。和文英訳は随筆調と論説調の 2 題で、どちらも J1 にとどまり前 2 年より書きやすい。"
+}
