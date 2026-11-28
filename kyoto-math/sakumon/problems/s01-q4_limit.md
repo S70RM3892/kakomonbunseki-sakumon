@@ -20,7 +20,7 @@ $$f_n(x)=x^n(1-x^2)$$
 
 **(1)** $M_n$ を求めよ。
 
-**(2)** 極限 $\displaystyle\lim_{n\to\infty} nM_n$ を求めよ。
+**(2)** 極限 $\lim\limits_{n\to\infty} nM_n$ を求めよ。
 
 ## 解答
 
