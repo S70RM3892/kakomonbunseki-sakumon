@@ -1,6 +1,6 @@
 # 京大英語 作問設計図
 
-`analysis/trend.md` の結果と `analysis/official-intent.md` の公式文言を、作問に使える形に落としたもの。作った問題は `sakumon/problems/` に 1 題 1 ファイルで置く。
+`analysis/trend.md` の結果と `analysis/official-intent.md` の公式文言を、作問に使える形に落としたもの。作った問題は `sakumon/problems/` に 1 題 1 ファイルで置く。答案の採点は `sakumon/saiten.md` の基準で行う。
 
 ## 1 セットの仕様(現行期 2021〜2026 に合わせる)
 

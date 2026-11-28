@@ -18,7 +18,9 @@
   - `analysis/data/YYYY.json` 同、集計用データ
   - `analysis/trend.md` 横断分析の結論
   - `analysis/official-intent.md` 京大公式「出題意図」の要点
+  - `analysis/scoring-research.md` 採点方法の調査(根拠の強さ別)
   - `sakumon/blueprint.md` 作問設計図
+  - `sakumon/saiten.md` 採点基準(自己採点・添削用、厳格版)
   - `sakumon/problems/` 作った問題(1 題 1 ファイル)
 
 ## 方針
