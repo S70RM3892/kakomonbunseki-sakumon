@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 200" width="460" height="200" font-family="Latin Modern Roman, IPAexMincho, serif" font-size="17">
+  <rect width="460" height="200" fill="#fff"/>
+  <rect x="60" y="40" width="340" height="120" fill="#ddd" stroke="#000" stroke-width="1.5"/>
+  <rect x="72" y="52" width="316" height="96" fill="#fff" stroke="#000" stroke-width="1.5"/>
+  <rect x="72" y="52" width="155" height="96" fill="#eee"/>
+  <rect x="227" y="52" width="6" height="96" fill="#555"/>
+  <rect x="72" y="52" width="316" height="96" fill="none" stroke="#000" stroke-width="1.5"/>
+  <text x="112" y="96" font-size="16">気体</text>
+  <text x="96" y="124" font-size="15">(体積 <tspan font-style="italic">V</tspan><tspan font-size="11" dy="4">0</tspan><tspan dy="-4">)</tspan></text>
+  <text x="285" y="96" font-size="16">真空</text>
+  <text x="262" y="124" font-size="15">(体積 <tspan font-style="italic">V</tspan><tspan font-size="11" dy="4">0</tspan><tspan dy="-4">)</tspan></text>
+  <line x1="230" y1="40" x2="230" y2="22" stroke="#000" stroke-width="0.8"/>
+  <text x="212" y="16" font-size="15">仕切り</text>
+  <line x1="70" y1="166" x2="50" y2="184" stroke="#000" stroke-width="0.8"/>
+  <text x="14" y="198" font-size="15">断熱容器</text>
+</svg>
